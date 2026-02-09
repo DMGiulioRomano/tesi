@@ -100,7 +100,80 @@ Adottare questa prospettiva significa utilizzare la EMT come "lente analitica" p
 
 In sintesi, la teoria della modernizzazione ecologica – utilizzata criticamente e nella sua versione "forte" – fornisce il framework più adatto per comprendere sociologicamente il fenomeno dell'AI ambientale. Non perché la teoria sia priva di problemi, ma proprio perché le sue contraddizioni interne rispecchiano le contraddizioni del caso empirico che stiamo studiando. L'AI, come la EMT stessa, promette di conciliare crescita economica e sostenibilità ecologica. Verificare se questa promessa può essere mantenuta – e a quali condizioni – costituisce l'obiettivo centrale di questa tesi.
 
+## 1.3 Dalla modernizzazione industriale alla modernizzazione informazionale
 
+### 1.3.1 La "governance informazionale" dell'ambiente
+
+Uno degli sviluppi più significativi della teoria della modernizzazione ecologica è stato il riconoscimento del ruolo crescente delle tecnologie dell'informazione nella ristrutturazione della governance ambientale. Questo passaggio è stato teorizzato in modo sistematico da Arthur Mol nel suo lavoro fondamentale *Environmental Reform in the Information Age* (2008), dove propone il concetto di **modernizzazione ecologica informazionale**.
+
+L'intuizione centrale è che le tecnologie dell'informazione e della comunicazione (ICT) non rappresentano semplicemente un ulteriore settore economico da "verdizzare", ma costituiscono uno *strumento trasformativo* che modifica profondamente le modalità attraverso cui le società contemporanee possono governare i problemi ambientali. In altre parole, il passaggio dalla società industriale alla società dell'informazione implica anche una trasformazione nelle logiche e negli strumenti della governance ecologica.
+
+Secondo questa prospettiva, le tecnologie digitali rendono possibili tre cambiamenti fondamentali nella governance ambientale:
+
+**Primo, trasparenza e monitoraggio in tempo reale.** Le ICT consentono la raccolta, l'elaborazione e la diffusione di dati ambientali con una granularità, velocità e scala senza precedenti. Sensori distribuiti sul territorio, satelliti per l'osservazione della Terra, reti di monitoraggio della qualità dell'aria e dell'acqua generano flussi continui di informazioni che possono essere accessibili a molteplici attori – istituzioni pubbliche, imprese, ONG, cittadini. Questa "trasparenza informazionale" crea nuove forme di accountability: le emissioni inquinanti, i consumi energetici, lo sfruttamento delle risorse naturali diventano quantificabili, tracciabili e comunicabili pubblicamente. La visibilità genera pressione per il cambiamento [Kaack et al., 2022].
+
+**Secondo, partecipazione e democratizzazione della conoscenza ambientale.** Le piattaforme digitali abbassano le barriere all'accesso e alla produzione di conoscenza ecologica. Citizen science, app di monitoraggio ambientale partecipativo, database aperti sui flussi materiali ed energetici: tutte queste innovazioni ampliano il numero e la diversità degli attori che possono contribuire alla governance ambientale. La conoscenza ecologica non è più monopolio di esperti e istituzioni centralizzate, ma si distribuisce attraverso reti più ampie e inclusive.
+
+**Terzo, ottimizzazione e gestione adattiva.** Le tecnologie digitali permettono forme di governo ambientale più "intelligenti" e responsive. Sistemi di gestione energetica che si adattano in tempo reale ai pattern di domanda, logistica ottimizzata per ridurre gli sprechi, agricoltura di precisione che minimizza l'uso di acqua e fertilizzanti: questi esempi illustrano come l'informazione possa tradursi in efficienza ecologica attraverso meccanismi di feedback rapidi e controllo fine-grained.
+
+In sintesi, la modernizzazione ecologica informazionale sostiene che il passaggio dalla produzione industriale materiale ai flussi informativi digitali possa alleggerire il carico ambientale dell'economia. Piuttosto che muovere atomi, la società dell'informazione muove bit – riducendo teoricamente il metabolismo materiale ed energetico dei processi produttivi. Questa "dematerializzazione" rappresenta una delle promesse centrali della transizione digitale [Kaack et al., 2022].
+
+Tuttavia, come vedremo nel Capitolo 3, queste promesse si scontrano con la materialità concreta dell'infrastruttura digitale stessa: i data center, le reti di telecomunicazione, i dispositivi che rendono possibile la società dell'informazione hanno un'impronta ecologica tutt'altro che immateriale.
+
+### 1.3.2 L'AI come caso di studio di modernizzazione ecologica informazionale
+
+L'intelligenza artificiale rappresenta l'ultima frontiera – e forse la più potente – della modernizzazione ecologica informazionale. Mentre le ICT tradizionali si limitavano a raccogliere, trasmettere e visualizzare dati, l'AI introduce capacità qualitativ
+
+amente nuove: **predizione, ottimizzazione automatica, riconoscimento di pattern complessi e decisione autonoma**.
+
+L'AI può essere considerata una **General Purpose Technology (GPT)** – una tecnologia a uso generale comparabile storicamente all'elettricità, al motore a combustione interna o a Internet stesso [Rolnick et al., 2022]. Le GPT si caratterizzano per tre proprietà: (1) pervasività: possono essere applicate a un'ampia gamma di settori e attività; (2) miglioramento continuo: la loro performance aumenta nel tempo attraverso innovazioni incrementali; (3) capacità di generare innovazioni complementari: stimolano lo sviluppo di nuove tecnologie e processi organizzativi.
+
+Nel contesto ambientale, l'AI estende radicalmente le possibilità della governance informazionale:
+
+**Monitoraggio ambientale automatizzato su scala planetaria.** Mentre i sistemi ICT tradizionali richiedono interpretazione umana dei dati, l'AI può analizzare autonomamente enormi volumi di immagini satellitari, dati meteorologici, registrazioni acustiche della biodiversità. Come documenteremo nel Capitolo 2, l'AI permette di rilevare deforestazione in tempo quasi-reale, identificare automaticamente specie animali e vegetali, prevedere alluvioni con giorni di anticipo in bacini idrografici mai monitorati prima [Rolnick et al., 2022]. La scala e la velocità di questa "sorveglianza ecologica" automatizzata non hanno precedenti.
+
+**Ottimizzazione di sistemi complessi.** L'AI eccelle nella gestione di sistemi con molteplici variabili interdipendenti – esattamente il tipo di complessità che caratterizza le sfide ambientali contemporanee. Reti elettriche che integrano fonti rinnovabili intermittenti, supply chain globali che devono minimizzare le emissioni, edifici che adattano automaticamente riscaldamento e illuminazione ai pattern di occupazione: in tutti questi casi, l'AI può trovare soluzioni ottimali che sfuggirebbero alla capacità computazionale umana [Kaack et al., 2022].
+
+**Accelerazione della ricerca scientifica.** L'AI sta trasformando il processo di scoperta scientifica in domini cruciali per la transizione ecologica. Machine learning può esplorare lo spazio di miliardi di possibili materiali per identificare candidati promettenti per batterie più efficienti, celle solari più performanti, sistemi di cattura del carbonio più economici. Ciò che prima richiedeva anni di sperimentazione in laboratorio può ora essere simulato computazionalmente in settimane o mesi [Rolnick et al., 2022].
+
+Questa duplice natura dell'AI – tecnologia informazionale E tecnologia trasformativa a uso generale – la rende un caso di studio particolarmente rilevante per la teoria della modernizzazione ecologica. L'AI incarna in forma concentrata tutte le promesse e le contraddizioni della modernizzazione ecologica informazionale.
+
+Da un lato, l'AI sembra realizzare il sogno della EMT di una governance ambientale resa razionale, efficiente e precisa attraverso l'informazione e la tecnologia. Dall'altro, come vedremo, l'AI è essa stessa un sistema ad altissima intensità energetica, materiale e idrica – rivelando i limiti dell'idea di "dematerializzazione" digitale.
+
+### 1.3.3 Il gap nella letteratura: EMT e AI
+
+Nonostante l'evidente rilevanza dell'intelligenza artificiale per le dinamiche ambientali contemporanee, esiste un **gap significativo** nella letteratura sociologica riguardo all'applicazione sistematica della teoria della modernizzazione ecologica all'AI. Questa assenza è particolarmente notevole se consideriamo che:
+
+1. La sociologia ambientale ha sviluppato framework sofisticati per analizzare le tecnologie industriali (chimica, nucleare, biotecnologie) ma ha mostrato scarso interesse teorico sistematico per le tecnologie digitali e computazionali.
+
+2. La EMT è stata applicata a diverse transizioni tecnologiche – dall'energia alle biotecnologie, dall'agricoltura ai trasporti – ma l'AI è rimasta sostanzialmente ai margini di questo dibattito teorico.
+
+3. Gli studi sull'impatto ambientale dell'AI sono finora dominati da prospettive tecnico-ingegneristiche (computer science, environmental engineering) o economiche, mentre manca una riflessione sociologica approfondita sul rapporto tra AI, istituzioni, governance e transizione ecologica.
+
+Come osservano [Kaack et al., 2022], la letteratura sull'AI e ambiente tende a concentrarsi su due aspetti relativamente separati: da un lato, le *applicazioni* dell'AI per la mitigazione climatica (AI for climate); dall'altro, i *costi energetici* dell'addestramento dei modelli (AI's carbon footprint). Manca però un'analisi sociologica integrata che consideri:
+
+- Come l'AI si inserisce nei processi di modernizzazione ecologica delle società contemporanee
+- Quali forme di governance ambientale l'AI rende possibili o impossibili
+- Come le logiche economiche e istituzionali modellano lo sviluppo e l'applicazione dell'AI in direzione ecologica o anti-ecologica
+- Quali sono gli effetti sistemici e di lungo periodo dell'integrazione dell'AI nei sistemi produttivi, energetici e sociali
+
+Un contributo parziale in questa direzione viene dal recente lavoro di [Luccioni et al., 2025], che applica esplicitamente il concetto di "paradosso di Jevons" – discusso dalla sociologia ambientale critica – al caso dell'intelligenza artificiale. Gli autori dimostrano come i guadagni di efficienza computazionale nell'AI portino paradossalmente a un aumento del consumo totale di risorse attraverso effetti rimbalzo diretti, indiretti e sistemici. Questo studio rappresenta uno dei primi tentativi di connettere teoria sociologica ambientale e fenomeno AI in modo sistematico.
+
+Tuttavia, l'applicazione della teoria della modernizzazione ecologica all'AI rimane in larga parte un terreno inesplorato. Questa tesi si propone di contribuire a colmare questo gap, utilizzando il framework della EMT – nella sua versione "forte" e critica – per analizzare sociologicamente il paradosso dell'AI: una tecnologia che promette di essere lo strumento della transizione ecologica, ma che è al contempo una delle forze più materialmente intensive dell'economia digitale contemporanea.
+
+### 1.3.4 Framework analitico per i capitoli successivi
+
+Sulla base della discussione teorica condotta finora, questa tesi adotta il seguente framework analitico per i capitoli successivi:
+
+**Capitolo 2** esamina l'AI attraverso la lente della modernizzazione ecologica informazionale nella sua forma più ottimista. Documentiamo come l'AI venga presentata e utilizzata come strumento di governance ambientale, analizzando le sue applicazioni nella transizione energetica, nel monitoraggio climatico e nella gestione delle risorse naturali. Interpretiamo queste applicazioni come esempi di razionalità ecologica mediata dall'informazione: l'AI permette di rendere visibile l'invisibile (emissioni, deforestazione, biodiversità), di ottimizzare processi complessi (reti energetiche, supply chain), di prevedere eventi futuri (condizioni meteo, alluvioni). 
+
+In questa prospettiva, l'AI appare come l'incarnazione più avanzata della promessa della EMT: superare i problemi ambientali attraverso maggiore modernizzazione tecnologica, efficienza e governance informazionale.
+
+**Capitolo 3** rovescia la prospettiva, analizzando criticamente l'impronta ecologica dell'AI stessa. Esaminiamo i consumi energetici, idrici e materiali dell'infrastruttura computazionale, documentando come l'AI sia tutt'altro che "immateriale". Applichiamo il concetto di paradosso di Jevons per mostrare come i guadagni di efficienza nell'AI portino a un aumento del consumo totale (effetto rimbalzo). Utilizziamo le critiche alla EMT discusse nella sezione 1.2 per interpretare questo paradosso: la subordinazione della razionalità ecologica a quella economica, l'ignoranza delle dinamiche di profitto e crescita, la mancata considerazione degli effetti sistemici.
+
+In questa prospettiva critica, l'AI rivela i limiti strutturali della modernizzazione ecologica "debole": la fiducia ingenua nell'efficienza tecnologica, la sottovalutazione delle contraddizioni del capitalismo, l'illusione della dematerializzazione digitale.
+
+Questo approccio dialettico – tesi (Cap. 2) e antitesi (Cap. 3) – ci permetterà nelle **Conclusioni** di sviluppare una sintesi: una valutazione sociologicamente informata del ruolo effettivo e potenziale dell'AI nella transizione ecologica, che riconosca sia le possibilità sia i pericoli, individuando le condizioni istituzionali, economiche e politiche sotto cui l'AI potrebbe contribuire a una modernizzazione ecologica "forte" e riflessiva piuttosto che riprodurre le contraddizioni del capitalismo verde.
 
 # CONCLUSIONE
 
