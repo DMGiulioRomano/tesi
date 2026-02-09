@@ -3,6 +3,39 @@ abstract: |
   questo dovrebbe essere il sommario...
 ---
 
+# CAPITOLO 1 - QUADRO TEORICO: LA MODERNIZZAZIONE ECOLOGICA NELL'ERA DIGITALE
+
+## 1.1 La teoria della modernizzazione ecologica: fondamenti
+
+### 1.1.1 Origini e presupposti teorici
+
+La teoria della modernizzazione ecologica (EMT, *Ecological Modernization Theory*) emerge nei primi anni Ottanta del XX secolo come risposta sociologica alla crescente consapevolezza dei problemi ambientali nelle società industriali avanzate. A differenza delle prospettive neomalthusiane e delle teorie dei "limiti dello sviluppo" che dominavano il dibattito ecologista degli anni Settanta, la EMT propone una visione radicalmente diversa: le crisi ambientali non richiedono necessariamente una de-industrializzazione o una decrescita economica, ma possono essere superate *attraverso* la modernizzazione stessa, intesa come innovazione tecnologica e riforma istituzionale [Mol & Spaargaren, 2000].
+
+I fondatori di questo approccio – il sociologo tedesco Joseph Huber e i sociologi olandesi Arthur Mol e Gert Spaargaren – sviluppano la EMT in esplicita opposizione alle correnti ambientaliste radicali. Come osservano [Spaargaren & Mol, 1992], la teoria si propone di superare quello che definiscono il "flirt con l'ecologia" (*coquetting with ecology*) di molta sociologia ambientale dell'epoca, che secondo loro rischiava di cadere in forme di determinismo biologico o in visioni anti-moderne. Il punto di partenza è che "le società industriali moderne possono superare le crisi ecologiche non abbandonando ma anzi intensificando il processo di modernizzazione" [Mol, 2010].
+
+La EMT condivide con la teoria della modernizzazione classica un'impalcatura concettuale di derivazione struttural-funzionalista parsonsiana, che include processi come la differenziazione funzionale, la razionalizzazione e l'individualizzazione [Foster, 2012; Seippel, 2000]. Tuttavia, se ne distingue per l'enfasi specifica sulla dimensione ecologica: l'assunto centrale è che "gli interessi ambientali sono stati progressivamente incorporati nelle relazioni sociali, nelle istituzioni e nelle pratiche quotidiane" [Mol, 2010]. In altre parole, la logica ecologica sta diventando parte integrante del funzionamento delle società moderne, non un elemento esterno o antagonista.
+
+Questa prospettiva si fonda su tre presupposti teorici fondamentali. Primo, la EMT adotta quello che i critici chiamano il "paradigma dell'esenzione umana" (*human exemptionalist paradigm*), secondo cui l'umanità non è vincolata in modo deterministico dalle leggi naturali ma può modellare attivamente il proprio rapporto con l'ambiente [Foster, 2012]. Secondo, la teoria presuppone la compatibilità di fondo tra crescita economica capitalista e sostenibilità ambientale, a patto che vengano introdotte le necessarie innovazioni tecnologiche e riforme istituzionali [Mol, 2002]. Terzo, la EMT mantiene una visione teleologica del progresso: le società tendono "naturalmente" verso forme sempre più avanzate di integrazione della razionalità ecologica, guidate da élite illuminate – esperti scientifici, policy-maker, imprese innovative – più che da movimenti sociali dal basso [McLaughlin, 2012].
+
+Come sottolinea [Ewing, 2017], la teoria della modernizzazione ecologica è essenzialmente un approccio *"green capitalist"* alla sociologia ambientale: "mantiene le caratteristiche centrali del sistema-mondo capitalista" e non vede la necessità di mettere in discussione le logiche fondamentali di profitto e crescita. Questa scelta teorica, come vedremo, ha implicazioni profonde sia per le potenzialità esplicative della EMT sia per le sue prescrizioni politiche.
+
+### 1.1.2 Concetti chiave della EMT
+
+La teoria della modernizzazione ecologica si articola attorno a quattro concetti fondamentali che costituiscono il suo nucleo analitico.
+
+**Efficienza ecologica e disaccoppiamento.** Il concetto centrale della EMT è che l'innovazione tecnologica possa produrre un *disaccoppiamento* (*decoupling*) tra crescita economica e degradazione ambientale. Attraverso processi produttivi più efficienti, energie rinnovabili, economia circolare e dematerializzazione, diventa teoricamente possibile aumentare il PIL riducendo simultaneamente le emissioni di CO₂, il consumo di risorse e la produzione di rifiuti [Mol & Spaargaren, 2000]. La metafora ricorrente nella letteratura della EMT è quella del "bruco industriale sporco" che si trasforma nella "farfalla ecologica" grazie alla super-industrializzazione tecnologica [citato in Ewing, 2017]. L'obiettivo non è produrre meno, ma produrre meglio – con maggiore efficienza ecologica.
+
+**Razionalità ecologica.** La EMT introduce il concetto di "razionalità ecologica" come una logica autonoma che progressivamente si integra nelle istituzioni economiche e politiche moderne [Mol, 2002]. Secondo questa prospettiva, i criteri ambientali – riduzione delle emissioni, conservazione delle risorse, minimizzazione dei rifiuti – non restano confinati al dominio dei movimenti ambientalisti o delle agenzie di regolazione, ma vengono "incorporati" (*embedded*) nelle logiche decisionali delle imprese, dei mercati finanziari, delle amministrazioni pubbliche [Spaargaren et al., 2000]. La sostenibilità diventa una razionalità economica, non solo un vincolo etico. 
+
+Tuttavia, come riconoscono gli stessi teorici della EMT, questa razionalità ecologica non deve essere intesa come prioritaria rispetto ad altre razionalità: essa può integrarsi nel sistema economico solo "quando i criteri, gli strumenti e i concetti ambientali vengono riformulati per adattarsi alle logiche dei mercati moderni" [Mol et al., 2009]. Questa subordinazione della razionalità ecologica a quella economica, come vedremo nella sezione 1.2, rappresenta uno dei principali punti critici della teoria.
+
+**Governance ambientale multi-attore.** La EMT ridefinisce il ruolo degli attori nella transizione ecologica. A differenza dell'ambientalismo tradizionale, che enfatizza il ruolo dello Stato come regolatore e dei movimenti sociali come agenti di cambiamento, la modernizzazione ecologica attribuisce importanza crescente ai meccanismi di mercato, alle dinamiche economiche e agli attori privati [Mol, 2010]. Le imprese non sono viste come antagoniste dell'ambiente ma come potenziali protagoniste dell'innovazione verde, incentivate da vantaggi competitivi, reputazionali ed economici. Similmente, i consumatori "verdi" e le ONG ambientaliste diventano attori chiave nel "greening" dei processi produttivi e dei consumi. Lo Stato assume un ruolo di *facilitatore* più che di controllore diretto, creando le condizioni istituzionali per la modernizzazione ecologica attraverso incentivi, standard volontari e partnership pubblico-private [Spaargaren et al., 2000].
+
+**Innovazione tecnologica come motore del cambiamento.** Al centro della EMT vi è una fiducia esplicita nel potenziale dell'innovazione tecnologica per risolvere i problemi ambientali. La tecnologia non è vista come la causa della crisi ecologica – come sostenevano molte correnti dell'ambientalismo radicale – ma come la *soluzione* [Mol & Spaargaren, 2000]. Dalle energie rinnovabili ai sistemi di cattura del carbonio, dall'agricoltura di precisione all'economia circolare basata su nuovi materiali, la EMT identifica nella ricerca scientifica e nello sviluppo tecnologico il principale percorso verso la sostenibilità. Questa enfasi sulla "razionalizzazione ecologica della produzione e del consumo" [Spaargaren & Mol, 1992] attraverso strumenti tecnico-scientifici costituisce il tratto distintivo della teoria.
+
+In sintesi, la modernizzazione ecologica prospetta un percorso di transizione ecologica che passa attraverso il potenziamento – non il superamento – delle istituzioni e dei meccanismi della modernità industriale. Come sintetizza [Mol, 2002], la EMT "presume le dinamiche capitaliste e i rapporti di produzione e non vede la necessità di metterli in discussione per superare i problemi ecologici". Questa prospettiva si colloca quindi in netta antitesi rispetto agli approcci critici della sociologia ambientale – dall'ecologia politica marxiana alla decrescita – che vedono invece nel sistema capitalista stesso la radice strutturale della crisi ambientale.
+
+
 # INTRODUZIONE!!!
 
 questa è l'introduzione ?
@@ -370,15 +403,5 @@ Eppur si muove...
 # BIBLIOGRAFIA
 
 ::: {#refs-bib}
-:::
-
-# DISCOGRAFIA
-
-::: {#refs-dis}
-:::
-
-# SITOGRAFIA
-
-::: {#refs-sit}
 :::
 
