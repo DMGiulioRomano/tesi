@@ -378,15 +378,7 @@ $if(title)$
         di $author$ \par
     }
     \vspace{.5cm}
-    
-    % Dati esame
-    {
-        \normalsize
-        esame di $esame$ \\
-        $date$ \par
-    }
-    \vspace{.5cm}
-    
+        
     % Riassunto
     $if(abstract)$
     \begin{minipage}{0.9\textwidth}
