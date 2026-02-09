@@ -526,6 +526,96 @@ Tuttavia, è cruciale mantenere una prospettiva equilibrata. Come sottolineato n
 
 E soprattutto, come documenteremo nel Capitolo 3, l'infrastruttura computazionale che rende possibili queste applicazioni benefiche ha essa stessa un'impronta ecologica considerevole. La promessa dell'AI come strumento di razionalità ecologica deve essere valutata insieme alla realtà dell'AI come sistema ad alta intensità energetica, idrica e materiale. Solo tenendo insieme entrambe le prospettive – l'AI for Green e l'AI come problema ambientale – possiamo sviluppare una comprensione sociologicamente informata del ruolo dell'intelligenza artificiale nell'Antropocene.
 
+# 2.4 Applicazioni emergenti e settoriali
+
+Le sezioni precedenti hanno documentato le applicazioni dell'intelligenza artificiale nei due domini dove gli impatti sono potenzialmente più significativi per la mitigazione climatica: il sistema energetico, responsabile del 73% delle emissioni globali di gas serra, e i sistemi di monitoraggio e previsione per l'adattamento ai cambiamenti climatici. Ma l'AI si sta diffondendo come strumento di sostenibilità ambientale in una molteplicità di altri settori. Questa sezione presenta brevemente alcune applicazioni emergenti che, pur non raggiungendo ancora la maturità e l'impatto documentato delle precedenti, illustrano la **trasversalità** dell'AI come tecnologia abilitante per la transizione ecologica.
+
+In particolare, ci concentriamo su due ambiti dove l'AI sta dimostrando un potenziale significativo: l'agricoltura di precisione, che promette di ridurre drasticamente l'impronta ambientale della produzione alimentare, e l'ottimizzazione delle supply chain e l'economia circolare, dove l'AI può contribuire a minimizzare gli sprechi lungo l'intero ciclo di vita dei prodotti. Entrambi questi settori hanno un peso rilevante nelle emissioni globali – l'uso del suolo è responsabile di circa un quarto delle emissioni totali di gas serra – e rappresentano quindi obiettivi cruciali per qualsiasi strategia di decarbonizzazione.
+
+## 2.4.1 Agricoltura di precisione: ottimizzare la produzione alimentare
+
+L'agricoltura industriale moderna costituisce una fonte significativa di emissioni di gas serra, ma non per le ragioni che intuitivamente potremmo pensare. Sebbene le piante assorbano CO₂ dall'atmosfera, i processi associati alla produzione agricola intensiva generano impatti ambientali considerevoli attraverso tre meccanismi principali [Rolnick et al., 2022]: 
+
+**Primo, la preparazione del terreno.** La terra viene generalmente spogliata della vegetazione esistente, rilasciando il carbonio sequestrato. Il processo di aratura espone il suolo superficiale all'aria, rilasciando così il carbonio che era stato trattenuto negli aggregati del suolo e distruggendo i microrganismi che contribuiscono al sequestro.
+
+**Secondo, l'uso di fertilizzanti azotati.** Poiché le pratiche agricole intensive impoveriscono il suolo di nutrienti, i fertilizzanti a base di azoto devono essere aggiunti nuovamente al sistema. La sintesi di questi fertilizzanti consuma quantità enormi di energia – circa il 2% del consumo energetico globale. Inoltre, mentre parte di questo azoto viene assorbito dalle piante o trattenuto nel suolo, una parte significativa viene convertita in protossido di azoto (N₂O), un gas serra circa 300 volte più potente della CO₂.
+
+**Terzo, le emissioni da allevamento.** Il bestiame e la coltivazione del riso generano metano, un gas serra molto più potente della CO₂ stessa.
+
+### Le promesse dell'agricoltura di precisione
+
+Secondo una stima citata da Rolnick et al., circa **un terzo delle riduzioni di emissioni di gas serra potrebbe provenire da una migliore gestione del suolo e dell'agricoltura**. L'intelligenza artificiale può svolgere un ruolo importante in questo ambito attraverso l'agricoltura di precisione – un approccio che, come osservano gli autori, "si basa fondamentalmente sul rendere le terre agricole più uniformi e prevedibili", ma che ora, grazie all'AI, può essere gestito su larga scala pur adattandosi all'eterogeneità della terra e delle colture.
+
+L'approccio tradizionale dell'agricoltura industriale tratta il terreno come uniforme, utilizzando strumenti di automazione di base come i trattori. Questo può essere sia più distruttivo che meno produttivo rispetto ad approcci che lavorano con l'eterogeneità naturale del suolo. L'agricoltura di precisione, al contrario, riconosce e sfrutta questa eterogeneità: c'è una crescente domanda di strumenti sofisticati che permettano agli agricoltori di lavorare su larga scala adattandosi alle specifiche esigenze del terreno.
+
+### Applicazioni concrete e strumenti robotici intelligenti
+
+**Robot intelligenti per interventi mirati.** Sono in fase di sviluppo robot dotati di capacità di diserbo meccanico, applicazione mirata di pesticidi e aspirazione di parassiti. Questi robot possono raccogliere grandi quantità di dati per un miglioramento continuo. Numerose aziende operano ormai nello spazio della robotica assistita da ML per l'agricoltura di precisione.
+
+**Sistemi di irrigazione intelligenti.** I sistemi di irrigazione basati su AI possono risparmiare grandi quantità di acqua riducendo al contempo i parassiti che prosperano in condizioni di eccessiva umidità [Rolnick et al., 2022].
+
+**Rilevamento di malattie ed erbe infestanti.** Il machine learning può contribuire al rilevamento di malattie delle piante, al rilevamento di erbe infestanti e al rilevamento delle caratteristiche del suolo. Spesso questi compiti hanno requisiti hardware minimi, poiché possono essere utilizzati dispositivi come droni (UAV - Unmanned Aerial Vehicles) dotati di telecamere iperspettrali.
+
+**Previsione delle rese e pianificazione.** L'AI può guidare la previsione delle rese agricole e persino modelli macroeconomici che aiutano gli agricoltori a prevedere la domanda di colture e decidere cosa piantare all'inizio della stagione.
+
+### Potenziale di riduzione dell'impatto ambientale
+
+Anche se la letteratura scientifica resta prudente nel quantificare i benefici netti (data la possibilità di effetti rimbalzo), alcuni studi citano potenziali riduzioni molto significative. Come riportato nell'indice della tesi basandosi sulle fonti primarie, le stime parlano di possibili riduzioni del **28% dei costi**, del **22% nell'uso di acqua** e del **35% nel deflusso di azoto** nel suolo.
+
+È importante sottolineare che, a livello globale, l'agricoltura costituisce un'industria da 2,4 trilioni di dollari e c'è già un significativo incentivo economico per aumentare l'efficienza [Rolnick et al., 2022]. Tuttavia, i guadagni di efficienza non si traducono necessariamente in riduzione delle emissioni di gas serra – ad esempio attraverso effetti rimbalzo che aumentano il consumo di prodotti particolarmente intensivi in termini di emissioni. Inoltre, ridurre significativamente le emissioni potrebbe richiedere un cambiamento nei paradigmi agricoli, ad esempio l'adozione diffusa dell'agricoltura rigenerativa, della silvopastura e dell'intercropping arboreo.
+
+### Remote sensing per la gestione del territorio
+
+Tecniche di ML possono essere utilizzate per supportare i decisori politici e gli agronomi. Ad esempio, il telerilevamento con droni e satelliti potrebbe eseguire il rilevamento del metano e la stima dello stock di carbonio, che potrebbero essere utilizzati per incentivare gli agricoltori a sequestrare più carbonio e ridurre le emissioni [Rolnick et al., 2022]. Le telecamere iperspettrali – che possono registrare diverse centinaia di diverse lunghezze d'onda invece del semplice rosso, verde e blu – forniscono informazioni sull'interazione tra luce e sostanze chimiche individuali. Molti satelliti sono dotati di tali telecamere e possono eseguire, in una certa misura, stime delle emissioni di CO₂, CH₄ (metano), H₂O e N₂O (protossido di azoto).
+
+## 2.4.2 Ottimizzazione della supply chain e economia circolare
+
+Oltre alla produzione primaria, l'AI trova applicazioni cruciali nell'ottimizzazione dei flussi di materiali ed energia lungo l'intera catena del valore – dalla progettazione dei prodotti alla loro distribuzione, uso e fine vita. Questo dominio è particolarmente rilevante per la transizione verso un'economia circolare, dove i materiali vengono continuamente riutilizzati piuttosto che estratti, usati e scartati.
+
+### Riduzione della sovrapproduzione attraverso demand forecasting
+
+Uno dei problemi più significativi delle supply chain globali contemporanee è la **sovrapproduzione e l'eccessivo accumulo di scorte**, fonte importante di emissioni industriali di gas serra, in particolare per beni deperibili o per beni al dettaglio che rapidamente passano di moda [Rolnick et al., 2022]. 
+
+I dati sono impressionanti: secondo il Council of Supply Chain Management Professionals, l'inventario in eccesso a livello globale nel 2011 ammontava a circa **8 trilioni di dollari** di merci. Questo eccesso può essere in parte dovuto a una stima errata della domanda, poiché la stessa organizzazione ha osservato che le stime di vendita aziendali divergevano dalle vendite effettive in media del 40%.
+
+Il machine learning può contribuire a mitigare questi problemi di sovrapproduzione e/o sovra-stoccaggio migliorando la **previsione della domanda**. Ad esempio, l'industria dell'abbigliamento vende in media solo il 60% della sua merce a prezzo pieno, ma alcuni marchi possono vendere fino all'85% grazie alla produzione just-in-time e a reti di intelligence sofisticate [Rolnick et al., 2022]. 
+
+Man mano che lo shopping online e la produzione just-in-time diventano più diffusi e i siti web offrono più tipi di prodotti rispetto ai negozi fisici, saranno necessarie migliori previsioni della domanda a livello regionale per distribuire efficientemente l'inventario senza lasciare che merci indesiderate percorrano lunghe distanze solo per languire nei magazzini. Tuttavia, gli effetti collaterali negativi possono essere significativi a seconda del tipo di prodotto e delle caratteristiche regionali: la produzione just-in-time e lo shopping online sono spesso responsabili della creazione di mode di prodotti con cicli di vita più brevi, oltre a spedizioni più piccole e veloci di merci (principalmente su strada) che mancano dell'efficienza energetica dell'aggregazione del trasporto merci e di metodi di spedizione più lenti come il trasporto ferroviario.
+
+### Ottimizzazione delle rotte di spedizione
+
+La logistica contemporanea presenta inefficienze sorprendenti. Come documentato da Rolnick et al., nel 2006 almeno due aziende scozzesi di frutti di mare hanno fatto volare centinaia di tonnellate di gamberi dalla Scozia alla Cina e alla Thailandia per la pelatura, per poi riportarli in Scozia per la vendita – perché potevano risparmiare sui costi di manodopera. Questo esempio illustra la complessità delle supply chain globalizzate contemporanee, ovvero i processi organizzativi e le reti di spedizione necessari per portare un prodotto dal produttore al consumatore finale. 
+
+L'AI può contribuire a ridurre le emissioni nelle supply chain prevedendo intelligentemente domanda e offerta, identificando prodotti a minor impatto di carbonio e ottimizzando le rotte di spedizione. Tuttavia, come sottolineano gli autori, **per molte di queste applicazioni affinché riducano effettivamente le emissioni, gli incentivi finanziari delle imprese devono anche allinearsi con la mitigazione dei cambiamenti climatici** attraverso meccanismi di carbon pricing o altri strumenti di policy.
+
+### Riduzione degli sprechi alimentari
+
+A livello globale, la società perde o spreca **1,3 miliardi di tonnellate metriche di cibo ogni anno**, che si traduce in **un terzo di tutto il cibo prodotto per il consumo umano** [Rolnick et al., 2022]. Nei paesi in via di sviluppo, il 40% degli sprechi alimentari si verifica tra raccolta e lavorazione o vendita al dettaglio, mentre oltre il 40% degli sprechi alimentari nelle nazioni industrializzate si verifica alla fine delle catene di approvvigionamento, nei punti vendita al dettaglio, ristoranti e case dei consumatori.
+
+Questa è un'area dove il machine learning potrebbe avere un impatto particolarmente significativo. Gli stessi algoritmi di previsione della domanda discussi per la sovrapproduzione industriale possono essere applicati alla distribuzione alimentare, riducendo gli sprechi nei supermercati, nei ristoranti e nella ristorazione collettiva.
+
+### Sistemi di raccomandazione per opzioni a basso impatto climatico
+
+I sistemi di raccomandazione potrebbero potenzialmente indirizzare consumatori e imprese acquirenti verso opzioni più rispettose del clima, purché si possano ottenere informazioni sulle emissioni di gas serra lungo l'intero ciclo di vita di un prodotto [Rolnick et al., 2022]. La sfida qui risiede nel reperire dati utilizzabili su ogni materiale e processo produttivo rilevante, dall'estrazione di metalli fino alla produzione, alla spedizione e all'eventuale uso e smaltimento di un prodotto. Si deve anche convincere le aziende a condividere dati proprietari per aiutare altre imprese a imparare dalle migliori pratiche. Se questi dataset possono essere acquisiti, gli algoritmi ML potrebbero ipoteticamente assistere nell'identificazione delle opzioni più pulite.
+
+### Economia circolare e tracciamento dei materiali
+
+Un'applicazione emergente particolarmente promettente riguarda il **tracciamento dei materiali per il riciclo e il riuso**. L'economia circolare – dove i materiali vengono mantenuti in uso il più a lungo possibile attraverso riuso, riparazione e riciclo – richiede sistemi di tracciamento sofisticati che permettano di identificare dove si trovano i materiali, qual è la loro qualità residua e come possono essere reintrodotti nei cicli produttivi. 
+
+L'AI può supportare questi sistemi attraverso computer vision per la classificazione automatica dei rifiuti, algoritmi di ottimizzazione per la logistica inversa (il trasporto dei materiali dai punti di raccolta agli impianti di riciclo), e sistemi di tracciamento che seguono i materiali lungo l'intera catena del valore. Come evidenziato da Vinuesa et al. [2020] nella loro analisi dell'impatto dell'AI sugli Obiettivi di Sviluppo Sostenibile, queste applicazioni potrebbero contribuire significativamente al raggiungimento dell'SDG 12 su produzione e consumo responsabili.
+
+## 2.4.3 Una prospettiva d'insieme: la trasversalità dell'AI
+
+Ciò che emerge da questa panoramica di applicazioni settoriali è la **natura trasversale** dell'intelligenza artificiale come strumento per la sostenibilità. Come evidenziato nel framework di Kaack et al. [2022] discusso nella sezione 2.1, le stesse tecniche di machine learning – previsione di serie temporali, ottimizzazione di sistemi complessi, computer vision per remote sensing – possono essere applicate a domini molto diversi.
+
+Un algoritmo di deep learning per la previsione di serie temporali può essere adattato tanto alla produzione solare quanto alla domanda elettrica, tanto ai flussi di traffico quanto alle rese agricole. Questa portabilità delle tecniche AI spiega perché vediamo emergere applicazioni in settori apparentemente distanti: l'architettura informazionale dell'ottimizzazione è simile, anche se i dettagli fisici dei sistemi sono molto diversi.
+
+Dal punto di vista della teoria della modernizzazione ecologica, queste applicazioni settoriali incarnano particolarmente bene il concetto di **razionalità ecologica attraverso l'efficienza informazionale**. In ciascun caso – agricoltura, supply chain, logistica – l'AI permette di ridurre l'uso di risorse (acqua, fertilizzanti, energia per il trasporto, materiali sprecati) attraverso una gestione più fine-grained e adattiva dei processi. L'informazione sostituisce il materiale: invece di applicare fertilizzanti uniformemente su tutto il campo, li applico solo dove servono; invece di produrre merci in eccesso "per sicurezza", produco esattamente quanto prevede la domanda; invece di buttare cibo perché non so quando scadrà, ottimizzare la rotazione degli stock.
+
+Tuttavia, come sottolineato ripetutamente in letteratura, questi guadagni potenziali dipendono fortemente dal contesto istituzionale ed economico. Se gli incentivi di mercato non sono allineati con gli obiettivi ambientali – ad esempio, se il trasporto è così economico che conviene far volare i gamberi dall'altra parte del mondo – l'ottimizzazione guidata dall'AI può persino peggiorare il problema invece di risolverlo. E come vedremo nel Capitolo 3, c'è il rischio concreto che i guadagni di efficienza si traducano in aumenti del consumo totale attraverso il paradosso di Jevons.
+
+Inoltre, è importante riconoscere che queste applicazioni sono ancora **emergenti** piuttosto che mature. A differenza delle smart grid o dei sistemi di previsione meteorologica, dove abbiamo deployment operativi su larga scala e dati empirici sugli impatti, molte applicazioni in agricoltura di precisione ed economia circolare sono ancora in fase pilota o limitata a contesti specifici. La letteratura parla spesso di "potenziale" e "promesse" piuttosto che di risultati consolidati. Sarà necessaria ricerca ulteriore per quantificare con precisione i benefici netti, tenendo conto degli effetti sistemici e dei possibili trade-off.
+
 # CONCLUSIONE
 
 Eppur si muove...
