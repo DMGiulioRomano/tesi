@@ -35,364 +35,71 @@ Tuttavia, come riconoscono gli stessi teorici della EMT, questa razionalità eco
 
 In sintesi, la modernizzazione ecologica prospetta un percorso di transizione ecologica che passa attraverso il potenziamento – non il superamento – delle istituzioni e dei meccanismi della modernità industriale. Come sintetizza [Mol, 2002], la EMT "presume le dinamiche capitaliste e i rapporti di produzione e non vede la necessità di metterli in discussione per superare i problemi ecologici". Questa prospettiva si colloca quindi in netta antitesi rispetto agli approcci critici della sociologia ambientale – dall'ecologia politica marxiana alla decrescita – che vedono invece nel sistema capitalista stesso la radice strutturale della crisi ambientale.
 
+## 1.2 Dibattiti e critiche alla modernizzazione ecologica
 
-# INTRODUZIONE!!!
+### 1.2.1 La distinzione tra EMT "debole" e "forte"
 
-questa è l'introduzione ?
+All'interno del dibattito sulla modernizzazione ecologica si è progressivamente consolidata una distinzione fondamentale tra due versioni della teoria: una versione "debole" (*weak*) e una versione "forte" (*strong*). Questa distinzione, emersa nel corso degli anni Novanta, riflette tensioni profonde sugli obiettivi, i mezzi e gli attori della transizione ecologica.
 
+La **EMT "debole"** o "tecno-corporatista" rappresenta la variante dominante nella pratica politica e nell'applicazione della teoria. Questa versione si caratterizza per una fiducia pressoché illimitata nei meccanismi di mercato, nell'innovazione tecnologica guidata dalle imprese e in soluzioni *win-win* che conciliano profitto economico e sostenibilità ambientale senza richiedere trasformazioni strutturali profonde [Mol & Spaargaren, 2000]. Come sintetizza [Ewing, 2017], la EMT debole "presume le dinamiche capitaliste e i rapporti di produzione capitalistici e non vede la necessità di metterli in discussione per superare i problemi ecologici". In questa prospettiva, lo Stato assume un ruolo limitato di facilitatore, creando incentivi per l'innovazione verde ma lasciando alle forze di mercato e alle decisioni aziendali la guida del cambiamento. Le politiche preferite sono strumenti volontari, certificazioni ambientali, partnership pubblico-private e incentivi fiscali piuttosto che regolamentazioni stringenti o interventi redistributivi.
 
-# GUIDA ALL'USO DI PANDOC
+La **EMT "forte"** o "riflessiva", al contrario, enfatizza la necessità di una trasformazione più radicale che vada oltre la mera efficienza tecnologica. Questa versione riconosce che la modernizzazione ecologica richiede cambiamenti istituzionali profondi, partecipazione democratica estesa e una ridefinizione delle priorità economiche che metta in discussione l'imperativo della crescita illimitata [Mol & Spaargaren, 2000]. La EMT forte attribuisce maggiore importanza ai movimenti sociali, alla società civile e ai processi deliberativi nella definizione delle politiche ambientali. Riconosce inoltre che la giustizia sociale e la giustizia ambientale sono interconnesse, e che soluzioni puramente tecniche rischiano di riprodurre o aggravare disuguaglianze esistenti.
 
-Questa sezione illustra come utilizzare le principali funzionalità di Pandoc per la redazione della tesina: citazioni bibliografiche, tabelle, equazioni matematiche e figure.
+Nonostante questa distinzione teorica, la letteratura sulla modernizzazione ecologica è stata dominata dalla versione "debole", che ha esercitato maggiore influenza sia negli ambienti accademici sia nei circoli di policy [Ewing, 2017]. Questa predominanza non è casuale: come vedremo, le prescrizioni della EMT debole sono più facilmente compatibili con gli interessi delle élite economiche e politiche, e quindi incontrano minore resistenza istituzionale. Tuttavia, è proprio questa compatibilità con lo *status quo* capitalistico che costituisce, secondo i critici, la principale debolezza teorica ed empirica della teoria.
 
----
+### 1.2.2 Le critiche alla modernizzazione ecologica
 
-# 1. CITAZIONI BIBLIOGRAFICHE
+La teoria della modernizzazione ecologica è stata oggetto di critiche sostanziali da parte della sociologia ambientale critica, che possono essere raggruppate in tre categorie principali: critiche metodologiche ed epistemologiche, critiche politico-economiche e critiche empiriche.
 
-Le citazioni si basano sui file `.bib` presenti nella cartella `docs/` (bibliografia.bib, discografia.bib, sitografia.bib). Pandoc utilizza lo stile CSL specificato nel frontmatter per formattare automaticamente le citazioni.
+**Critiche metodologiche ed epistemologiche.** I critici hanno evidenziato importanti debolezze nel metodo scientifico adottato dalla EMT. Primo, la teoria mostra una preferenza marcata per studi di caso qualitativi rispetto ad analisi quantitative su larga scala, limitando così la capacità di identificare pattern generali e di valutare gli effettivi outcome ecologici della modernizzazione [Ewing, 2017]. Secondo, i teorici della EMT tendono a difendere le proprie tesi utilizzando controesempi individuali per respingere ipotesi alternative, ignorando le evidenze quantitative più ampie che documentano le conseguenze ambientali negative della modernizzazione capitalista [Dunlap & Marshall, 2007]. Terzo, la EMT ridefinisce selettivamente il proprio oggetto di studio, concentrandosi su problemi ambientali "convenzionali" e localizzati (come l'inquinamento industriale o la gestione dei rifiuti) piuttosto che su crisi globali come il cambiamento climatico, la perdita di biodiversità o l'acidificazione degli oceani [Mol, 2002].
 
-## 1.1 Citazione semplice
+Come nota [Ewing, 2017], queste scelte metodologiche non sono neutrali: "La EMT trascura le ricerche quantitative di ampia scala che sostengono la maggior parte della letteratura critica in sociologia ambientale, privilegiando ricerche qualitative su casi individuali che non considerano le conseguenze complessive dello sviluppo capitalistico". Questa tendenza consente alla teoria di mantenere un ottimismo eco-modernista anche di fronte a evidenze crescenti di deterioramento ambientale.
 
-Per citare un'opera in modo generico:
+**Critiche politico-economiche: la subordinazione della razionalità ecologica.** La critica più penetrante alla EMT riguarda il suo concetto chiave di "razionalità ecologica". Come abbiamo visto nella sezione precedente, la teoria sostiene che i criteri ambientali possono essere integrati nelle logiche economiche moderne. Tuttavia, i teorici della EMT riconoscono esplicitamente che questa razionalità ecologica deve rimanere *subordinata* alla razionalità economica: "i criteri ambientali possono integrarsi nei mercati moderni solo quando vengono riformulati per adattarsi alle logiche dei mercati stessi" [Mol et al., 2009].
 
-```text
-La sintesi digitale è stata ampiamente studiata `[@delduca1987]`.
-```
+Questa subordinazione genera una contraddizione teorica fondamentale. [Ewing, 2017] la esprime in modo efficace: "La razionalità ecologica come definita dai teorici della EMT è teoricamente incoerente e intrinsecamente contraddittoria, poiché dovrebbe essere simultaneamente (1) crescentemente indipendente dalla razionalità economica, e (2) in ultima analisi subordinata ad essa, nonostante la divergenza e la potenziale ostilità della seconda verso la prima". Quando i criteri di profitto e crescita entrano in conflitto con gli obiettivi ecologici – come accade sistematicamente in un'economia capitalista – la razionalità ecologica viene inevitabilmente sacrificata [Foster, 2012].
 
-**Risultato:** La sintesi digitale è stata ampiamente studiata [@delduca1987].
+Questa dinamica si manifesta concretamente attraverso il meccanismo delle *esternalità ambientali*: le imprese, costrette a massimizzare il profitto per sopravvivere alla competizione di mercato, scaricano i costi sociali e ecologici della produzione sulla collettività piuttosto che internalizzarli [Ewing, 2017]. Le ricerche empiriche hanno documentato come la finanziarizzazione dell'economia abbia *intensificato* questi processi nelle ultime decadi, riducendo ulteriormente la capacità delle imprese di adottare innovazioni ecologiche che potrebbero limitare la redditività a breve termine.
 
-## 1.2 Citazioni multiple
+**Il paradosso di Jevons e l'effetto rimbalzo.** Una critica empirica cruciale alla EMT riguarda quello che gli economisti chiamano il "paradosso di Jevons" o "effetto rimbalzo" (*rebound effect*). Questo fenomeno, identificato dall'economista britannico William Stanley Jevons nel XIX secolo, descrive come i guadagni di efficienza possano paradossalmente portare a un *aumento* – e non a una diminuzione – del consumo totale di risorse [Luccioni et al., 2025].
 
-Per citare più opere contemporaneamente:
+Il meccanismo è il seguente: quando una tecnologia diventa più efficiente, i suoi costi d'uso diminuiscono, rendendo il suo utilizzo più conveniente e accessibile. Questo può portare a tre tipi di effetti rimbalzo [Luccioni et al., 2025]:
 
-```text
-Diversi autori hanno affrontato il tema `([@delduca1987]; [@bianchini2000]; [@dannenberg2003])`.
-```
+1. **Effetto rimbalzo diretto**: l'efficienza riduce il costo d'uso, stimolando un maggiore utilizzo della stessa tecnologia. Ad esempio, un'automobile più efficiente costa meno per chilometro percorso, incentivando a guidare di più.
 
-**Risultato:** Diversi autori hanno affrontato il tema ([@delduca1987]; [@bianchini2000]; [@dannenberg2003]).
+2. **Effetto rimbalzo indiretto**: il risparmio economico ottenuto grazie all'efficienza viene speso per consumare altri beni o servizi ad alta intensità energetica. Il denaro risparmiato con l'auto efficiente può finanziare un volo aereo.
 
-## 1.3 Citazione con numero di pagina
+3. **Effetto rimbalzo sistemico**: l'efficienza stimola la crescita economica complessiva, aumentando la domanda di risorse a livello macro-economico. Settori interi dell'economia possono espandersi grazie alle nuove tecnologie efficienti.
 
-Per citare una pagina specifica:
+Numerosi studi empirici hanno documentato effetti rimbalzo significativi in diversi settori: l'efficienza energetica nell'industria automobilistica non ha ridotto il consumo totale di carburante a causa dell'aumento del numero di veicoli e dei chilometri percorsi; l'efficienza nell'illuminazione LED ha portato a un incremento dell'illuminazione urbana; le tecnologie agricole più efficienti hanno stimolato l'espansione delle superfici coltivate [Rolnick et al., 2022; Kaack et al., 2022].
 
-```text
-Come sottolinea Del Duca `[@delduca1987, p. 17]`, la sintesi granulare...
-```
+Come osserva [Ewing, 2017], gli argomenti della EMT sull'eco-efficienza "tendono a trascurare il paradosso di Jevons, per cui i vantaggi economici derivanti dall'efficienza (ottenuti attraverso la riduzione dei costi delle risorse dovuta all'aumento dell'efficienza produttiva) generano spesso un aumento dell'uso delle risorse". Questo fenomeno mina radicalmente l'assunto centrale della modernizzazione ecologica: che l'efficienza tecnologica da sola possa garantire il disaccoppiamento tra crescita economica e impatto ambientale.
 
-**Risultato:** Come sottolinea Del Duca [@delduca1987, p. 17], la sintesi granulare...
+**Ignoranza delle relazioni core-periphery e giustizia ambientale.** Un'ulteriore critica fondamentale concerne l'incapacità della EMT di considerare adeguatamente le dinamiche di potere nel sistema-mondo capitalista. La teoria riconosce formalmente che le nazioni, le corporation transnazionali e le istituzioni economiche globali del "centro" (core) hanno un potere decisionale sproporzionato e tendono a trascurare le nazioni e le popolazioni della "periferia" [Mol, 2002]. Tuttavia, la EMT non sviluppa un'analisi sistematica di come queste asimmetrie di potere compromettano le sue stesse prescrizioni [Ewing, 2017].
 
-## 1.4 Citazione testuale (blocco)
+Il risultato è che le soluzioni della modernizzazione ecologica rischiano di riprodurre e aggravare le disuguaglianze ambientali. Le innovazioni "verdi" sviluppate nei paesi ricchi spesso esternalizzano i costi ambientali verso i paesi poveri attraverso catene globali di produzione, estrazione di risorse e smaltimento di rifiuti. Come sottolinea [Ewing, 2017], "l'esclusione di diverse comunità e delle loro prospettive dalle nostre discussioni politiche e scientifiche è una questione di giustizia ambientale", poiché le relazioni dominanti natura-società sono spesso "dannose per determinate comunità umane, principalmente i poveri e le persone di colore".
 
-Per riportare una citazione letterale estesa, usa il simbolo `>`:
+### 1.2.3 Perché usare comunque la EMT per analizzare l'AI
 
+Date queste critiche sostanziali, ci si potrebbe domandare: perché adottare la teoria della modernizzazione ecologica come framework principale per analizzare il rapporto tra intelligenza artificiale e ambiente? La risposta risiede in tre considerazioni fondamentali.
 
-Come afferma Adorno [@adorno1959, p. 23]:
+**Primo, la EMT rimane il framework più sviluppato per analizzare transizioni tecnologiche orientate alla sostenibilità.** Nonostante i suoi limiti, la teoria della modernizzazione ecologica offre concetti analitici – efficienza ecologica, governance multi-attore, razionalità ecologica, innovazione tecnologica – che sono particolarmente adatti a comprendere come l'AI viene presentata, legittimata e implementata nel discorso pubblico e nelle politiche ambientali contemporanee. Come vedremo nei capitoli successivi, le narrative dominanti sull'AI rispecchiano esattamente la logica della EMT: l'idea che la crisi climatica possa essere affrontata attraverso maggiore innovazione tecnologica, efficienza ottimizzata e soluzioni win-win tra economia e ambiente.
 
-> La musica moderna richiede un'attenzione particolare 
-> ai processi di sintesi e trasformazione del suono.
-> Questi processi definiscono l'essenza stessa della composizione elettronica.
+**Secondo, utilizzare la EMT "criticamente" permette di evidenziare le contraddizioni del caso AI.** Applicare la teoria della modernizzazione ecologica all'intelligenza artificiale non significa accettarne acriticamente le presupposizioni. Al contrario, il caso dell'AI costituisce un *test empirico* particolarmente illuminante dei limiti della EMT. L'AI incarna perfettamente il paradosso centrale della modernizzazione ecologica: è simultaneamente una tecnologia con potenziale trasformativo per la sostenibilità E un sistema ad altissima intensità energetica, materiale e idrica. Questo paradosso manifesta plasticamente le contraddizioni teoriche che i critici hanno identificato nella EMT.
 
+In particolare, l'AI permette di osservare concretamente il paradosso di Jevons in azione. Come documenteremo nel Capitolo 3, i guadagni di efficienza computazionale nell'AI hanno portato non a una riduzione ma a un'*espansione* massiccia dei modelli, delle applicazioni e del consumo totale di risorse [Luccioni et al., 2025]. L'AI for climate (Capitolo 2) e l'AI as climate problem (Capitolo 3) coesistono, rivelando l'incoerenza della razionalità ecologica quando subordinata a logiche di profitto e crescita.
 
-**Nota:** Ogni riga della citazione deve iniziare con `>`. La citazione apparirà rientrata nel PDF finale.
+**Terzo, adottare una prospettiva di EMT "forte" e riflessiva consente un'analisi più completa.** Come precisato nella sezione 1.2.1, non tutte le versioni della modernizzazione ecologica sono equivalenti. Questa tesi si posiziona esplicitamente nella tradizione della **EMT forte e riflessiva**, che riconosce:
 
----
+- La necessità di trasformazioni istituzionali profonde, non solo innovazioni tecniche
+- L'importanza della partecipazione democratica e della giustizia sociale
+- I limiti del mercato come meccanismo di governance ambientale
+- La centralità delle asimmetrie di potere globali nelle dinamiche ambientali
 
-# 2. TABELLE
+Adottare questa prospettiva significa utilizzare la EMT come "lente analitica" per comprendere le narrative dominanti sull'AI, mantenendo al contempo uno sguardo critico informato dalle prospettive dell'ecologia politica, della teoria dei sistemi-mondo e della società del rischio [Beck, 1992; Foster, 2012; Ewing, 2017]. Questo approccio consente di evitare sia il tecno-ottimismo acritico sia il tecno-fatalismo, riconoscendo le possibilità *e* i pericoli dell'AI in relazione alla crisi climatica.
 
-Pandoc supporta la creazione di tabelle con riferimenti incrociati. È fondamentale includere sia la didascalia (caption) che l'identificatore per poter richiamare la tabella nel testo.
+In sintesi, la teoria della modernizzazione ecologica – utilizzata criticamente e nella sua versione "forte" – fornisce il framework più adatto per comprendere sociologicamente il fenomeno dell'AI ambientale. Non perché la teoria sia priva di problemi, ma proprio perché le sue contraddizioni interne rispecchiano le contraddizioni del caso empirico che stiamo studiando. L'AI, come la EMT stessa, promette di conciliare crescita economica e sostenibilità ecologica. Verificare se questa promessa può essere mantenuta – e a quali condizioni – costituisce l'obiettivo centrale di questa tesi.
 
-## 2.1 Sintassi base
-
-a       b       c
----     ---     ---
-1       2       3
-4       5       6
-7       8       9
-
-: Descrizione della tabella {#tbl:identificatore}
-
-
-**Componenti essenziali:**    
-
-- **Riga delle intestazioni:** `a  b  c` (separati da spazi o tab)
-  
-- **Riga di separazione:** `---  ---  ---` (indica dove iniziano i dati)
-  
-- **Righe di dati:** valori separati da spazi multipli
-  
-- **Didascalia:** `: Testo della didascalia`
-  
-- **Identificatore:** `{#tbl:nome}` (per i riferimenti incrociati)
-  
-
-## 2.2 Riferimento alla tabella
-
-Per richiamare la tabella nel testo:
-
-```text
-Come si vede nella Tabella @tbl:identificatore, i risultati mostrano...
-```
-
-**Risultato:** Come si vede nella @tbl:identificatore, i risultati mostrano...
-
-## 2.3 Esempio completo
-
-
-Parametro       Valore      Unità
------------     -------     ------
-Frequenza       440         Hz
-Durata          2.5         s
-Ampiezza        0.8         dB
-
-: Parametri dell'oscillatore {#tbl:parametri}
-
-
-La Tabella @tbl:parametri mostra le impostazioni utilizzate nell'esperimento.
-
-
----
-
-# 3. EQUAZIONI MATEMATICHE
-
-Le equazioni utilizzano la sintassi LaTeX e possono essere referenziate nel testo grazie a `pandoc-crossref`.
-
-## 3.1 Sintassi base
-
-
-$$
-E = mc^2
-$$ {#eq:identificatore}
-
-
-**Componenti:**
-
-- **Delimitatori:** `$$` (apertura) e `$$` (chiusura)
-  
-- **Contenuto LaTeX:** formula matematica standard
-  
-- **Identificatore:** `{#eq:nome}` sulla stessa riga della chiusura
-  
-
-## 3.2 Riferimento all'equazione
-
-```text
-L'Equazione @eq:identificatore mostra la relazione energia-massa...
-```
-
-**Risultato:** @eq:identificatore mostra la relazione energia-massa...
-
-## 3.3 Esempi comuni
-
-**Formula semplice:**
-
-$$
-f(x) = x^2 + 2x + 1
-$$ {#eq:polinomio}
-
-
-**Formula con frazioni:**
-
-$$
-\frac{d}{dx}f(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}
-$$ {#eq:derivata}
-
-
-**Sommatoria:**
-
-$$
-\sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n
-$$ {#eq:somma}
-
-
-**Nota:** Per simboli e comandi avanzati, consulta la documentazione LaTeX.
-
----
-
-# 4. FIGURE E IMMAGINI
-
-Esistono due metodi principali per inserire immagini: la sintassi Pandoc (più semplice, con riferimenti automatici) e l'ambiente LaTeX `wrapfigure` (per testo che scorre attorno all'immagine).
-
-## 4.1 Figure con Pandoc (metodo consigliato)
-
-**Sintassi:**
-
-```text
-![Didascalia dell'immagine](percorso/immagine.png){#fig:identificatore width=60%}
-```
-
-**Componenti:**
-
-- `!` indica che è un'immagine
-
-- `[Didascalia]` testo che apparirà sotto la figura
-  
-- `(percorso)` path relativo al file (es. `docs/images/img001.png`)
-  
-- `{#fig:nome}` identificatore per riferimenti incrociati
-  
-- `width=XX%` larghezza in percentuale della pagina
-  
-
-**Esempio:**
-
-![Spettrogramma del segnale analizzato](docs/images/img001.png){#fig:spettro width=70%}
-
-La Figura @fig:spettro mostra la distribuzione delle frequenze nel tempo.
-
-
-**Vantaggi:**
-- Sintassi semplice e leggibile
-- Numerazione automatica
-- Riferimenti incrociati funzionanti
-
-## 4.2 Wrapfigure (testo che scorre attorno)
-
-Per far scorrere il testo attorno a un'immagine, usa l'ambiente LaTeX `wrapfigure`:
-
-
-\begin{wrapfigure}{r}{0.4\textwidth}
-  \centering
-  \includegraphics[width=0.38\textwidth]{docs/images/img001.png}
-  \caption{Diagramma esplicativo}
-  \label{fig:diagramma}
-\end{wrapfigure}
-
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
-
-**Parametri:**
-
-- `{r}` posizione: `r` (destra) o `l` (sinistra)
-  
-- `{0.4\textwidth}` larghezza dello spazio riservato all'immagine
-  
-- `[width=0.38\textwidth]` larghezza effettiva dell'immagine (leggermente inferiore)
-  
-- `\label{fig:nome}` identificatore LaTeX (NON usare `#fig:`)
-
-**ATTENZIONE:**
-
-- Con wrapfigure devi inserire **immediatamente dopo** un paragrafo di testo sufficientemente lungo
-  
-- Non funziona bene con elenchi puntati o altri elementi speciali
-  
-- Il riferimento si fa con `\ref{fig:nome}` in LaTeX, NON con `@fig:nome`
-  
-
-**Esempio d'uso corretto:**
-```latex
-\begin{wrapfigure}{r}{0.35\textwidth}
-  \centering
-  \includegraphics[width=0.33\textwidth]{docs/images/diagramma.png}
-  \caption{Schema del processo}
-  \label{fig:schema}
-\end{wrapfigure}
-
-Questo paragrafo deve essere abbastanza lungo da permettere al testo di 
-scorrere correttamente attorno all'immagine. La sintesi granulare si basa 
-sulla scomposizione del segnale audio in brevi segmenti temporali chiamati 
-"grani", ognuno dei quali viene processato indipendentemente. Questa tecnica 
-permette di ottenere trasformazioni sonore complesse...
-```
-
-## 4.3 Confronto: Pandoc vs Wrapfigure
-
-
- Caratteristica      Pandoc `![...]`           Wrapfigure 
- ---                 ---                       ---
- **Semplicità**      si Molto semplice          no Richiede LaTeX 
- **Riferimenti**     si `@fig:nome`             no `\ref{fig:nome}` 
- **Posizionamento**  Centro pagina             Testo attorno 
- **Quando usare**    Maggior parte dei casi    Solo se necessario 
-
-: Descrizione della tabella {#tbl:tab}
-
-**Raccomandazione:** Usa la sintassi Pandoc (`![...]`) come default. Ricorri a `wrapfigure` solo quando hai davvero bisogno che il testo scorra attorno all'immagine.
-
----
-
-# 5. RIEPILOGO RAPIDO
-
-## Citazioni
-- Semplice: `[@chiave]`
-- Con pagina: `[@chiave, p. 17]`
-- Multiple: `[@chiave1]; [@chiave2]`
-- Blocco: righe che iniziano con `>`
-
-## Tabelle
-
-```csound
-col1    col2    col3
----     ---     ---
-a       b       c
-
-: Didascalia {#tbl:nome}
-
-Riferimento: `@tbl:nome`
-```
-
-## Equazioni
-
-$$
-formula LaTeX
-$$ {#eq:nome}
-
-Riferimento: `@eq:nome`
-
-## Figure
-
-![Didascalia](docs/images/img001.png){#fig:nome width=60%}
-
-Riferimento: @fig:nome
-
----
-
-# 6. CONSIGLI PRATICI
-
-1. **Identificatori univoci:** Usa nomi descrittivi e unici per ogni elemento (`#fig:spettrogramma`, `#tbl:risultati`, `#eq:fourier`)
-
-2. **Percorsi delle immagini:** Usa sempre percorsi relativi dalla root del progetto (es. `docs/images/foto.png`)
-
-3. **Dimensioni immagini:** Parti da `width=60%` e aggiusta in base alle necessità (valori comuni: 40%, 50%, 70%, 80%)
-
-4. **Riferimenti incrociati:** Usa sempre `@fig:`, `@tbl:`, `@eq:` per riferimenti automatici che si aggiornano con la numerazione
-
-5. **Bibliografia:** Assicurati che le chiavi nel file `.bib` corrispondano esattamente a quelle usate nelle citazioni (case-sensitive!)
-
-6. **Testing:** Compila frequentemente il PDF per verificare che riferimenti e citazioni funzionino correttamente
-
----
-
-# Sezione di esempio con tutti gli elementi
-
-Di seguito un esempio che integra tutti gli elementi:
-
-La sintesi granulare, introdotta da Curtis Roads [@dannenberg2003], si basa sulla manipolazione di brevi segmenti sonori. Come afferma Del Duca [@delduca1987, p. 45]:
-
-> La granularità del suono permette un controllo microscopico 
-> della materia sonora, aprendo possibilità compositive inedite.
-
-![Rappresentazione schematica di un grano sonoro](docs/images/img001.png){#fig:grano width=50%}
-
-La Figura @fig:grano illustra la struttura temporale di un singolo grano. I parametri fondamentali sono riassunti nella Tabella @tbl:param_grano.
-
-```csound
-Parametro       Range           Descrizione
------------     -----------     --------------------------
-Durata          5-100 ms        Lunghezza del grano
-Inviluppo       Gaussiano       Forma della finestra
-Densità         10-1000 Hz      Frequenza di emissione
-```
-
-: Parametri della sintesi granulare {#tbl:param_grano}
-
-La relazione tra densità e sovrapposizione è espressa dall'Equazione @eq:overlap:
-
-$$
-O = \frac{D \cdot T}{1000}
-$$ {#eq:overlap}
-
-dove $O$ è il fattore di sovrapposizione, $D$ la densità in Hz e $T$ la durata in millisecondi.
 
 
 # CONCLUSIONE
