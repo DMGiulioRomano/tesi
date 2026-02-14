@@ -27,7 +27,7 @@ Queste applicazioni incarnano la promessa della modernizzazione ecologica inform
 
 **L'AI come problema ambientale.** Tuttavia, il Capitolo 3 ha documentato sistematicamente come l'infrastruttura stessa dell'AI generi impatti ambientali significativi e in rapida crescita:
 
-- **Consumo energetico**: l'addestramento di un singolo grande modello può emettere 284.000 kg di CO₂e, equivalente a 5 automobili durante l'intero ciclo di vita [@Strubell2019]; GPT-3 ha consumato 1.287 MWh [@Patterson2021]; le proiezioni indicano che il consumo dei data center raddoppierà entro il 2026, raggiungendo 945 TWh [@IEA2024]
+- **Consumo energetico**: l'addestramento di un singolo grande modello può emettere 284.000 kg di CO2e, equivalente a 5 automobili durante l'intero ciclo di vita [@Strubell2019]; GPT-3 ha consumato 1.287 MWh [@Patterson2021]; le proiezioni indicano che il consumo dei data center raddoppierà entro il 2026, raggiungendo 945 TWh [@IEA2024]
 
 - **Consumo idrico**: l'addestramento di GPT-3 ha evaporato circa 700.000 litri di acqua dolce [@Li2023]; Google ha prelevato 25 miliardi di litri nel 2022; i data center vengono costruiti in regioni già water-scarce, creando conflitti con comunità locali
 
