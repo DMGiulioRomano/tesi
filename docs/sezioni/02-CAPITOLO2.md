@@ -2,9 +2,9 @@
 
 ## 2.1 Introduzione: AI for Green
 
-Nel dibattito contemporaneo sul rapporto tra tecnologia digitale e ambiente, l'intelligenza artificiale occupa una posizione peculiare e per certi versi paradossale. Da un lato, come vedremo nel Capitolo 3, l'AI rappresenta una delle tecnologie più materialmente intensive dell'economia digitale, con un'impronta energetica, idrica e di risorse naturali che solleva crescenti preoccupazioni. Dall'altro, l'AI viene presentata e utilizzata come uno strumento potenzialmente trasformativo per affrontare la crisi climatica – capace di ottimizzare sistemi energetici, monitorare ecosistemi, prevedere disastri naturali e accelerare la ricerca scientifica in direzione della sostenibilità.
+L'intelligenza artificiale viene presentata come strumento potenzialmente trasformativo per affrontare la crisi climatica: ottimizzazione di sistemi energetici, monitoraggio di ecosistemi, previsione di disastri naturali, accelerazione della ricerca scientifica verso la sostenibilità.
 
-Questo capitolo si concentra su quest'ultima dimensione: l'AI come *alleata* della transizione ecologica. Adottiamo qui la prospettiva che [@vanWynsberghe2021SustainableAI] definisce "AI for sustainability" – l'insieme delle applicazioni dell'intelligenza artificiale specificatamente orientate a ridurre le emissioni di gas serra, proteggere gli ecosistemi e facilitare l'adattamento ai cambiamenti climatici già in corso. In termini del framework teorico elaborato nel Capitolo 1, questo significa esaminare l'AI attraverso la lente più ottimista della modernizzazione ecologica informazionale: l'AI come incarnazione della razionalità ecologica mediata dall'informazione, come strumento di governance ambientale trasparente e efficiente, come tecnologia che promette di disaccoppiare crescita economica e degradazione ambientale.
+Questo capitolo esamina l'AI come *alleata* della transizione ecologica, documentando le applicazioni che [@vanWynsberghe2021SustainableAI] definisce "AI for sustainability" – sistemi specificatamente orientati a ridurre emissioni, proteggere ecosistemi e facilitare l'adattamento climatico.
 
 ### 2.1.1 Mitigazione e adattamento: le due strategie
 
@@ -349,7 +349,7 @@ Tuttavia, è cruciale mantenere una prospettiva equilibrata. Come sottolineato n
 
 E soprattutto, come documenteremo nel Capitolo 3, l'infrastruttura computazionale che rende possibili queste applicazioni benefiche ha essa stessa un'impronta ecologica considerevole. La promessa dell'AI come strumento di razionalità ecologica deve essere valutata insieme alla realtà dell'AI come sistema ad alta intensità energetica, idrica e materiale. Solo tenendo insieme entrambe le prospettive – l'AI for Green e l'AI come problema ambientale – possiamo sviluppare una comprensione sociologicamente informata del ruolo dell'intelligenza artificiale nell'Antropocene.
 
-# 2.4 Applicazioni emergenti e settoriali
+## 2.4 Applicazioni emergenti e settoriali
 
 Le sezioni precedenti hanno documentato le applicazioni dell'intelligenza artificiale nei due domini dove gli impatti sono potenzialmente più significativi per la mitigazione climatica: il sistema energetico, responsabile del 73% delle emissioni globali di gas serra, e i sistemi di monitoraggio e previsione per l'adattamento ai cambiamenti climatici. Ma l'AI si sta diffondendo come strumento di sostenibilità ambientale in una molteplicità di altri settori. Questa sezione presenta brevemente alcune applicazioni emergenti che, pur non raggiungendo ancora la maturità e l'impatto documentato delle precedenti, illustrano la **trasversalità** dell'AI come tecnologia abilitante per la transizione ecologica.
 
@@ -438,3 +438,21 @@ Dal punto di vista della teoria della modernizzazione ecologica, queste applicaz
 Tuttavia, come sottolineato ripetutamente in letteratura, questi guadagni potenziali dipendono fortemente dal contesto istituzionale ed economico. Se gli incentivi di mercato non sono allineati con gli obiettivi ambientali – ad esempio, se il trasporto è così economico che conviene far volare i gamberi dall'altra parte del mondo – l'ottimizzazione guidata dall'AI può persino peggiorare il problema invece di risolverlo. E come vedremo nel Capitolo 3, c'è il rischio concreto che i guadagni di efficienza si traducano in aumenti del consumo totale attraverso il paradosso di Jevons.
 
 Inoltre, è importante riconoscere che queste applicazioni sono ancora **emergenti** piuttosto che mature. A differenza delle smart grid o dei sistemi di previsione meteorologica, dove abbiamo deployment operativi su larga scala e dati empirici sugli impatti, molte applicazioni in agricoltura di precisione ed economia circolare sono ancora in fase pilota o limitata a contesti specifici. La letteratura parla spesso di "potenziale" e "promesse" piuttosto che di risultati consolidati. Sarà necessaria ricerca ulteriore per quantificare con precisione i benefici netti, tenendo conto degli effetti sistemici e dei possibili trade-off.
+
+## 2.5 La prospettiva della modernizzazione ecologica: interpretazione
+
+Le applicazioni documentate nelle sezioni precedenti incarnano diversi concetti chiave della teoria della modernizzazione ecologica informazionale [@Mol2008].
+
+**Razionalità ecologica attraverso informazione.** L'AI permette di rendere "visibile l'invisibile": emissioni che prima sfuggivano al monitoraggio diventano tracciabili in tempo reale (smart grid), foreste remote vengono monitorate satellitarmente, alluvioni in bacini non strumentati diventano prevedibili. Questa capacità di generare, elaborare e utilizzare informazione ambientale su scala senza precedenti rappresenta l'essenza della governance informazionale teorizzata da Mol: la razionalità ecologica mediata dai dati.
+
+**Efficienza e ottimizzazione.** Le applicazioni in smart grid, previsioni meteorologiche e agricoltura di precisione promettono guadagni di efficienza sostanziali: meno energia sprecata nella trasmissione, meno acqua e fertilizzanti utilizzati, maggiore accuratezza nelle previsioni che riduce danni da disastri. Questo allineamento tra efficienza economica ed ecologica è precisamente ciò che la EMT identifica come motore del cambiamento: la sostenibilità diventa razionalità economica.
+
+**Governance multi-attore.** Lo sviluppo e il deployment di queste tecnologie coinvolgono aziende tech (Google, DeepMind, Huawei), istituzioni pubbliche (agenzie meteorologiche, ministeri dell'ambiente), ONG (Global Forest Watch), e partnership pubblico-private. Questo ecosistema multi-attore riflette il modello di governance della EMT, dove il cambiamento non è imposto top-down dallo Stato ma emerge da coordinamento tra attori diversi.
+
+**Limiti e condizioni di efficacia.** Tuttavia, le evidenze empiriche rivelano anche limiti significativi. Come riconoscono [@Kaack2022], le applicazioni climate-positive rappresentano una **frazione minuscola** dell'uso totale dell'AI - la maggior parte del computing è dedicata a pubblicità, raccomandazioni, social media. Inoltre, l'efficacia di queste applicazioni dipende fortemente dal contesto istituzionale: smart grid funzionano solo se i sistemi di incentivazione allineano interessi economici e ambientali; il monitoraggio della deforestazione è inutile senza enforcement legale; l'agricoltura di precisione può ridurre input ma anche intensificare la monocoltura se non regolata.
+
+La domanda critica che emerge non è quindi "l'AI può aiutare la transizione ecologica?" (la risposta è chiaramente sì, in linea di principio) ma piuttosto: **sotto quali condizioni istituzionali, economiche e politiche queste potenzialità si realizzano effettivamente?** E, crucialmente, **a quale costo ambientale complessivo?** Quest'ultima domanda ci porta al Capitolo 3.
+
+## 2.6 Sintesi del capitolo
+
+Le applicazioni documentate incarnano la promessa della modernizzazione ecologica informazionale: razionalità ecologica attraverso dati, efficienza e governance multi-attore. Tuttavia, queste applicazioni climate-positive rappresentano una frazione minuscola dell'uso totale dell'AI [@Kaack2022], e la loro efficacia dipende da condizioni istituzionali ed economiche specifiche. La domanda che emerge è: a quale costo ambientale complessivo?
