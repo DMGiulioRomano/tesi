@@ -21,7 +21,7 @@ La risposta alla domanda di ricerca centrale è necessariamente complessa e dial
 
 - **Monitoraggio climatico e gestione dei disastri**: modelli AI che rivoluzionano le previsioni meteorologiche, sistemi di allerta precoce per alluvioni che raggiungono 460+ milioni di persone in 80+ paesi, monitoraggio satellitare della deforestazione in tempo reale [@Nearing2024]
 
-- **Applicazioni settoriali**: agricoltura di precisione, ottimizzazione delle supply chain, economia circolare, tracciamento dei materiali per il riciclo [@Vinuesa2020]
+- **Applicazioni settoriali**: agricoltura di precisione, ottimizzazione delle supply chain, economia circolare, tracciamento dei materiali per il riciclo [@Vinuesa2020RoleAI]
 
 Queste applicazioni incarnano la promessa della modernizzazione ecologica informazionale: l'AI permette di rendere visibile l'invisibile (emissioni, deforestazione, sprechi), di ottimizzare sistemi complessi, di prevedere eventi futuri, di coordinare processi distribuiti. In questa prospettiva, l'AI appare come l'incarnazione tecnologica più avanzata del disaccoppiamento tra crescita economica e degradazione ambientale che la EMT identifica come obiettivo della transizione ecologica.
 
