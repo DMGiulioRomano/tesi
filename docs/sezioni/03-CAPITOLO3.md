@@ -368,25 +368,4 @@ Verso una modernizzazione ecologica "riflessiva" che incorpori governance democr
 
 ## 3.8 Sintesi del capitolo
 
-Questo capitolo ha rovesciato la prospettiva ottimista del Capitolo 2, esaminando l'intelligenza artificiale non come soluzione alla crisi climatica ma come *parte del problema* – un'infrastruttura tecnologica con un'impronta ecologica significativa e in rapida espansione.
-
-**I costi ambientali documentati.** Abbiamo documentato quattro dimensioni principali dell'impatto ambientale dell'AI:
-
-1. **Consumo energetico** (sezione 3.2): L'addestramento di grandi modelli genera emissioni equivalenti a quelle di automobili durante l'intero ciclo di vita [@Strubell2019]; l'inferenza rappresenta l'80-90% del computing totale [@deVries2023]; i data center globali consumeranno circa 945 TWh entro il 2026, raddoppiando rispetto a pochi anni fa [@IEA2024]
-
-2. **Consumo idrico** (sezione 3.3): L'addestramento di GPT-3 ha consumato circa 700.000 litri di acqua direttamente evaporata [@Li2023]; i data center vengono costruiti in regioni già water-scarce, creando conflitti con comunità locali; il 50% della popolazione mondiale vivrà in aree a stress idrico entro il 2050 [@Li2023]
-
-3. **Materiali e rifiuti** (sezione 3.4): L'estrazione di terre rare genera 75.000 litri di acque acide per tonnellata raffinata [@Crawford2021]; il 54% dei minerali critici proviene da territori indigeni, il 62% da zone drought-prone [@Luccioni2025]; 62 milioni di tonnellate di e-waste nel 2022, solo 22% riciclato formalmente [@Luccioni2025]
-
-4. **Effetti sistemici e rimbalzo** (sezione 3.5): I guadagni di efficienza portano a modelli più grandi e uso più diffuso, non a riduzioni assolute; l'AI viene usata per espandere industrie fossili (es: Microsoft-ExxonMobil: +50.000 barili/giorno, +640% emissioni rispetto ai target di carbon removal) [@Luccioni2025]
-
-**Il paradosso rivelato.** L'evidenza empirica rivela un paradosso profondo: l'AI è simultaneamente presentata come *strumento della transizione ecologica* (Capitolo 2) e manifesta come *vettore di intensificazione del metabolismo industriale* (Capitolo 3). Questo non è una contraddizione superficiale che possa essere risolta con semplici aggiustamenti tecnici, ma riflette le tensioni strutturali tra le logiche del capitalismo (crescita, profitto, competizione) e gli imperativi ecologici (limiti planetari, sostenibilità, giustizia).
-
-**Le implicazioni teoriche.** Dal punto di vista della teoria sociologica (sezione 3.7), il caso dell'AI conferma le critiche alla modernizzazione ecologica "debole": la subordinazione della razionalità ecologica a quella economica [@Foster2012; @Ewing2017], il "treadmill of production" che impone crescita indipendentemente dalle conseguenze [@Foster2012], il paradosso di Jevons che vanifica i guadagni di efficienza [@Luccioni2025], l'illusione della dematerializzazione digitale [@Crawford2021].
-
-Verso una modernizzazione ecologica "forte" e riflessiva che incorpori governance democratica, trasparenza obbligatoria, internalizzazione dei costi ambientali, attenzione alla giustizia distributiva, e possibilmente limiti assoluti alla crescita di settori particolarmente impattanti [@Li2023; @Luccioni2025; @Kaack2022].
-
-**Domanda aperta per le Conclusioni.** La domanda che emerge da questa analisi dialettica – l'AI come alleata (Cap. 2) e come problema (Cap. 3) – non è semplicemente "l'AI è buona o cattiva per l'ambiente?" ma piuttosto: **sotto quali condizioni istituzionali, economiche e politiche l'intelligenza artificiale potrebbe effettivamente contribuire a una transizione ecologica giusta e sostenibile, piuttosto che riprodurre e intensificare le contraddizioni del capitalismo verde?**
-
-Questa domanda guiderà la sintesi finale nelle Conclusioni, dove integreremo le evidenze empiriche e le riflessioni teoriche di entrambi i capitoli per offrire una valutazione sociologicamente informata del ruolo dell'AI nella modernizzazione ecologica contemporanea.
-
+L'evidenza documentata rivela il paradosso dell'AI: una tecnologia presentata come strumento della transizione ecologica che manifesta un'impronta ambientale significativa e in rapida crescita attraverso consumi energetici, idrici e materiali. I guadagni di efficienza computazionale portano paradossalmente a maggiore consumo totale (paradosso di Jevons), mentre i costi ambientali vengono esternalizzati su comunità vulnerabili. Questo conferma le critiche alla modernizzazione ecologica "debole" e richiede una valutazione che integri dimensioni di giustizia, governance democratica e trasparenza.

@@ -146,29 +146,16 @@ Sulla base dell'analisi condotta, emergono quattro aree di intervento prioritari
 
 ### Limiti della ricerca
 
-Questa tesi presenta alcuni limiti metodologici che è importante esplicitare:
-
-**Metodologia compilativa.** La ricerca si basa esclusivamente su analisi critica della letteratura esistente, senza produrre dati empirici originali. Non abbiamo condotto misurazioni dirette di consumi energetici, interviste con sviluppatori AI, o studi di caso etnografici su comunità impattate da data center. Questo limita la possibilità di verificare indipendentemente le affermazioni trovate in letteratura o di generare insights completamente nuovi.
-
-**Focus prevalentemente ambientale.** Abbiamo privilegiato gli aspetti ecologici (energia, acqua, materiali, emissioni) rispetto alle dimensioni sociali ed economiche della sostenibilità. Questioni cruciali come il lavoro precario nelle catene di fornitura dell'AI, la concentrazione di potere nelle tech corporations, o gli impatti occupazionali dell'automazione sono rimaste in secondo piano.
-
-**Dati in rapida evoluzione.** Il settore AI evolve con estrema rapidità. Alcuni dati utilizzati – particolarmente quelli sui consumi energetici e sulle dimensioni dei modelli – potrebbero essere già superati al momento della pubblicazione di questa tesi. Le proiezioni dell'IEA per il 2026 [@IEA2024] sono stime soggette a incertezza.
-
-**Limitazioni del framework teorico.** La teoria della modernizzazione ecologica, pur utile, ha i suoi bias: è stata sviluppata principalmente nel contesto europeo e nordamericano, potrebbe non cogliere pienamente dinamiche specifiche del Sud globale. L'applicazione all'AI richiede estensioni teoriche che questa tesi solo abbozza.
+Questa tesi adotta un approccio compilativo focalizzato sull'impronta ambientale dell'AI; dimensioni sociali cruciali (lavoro, concentrazione di potere, impatti occupazionali) rimangono in secondo piano. La rapida evoluzione del settore implica che alcuni dati potrebbero essere superati. L'applicazione della EMT all'AI richiede estensioni teoriche che questa tesi solo abbozza.
 
 ### Direzioni per ricerche future
 
-L'analisi condotta apre diverse direzioni promettenti per ricerche future:
+Questa analisi apre diverse direzioni promettenti:
 
-**Studi empirici longitudinali.** Servono ricerche che traccino nel tempo l'evoluzione effettiva dell'impronta ambientale dell'AI a livello nazionale e settoriale, superando le stime attuali. Quali paesi stanno effettivamente riducendo l'intensità carbonica della loro infrastruttura AI? Gli impegni di carbon neutrality si traducono in riduzioni assolute o solo relative delle emissioni?
+- **Studi empirici longitudinali** sull'evoluzione dell'impronta ambientale dell'AI a livello nazionale, verificando se gli impegni di carbon neutrality si traducono in riduzioni assolute
+- **Analisi comparativa Nord-Sud** per approfondire le asimmetrie: chi beneficia dell'AI e chi paga i costi ambientali, con quale possibilità di ri-distribuzione equa
+- **Governance partecipativa e alternative tecnologiche**: casi di coinvolgimento democratico nelle decisioni su infrastrutture AI, modelli alternativi (computazione distribuita, modelli specializzati vs general-purpose, governance cooperativa)
 
-**Analisi comparativa Nord-Sud globale.** Approfondire le asimmetrie documentate in questa tesi: chi beneficia effettivamente dell'AI (per classe, regione, paese) e chi paga i costi ambientali? Come si potrebbe ri-distribuire equamente benefici e oneri?
-
-**Governance partecipativa dell'AI ambientale.** Ricerca-azione su esperimenti di governance democratica: casi di comunità locali che hanno effettivamente partecipato a decisioni su data center; tentativi di coinvolgere il Sud globale nelle scelte su deployment dell'AI; meccanismi istituzionali innovativi per accountability ambientale.
-
-**Effetti macro-economici degli effetti rimbalzo.** Modellizzazione economica sofisticata per quantificare gli effetti sistemici: quanto dell'efficienza guadagnata viene effettivamente "ri-spesa" in maggiore utilizzo? Esistono settori dove il rimbalzo supera il 100% (backfire completo)?
-
-**Alternative tecnologiche e organizzative.** Esplorare modelli di AI radicalmente diversi: computazione distribuita vs centralizzata; modelli più piccoli e specializzati vs giganteschi e general-purpose; governance cooperativa vs proprietaria; AI open-source vs proprietaria. Quali configurazioni sono strutturalmente più compatibili con sostenibilità ecologica e giustizia?
 
 ## Considerazioni finali
 
