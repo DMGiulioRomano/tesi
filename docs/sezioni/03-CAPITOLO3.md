@@ -16,11 +16,11 @@ Questa materialità nascosta ha conseguenze ambientali che devono essere analizz
 
 ### 3.2.1 L'energia per l'addestramento dei modelli
 
-Il processo di addestramento di modelli di machine learning – in particolare dei grandi modelli di linguaggio (*Large Language Models*, LLM) e dei sistemi di deep learning – richiede quantità straordinarie di energia computazionale. Come ha documentato il pionieristico studio di [@Strubell2019], l'addestr amento di un singolo grande modello di elaborazione del linguaggio naturale può generare emissioni di CO₂ equivalenti a quelle prodotte da **cinque automobili durante l'intero ciclo di vita** – dalla produzione allo smaltimento.
+Il processo di addestramento di modelli di machine learning – in particolare dei grandi modelli di linguaggio (*Large Language Models*, LLM) e dei sistemi di deep learning – richiede quantità straordinarie di energia computazionale. Come ha documentato il pionieristico studio di [@Strubell2019], l'addestr amento di un singolo grande modello di elaborazione del linguaggio naturale può generare emissioni di CO2 equivalenti a quelle prodotte da **cinque automobili durante l'intero ciclo di vita** – dalla produzione allo smaltimento.
 
-I dati empirici sono impressionanti. [@Strubell2019] hanno calcolato che l'addestramento di un modello transformer con ricerca dell'architettura neurale (*neural architecture search*) emette circa **284.000 kg di CO₂e** (CO₂ equivalente). Per contestualizzare: questo corrisponde alle emissioni di 125 voli andata-ritorno tra New York e San Francisco, o al consumo energetico di una famiglia americana media per 57 anni. Anche modelli più piccoli generano impronte significative: un singolo modello BERT base emette circa 652 kg di CO₂e, equivalente a un volo transatlantico [@Strubell2019].
+I dati empirici sono impressionanti. [@Strubell2019] hanno calcolato che l'addestramento di un modello transformer con ricerca dell'architettura neurale (*neural architecture search*) emette circa **284.000 kg di CO2e** (CO2 equivalente). Per contestualizzare: questo corrisponde alle emissioni di 125 voli andata-ritorno tra New York e San Francisco, o al consumo energetico di una famiglia americana media per 57 anni. Anche modelli più piccoli generano impronte significative: un singolo modello BERT base emette circa 652 kg di CO2e, equivalente a un volo transatlantico [@Strubell2019].
 
-**GPT-3: un caso di studio emblematico.** Il modello GPT-3 di OpenAI, alla base di ChatGPT, rappresenta un esempio particolarmente illuminante dell'intensità energetica dell'AI contemporanea. Secondo le stime riportate da [@Patterson2021] e [@Li2023], l'addestramento di GPT-3 ha consumato **1.287 MWh** (megawattora) di elettricità e generato circa **552 tonnellate di CO₂e**. Per dare un ordine di grandezza: 1.287 MWh potrebbero alimentare circa 120 abitazioni americane medie per un anno intero [@Patterson2021].
+**GPT-3: un caso di studio emblematico.** Il modello GPT-3 di OpenAI, alla base di ChatGPT, rappresenta un esempio particolarmente illuminante dell'intensità energetica dell'AI contemporanea. Secondo le stime riportate da [@Patterson2021] e [@Li2023], l'addestramento di GPT-3 ha consumato **1.287 MWh** (megawattora) di elettricità e generato circa **552 tonnellate di CO2e**. Per dare un ordine di grandezza: 1.287 MWh potrebbero alimentare circa 120 abitazioni americane medie per un anno intero [@Patterson2021].
 
 È cruciale sottolineare che questi calcoli si riferiscono a un *singolo* ciclo di addestramento. Nella pratica dello sviluppo di modelli AI, i ricercatori raramente addestrano un modello una volta sola. Il processo tipico coinvolge:
 
@@ -221,7 +221,7 @@ Un esempio citato da [@Luccioni2025] riguarda gli strumenti di "AI writing assis
 
 **Il caso Microsoft-ExxonMobil.** L'esempio più emblematico citato da [@Luccioni2025] riguarda la partnership tra Microsoft e ExxonMobil per l'uso dell'AI nell'esplorazione petrolifera. Microsoft ha sviluppato algoritmi di machine learning per analizzare dati geologici e identificare giacimenti petroliferi con maggiore precisione, permettendo a ExxonMobil di aumentare la produzione di **50.000 barili al giorno** nel bacino Permiano in Texas.
 
-[@Luccioni2025] hanno calcolato che le emissioni di CO₂ derivanti da questo aumento di produzione petrolifera superano di **640 volte** le emissioni che Microsoft dichiara di aver evitato attraverso i suoi progetti di carbon removal (cattura e sequestro del carbonio). In altre parole: mentre pubblicamente Microsoft si impegna per la neutralità carbonica e investe in tecnologie di rimozione della CO₂, privatamente vende servizi AI che causano emissioni centinaia di volte superiori a quelle che dichiara di rimuovere.
+[@Luccioni2025] hanno calcolato che le emissioni di CO2 derivanti da questo aumento di produzione petrolifera superano di **640 volte** le emissioni che Microsoft dichiara di aver evitato attraverso i suoi progetti di carbon removal (cattura e sequestro del carbonio). In altre parole: mentre pubblicamente Microsoft si impegna per la neutralità carbonica e investe in tecnologie di rimozione della CO2, privatamente vende servizi AI che causano emissioni centinaia di volte superiori a quelle che dichiara di rimuovere.
 
 Questo non è un caso isolato. [@Kaack2022] documentano l'uso diffuso dell'AI in:
 - **Esplorazione petrolifera e di gas**: ottimizzazione delle trivellazioni, identificazione di giacimenti, riduzione dei costi di esplorazione
@@ -251,7 +251,7 @@ Questa cultura è profondamente radicata negli incentivi della ricerca accademic
 
 **Green AI: efficienza come metrica primaria.** In contrasto, [@Schwartz2020] propongono il concetto di "Green AI": ricerca che considera l'efficienza computazionale non come vincolo secondario ma come obiettivo primario. Questo significa:
 
-1. **Riportare costi computazionali**: tutti i paper dovrebbero includere non solo l'accuratezza raggiunta, ma anche il tempo di addestramento, il numero di operazioni in virgola mobile (FLOPs), il consumo energetico stimato, le emissioni di CO₂
+1. **Riportare costi computazionali**: tutti i paper dovrebbero includere non solo l'accuratezza raggiunta, ma anche il tempo di addestramento, il numero di operazioni in virgola mobile (FLOPs), il consumo energetico stimato, le emissioni di CO2
 
 2. **Valorizzare l'efficienza nelle valutazioni**: le conferenze e i journal dovrebbero dare credito a metodi che raggiungono prestazioni competitive con meno risorse, anche se non ottengono il punteggio assoluto più alto
 
@@ -310,19 +310,19 @@ Questa asimmetria informativa rende estremamente difficile per ricercatori indip
 
 La mancanza di trasparenza discussa nella sezione precedente si intreccia con pratiche sistematiche di **greenwashing** – la presentazione pubblica di un'immagine di sostenibilità ambientale che maschera o contraddice le pratiche effettive dell'azienda. Come documentano [@Crawford2021] e [@Luccioni2025], le grandi tech companies hanno sviluppato narrative sofisticate che enfatizzano selettivamente gli aspetti "green" dell'AI mentre minimizzano o occultano gli impatti negativi.
 
-**Le dichiarazioni di "carbon neutrality" e i loro limiti.** Molte aziende tech – incluse Google, Microsoft, Amazon – hanno annunciato impegni ambiziosi verso la "carbon neutrality" o addirittura la "carbon negativity" (rimuovere più CO₂ di quanto emesso). Tuttavia, come osservano [@Crawford2021] e [@Luccioni2025], questi impegni si basano prevalentemente su meccanismi di *compensazione* (carbon offsets) piuttosto che su riduzioni effettive delle emissioni.
+**Le dichiarazioni di "carbon neutrality" e i loro limiti.** Molte aziende tech – incluse Google, Microsoft, Amazon – hanno annunciato impegni ambiziosi verso la "carbon neutrality" o addirittura la "carbon negativity" (rimuovere più CO2 di quanto emesso). Tuttavia, come osservano [@Crawford2021] e [@Luccioni2025], questi impegni si basano prevalentemente su meccanismi di *compensazione* (carbon offsets) piuttosto che su riduzioni effettive delle emissioni.
 
 I carbon offsets funzionano così: un'azienda che genera emissioni può "compensarle" finanziando progetti che dovrebbero rimuovere o evitare emissioni equivalenti altrove – piantare alberi, investire in energie rinnovabili, proteggere foreste. Sulla carta, il bilancio netto risulta zero o negativo. Ma questo approccio presenta problemi strutturali ben documentati dalla letteratura scientifica [@Luccioni2025]:
 
 1. **Addizionalità incerta**: molti progetti di offset sarebbero avvenuti comunque senza il finanziamento, quindi non rappresentano riduzioni *aggiuntive* di emissioni
 
-2. **Permanenza dubbia**: gli alberi piantati potrebbero morire, bruciare in incendi, o essere tagliati nei decenni successivi, rilasciando nuovamente la CO₂
+2. **Permanenza dubbia**: gli alberi piantati potrebbero morire, bruciare in incendi, o essere tagliati nei decenni successivi, rilasciando nuovamente la CO2
 
-3. **Problemi di quantificazione**: calcolare esattamente quanta CO₂ un progetto rimuove o evita è estremamente complesso e soggetto a incertezze
+3. **Problemi di quantificazione**: calcolare esattamente quanta CO2 un progetto rimuove o evita è estremamente complesso e soggetto a incertezze
 
 4. **Giustizia ambientale**: molti progetti di offset avvengono nel Sud globale e possono avere impatti negativi su comunità locali (es: espropriazione di terre per piantagioni)
 
-Soprattutto, come criticano [@Luccioni2025], gli offset permettono alle aziende di continuare ad *aumentare* le loro emissioni assolute mentre dichiarano di essere "carbon neutral" – un paradosso contabile che non risolve il problema fisico dell'accumulo di CO₂ in atmosfera.
+Soprattutto, come criticano [@Luccioni2025], gli offset permettono alle aziende di continuare ad *aumentare* le loro emissioni assolute mentre dichiarano di essere "carbon neutral" – un paradosso contabile che non risolve il problema fisico dell'accumulo di CO2 in atmosfera.
 
 **Il caso Microsoft: contraddizioni tra dichiarazioni e pratiche.** Un esempio particolarmente emblematico analizzato da [@Luccioni2025] riguarda Microsoft. Pubblicamente, l'azienda si è impegnata a diventare "carbon negative" entro il 2030, rimuovendo più carbonio di quanto ne emette. Ha investito miliardi in progetti di carbon removal e pubblica report di sostenibilità dettagliati che enfatizzano questi impegni.
 

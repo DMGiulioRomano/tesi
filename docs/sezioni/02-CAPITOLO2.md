@@ -25,7 +25,7 @@ La survey più completa e sistematica sulle applicazioni dell'intelligenza artif
 3. **Edifici e città**: gestione intelligente del riscaldamento e raffreddamento, pianificazione urbana sostenibile
 4. **Industria**: ottimizzazione delle supply chain, riduzione degli sprechi, scoperta di nuovi materiali a basso impatto
 5. **Agricoltura e foreste**: agricoltura di precisione, monitoraggio della deforestazione, gestione sostenibile delle risorse naturali
-6. **Rimozione della CO₂**: ottimizzazione dei sistemi di cattura diretta dall'atmosfera, sequestro geologico
+6. **Rimozione della CO2**: ottimizzazione dei sistemi di cattura diretta dall'atmosfera, sequestro geologico
 7. **Previsione climatica**: miglioramento dei modelli climatici, integrazione di dati eterogenei
 8. **Previsione di eventi estremi**: allerta precoce per alluvioni, uragani, incendi, ondate di calore
 9. **Impatti sociali**: monitoraggio degli ecosistemi, supporto all'adattamento delle comunità vulnerabili
@@ -162,7 +162,7 @@ Le applicazioni dell'AI alla transizione energetica documentate in questa sezion
 
 **Gestione della complessità.** In tutti i casi, l'AI affronta problemi caratterizzati da un enorme numero di variabili interdipendenti, pattern non lineari, e necessità di decisioni in tempo reale. Questi sono precisamente i tipi di problemi dove il machine learning eccelle rispetto agli approcci tradizionali.
 
-**Disaccoppiamento potenziale.** Dal punto di vista della modernizzazione ecologica, queste applicazioni promettono di realizzare il "disaccoppiamento" tra servizi energetici (elettricità affidabile, trasporti, riscaldamento) e impatto ambientale (emissioni di CO₂). Non richiedono che i consumatori riducano il loro utilizzo di energia, ma che la stessa quantità di energia sia fornita in modo più pulito ed efficiente.
+**Disaccoppiamento potenziale.** Dal punto di vista della modernizzazione ecologica, queste applicazioni promettono di realizzare il "disaccoppiamento" tra servizi energetici (elettricità affidabile, trasporti, riscaldamento) e impatto ambientale (emissioni di CO2). Non richiedono che i consumatori riducano il loro utilizzo di energia, ma che la stessa quantità di energia sia fornita in modo più pulito ed efficiente.
 
 **Scalabilità economica.** Un algoritmo ML, una volta sviluppato, può essere replicato a costo marginale quasi nullo. Una smart grid ottimizzata da AI in California può ispirare implementazioni simili in Europa o Asia. Un modello predittivo per la produzione solare può essere adattato a diversi contesti geografici. Questa scalabilità è cruciale per la rapidità della transizione globale.
 
@@ -357,13 +357,13 @@ In particolare, ci concentriamo su due ambiti dove l'AI sta dimostrando un poten
 
 ### 2.4.1 Agricoltura di precisione: ottimizzare la produzione alimentare
 
-L'agricoltura industriale moderna costituisce una fonte significativa di emissioni di gas serra, ma non per le ragioni che intuitivamente potremmo pensare. Sebbene le piante assorbano CO₂ dall'atmosfera, i processi associati alla produzione agricola intensiva generano impatti ambientali considerevoli attraverso tre meccanismi principali [Rolnick]: 
+L'agricoltura industriale moderna costituisce una fonte significativa di emissioni di gas serra, ma non per le ragioni che intuitivamente potremmo pensare. Sebbene le piante assorbano CO2 dall'atmosfera, i processi associati alla produzione agricola intensiva generano impatti ambientali considerevoli attraverso tre meccanismi principali [Rolnick]: 
 
 **Primo, la preparazione del terreno.** La terra viene generalmente spogliata della vegetazione esistente, rilasciando il carbonio sequestrato. Il processo di aratura espone il suolo superficiale all'aria, rilasciando così il carbonio che era stato trattenuto negli aggregati del suolo e distruggendo i microrganismi che contribuiscono al sequestro.
 
-**Secondo, l'uso di fertilizzanti azotati.** Poiché le pratiche agricole intensive impoveriscono il suolo di nutrienti, i fertilizzanti a base di azoto devono essere aggiunti nuovamente al sistema. La sintesi di questi fertilizzanti consuma quantità enormi di energia – circa il 2% del consumo energetico globale. Inoltre, mentre parte di questo azoto viene assorbito dalle piante o trattenuto nel suolo, una parte significativa viene convertita in protossido di azoto (N₂O), un gas serra circa 300 volte più potente della CO₂.
+**Secondo, l'uso di fertilizzanti azotati.** Poiché le pratiche agricole intensive impoveriscono il suolo di nutrienti, i fertilizzanti a base di azoto devono essere aggiunti nuovamente al sistema. La sintesi di questi fertilizzanti consuma quantità enormi di energia – circa il 2% del consumo energetico globale. Inoltre, mentre parte di questo azoto viene assorbito dalle piante o trattenuto nel suolo, una parte significativa viene convertita in protossido di azoto (N2O), un gas serra circa 300 volte più potente della CO2.
 
-**Terzo, le emissioni da allevamento.** Il bestiame e la coltivazione del riso generano metano, un gas serra molto più potente della CO₂ stessa.
+**Terzo, le emissioni da allevamento.** Il bestiame e la coltivazione del riso generano metano, un gas serra molto più potente della CO2 stessa.
 
 #### Le promesse dell'agricoltura di precisione
 
@@ -389,7 +389,7 @@ Anche se la letteratura scientifica resta prudente nel quantificare i benefici n
 
 #### Remote sensing per la gestione del territorio
 
-Tecniche di ML possono essere utilizzate per supportare i decisori politici e gli agronomi. Ad esempio, il telerilevamento con droni e satelliti potrebbe eseguire il rilevamento del metano e la stima dello stock di carbonio, che potrebbero essere utilizzati per incentivare gli agricoltori a sequestrare più carbonio e ridurre le emissioni [Rolnick]. Le telecamere iperspettrali – che possono registrare diverse centinaia di diverse lunghezze d'onda invece del semplice rosso, verde e blu – forniscono informazioni sull'interazione tra luce e sostanze chimiche individuali. Molti satelliti sono dotati di tali telecamere e possono eseguire, in una certa misura, stime delle emissioni di CO₂, CH₄ (metano), H₂O e N₂O (protossido di azoto).
+Tecniche di ML possono essere utilizzate per supportare i decisori politici e gli agronomi. Ad esempio, il telerilevamento con droni e satelliti potrebbe eseguire il rilevamento del metano e la stima dello stock di carbonio, che potrebbero essere utilizzati per incentivare gli agricoltori a sequestrare più carbonio e ridurre le emissioni [Rolnick]. Le telecamere iperspettrali – che possono registrare diverse centinaia di diverse lunghezze d'onda invece del semplice rosso, verde e blu – forniscono informazioni sull'interazione tra luce e sostanze chimiche individuali. Molti satelliti sono dotati di tali telecamere e possono eseguire, in una certa misura, stime delle emissioni di CO2, CH₄ (metano), H2O e N2O (protossido di azoto).
 
 ### 2.4.2 Ottimizzazione della supply chain e economia circolare
 
