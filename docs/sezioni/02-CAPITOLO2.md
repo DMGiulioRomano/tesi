@@ -172,7 +172,7 @@ Inoltre, queste applicazioni "AI for Green" rappresentano ancora una piccola fra
 
 Infine, e questo sarà il tema centrale del Capitolo 3, dobbiamo interrogarci sul costo ambientale dell'infrastruttura computazionale stessa. I data center che addestrano modelli di ML per ottimizzare le reti elettriche consumano essi stessi enormi quantità di elettricità. I GPU necessari per il deep learning richiedono minerali rari e generano rifiuti elettronici. Esiste il rischio, come vedremo, che i benefici ambientali delle applicazioni "AI for Green" siano vanificati dall'impronta ecologica dell'AI stessa – un paradosso che la teoria della modernizzazione ecologica fatica a riconoscere.
 
-# 2.3 Monitoraggio climatico e prevenzione dei disastri
+## 2.3 Monitoraggio climatico e prevenzione dei disastri
 
 Se la transizione energetica rappresenta il dominio dove l'AI può fornire il maggiore contributo alla *mitigazione* del cambiamento climatico, il monitoraggio climatico e la prevenzione dei disastri costituiscono il terreno più promettente per l'*adattamento*. In questo ambito, l'intelligenza artificiale sta rivoluzionando sia la nostra capacità di comprendere e prevedere il sistema climatico, sia la nostra capacità di proteggere popolazioni e infrastrutture dagli eventi estremi sempre più frequenti e intensi che caratterizzano l'Antropocene.
 
@@ -180,13 +180,13 @@ Come sottolineato nel Capitolo 1, il monitoraggio ambientale automatizzato su sc
 
 Questa sezione documenta tre aree di applicazione dove l'AI sta generando impatti particolarmente significativi: le previsioni meteorologiche di medio termine, i sistemi di allerta precoce per disastri naturali (con particolare focus sulle alluvioni), e il monitoraggio della biodiversità e della deforestazione.
 
-## 2.3.1 Previsioni meteorologiche basate su AI: una rivoluzione metodologica
+### 2.3.1 Previsioni meteorologiche basate su AI: una rivoluzione metodologica
 
 Le previsioni meteorologiche hanno rappresentato per decenni uno dei trionfi della scienza computazionale applicata. I modelli numerici tradizionali – noti come Numerical Weather Prediction (NWP) systems – si basano sulla simulazione fisica dell'atmosfera: risolvono numericamente le equazioni differenziali che governano la dinamica dei fluidi atmosferici, la termodinamica, la radiazione solare e altri processi fisici. Questi modelli, come il sistema HRES (High RESolution) dell'European Centre for Medium-Range Weather Forecasts (ECMWF), rappresentano il gold standard delle previsioni meteorologiche globali.
 
 Tuttavia, i modelli NWP tradizionali presentano limitazioni significative. Primo, sono computazionalmente estremamente costosi: una singola previsione globale a 10 giorni richiede ore di calcolo su supercomputer massivi, consumando enormi quantità di energia. Secondo, la loro risoluzione spaziale è inevitabilmente limitata dalle risorse computazionali disponibili: aumentare la risoluzione richiede un incremento esponenziale della potenza di calcolo necessaria. Terzo, la loro accuratezza tende a degradare rapidamente oltre i 7-10 giorni di anticipo a causa della natura caotica dell'atmosfera.
 
-### Il paradigma dell'AI meteorologica: GraphCast e l'apprendimento dai dati storici
+#### Il paradigma dell'AI meteorologica: GraphCast e l'apprendimento dai dati storici
 
 Negli ultimi anni, un approccio radicalmente diverso ha iniziato a emergere: invece di simulare esplicitamente la fisica dell'atmosfera, i modelli basati su machine learning *apprendono* le dinamiche atmosferiche direttamente dai dati storici. Questo cambio di paradigma – da modelli basati su equazioni fisiche a modelli basati su pattern appresi dai dati – sta producendo risultati sorprendenti.
 
@@ -204,19 +204,19 @@ La validazione è stata condotta sui dati degli anni 2018-2021, mai visti durant
 
 Analogamente, per eventi di temperatura estrema (ondate di calore e freddo) e per fiumi atmosferici (stretti corridoi di intenso trasporto di vapore acqueo che causano precipitazioni estreme sulla costa occidentale degli Stati Uniti), GraphCast ha dimostrato capacità predittive superiori. Queste non sono variabili per cui il modello è stato esplicitamente ottimizzato durante il training – emerge spontaneamente dalla sua capacità di apprendere pattern atmosferici complessi dai dati storici.
 
-### Pangu-Weather e l'ecosistema emergente di modelli AI
+#### Pangu-Weather e l'ecosistema emergente di modelli AI
 
 GraphCast non è un caso isolato. Quasi contemporaneamente, ricercatori di Huawei hanno sviluppato **Pangu-Weather**, un modello basato su architettura Transformer (la stessa famiglia usata per i grandi modelli linguistici come GPT) che ha dimostrato performance competitive o superiori ai modelli NWP tradizionali. Anche altri gruppi di ricerca stanno producendo modelli ML per previsioni meteorologiche con risultati promettenti.
 
 Questa convergenza di risultati positivi da team indipendenti suggerisce che non si tratta di un artefatto metodologico ma di una genuina superiorità dell'approccio basato su ML, almeno per determinati compiti e orizzonti temporali. Si sta configurando un nuovo ecosistema di modelli meteorologici basati su AI che coesistono e in alcuni casi superano i sistemi tradizionali.
 
-### Effetto di recency e adattamento ai cambiamenti climatici
+#### Effetto di recency e adattamento ai cambiamenti climatici
 
 Un aspetto particolarmente rilevante nel contesto del cambiamento climatico è la capacità di GraphCast di adattarsi a pattern meteorologici in evoluzione. Lam e colleghi hanno addestrato quattro varianti del modello usando dati che si fermavano rispettivamente al 2017, 2018, 2019 e 2020. Hanno scoperto che le performance su dati del 2021 miglioravano progressivamente: il modello addestrato fino al 2020 era più accurato di quello addestrato fino al 2018.
 
 Questo "effetto di recency" suggerisce che GraphCast può catturare tendenze climatiche in atto – pattern meteorologici che stanno cambiando a causa del riscaldamento globale. Questa è una proprietà cruciale: mentre i modelli NWP tradizionali si basano su equazioni fisiche che assumono un sistema climatico stazionario, i modelli ML possono in linea di principio adattarsi a un clima che cambia semplicemente venendo riaddestrati periodicamente con dati recenti.
 
-### Implicazioni per la governance informazionale
+#### Implicazioni per la governance informazionale
 
 La rivoluzione delle previsioni meteorologiche basate su AI ha implicazioni profonde per la governance informazionale discussa nel framework della modernizzazione ecologica:
 
@@ -226,19 +226,19 @@ La rivoluzione delle previsioni meteorologiche basate su AI ha implicazioni prof
 
 **Efficienza energetica.** GraphCast consuma drasticamente meno energia di un modello NWP tradizionale per produrre una previsione equivalente. In un contesto dove ogni riduzione di consumo energetico contribuisce alla mitigazione climatica, questo è un beneficio aggiuntivo non trascurabile – benché, come vedremo nel Capitolo 3, debba essere bilanciato contro i costi energetici del training iniziale del modello.
 
-### Limiti e complementarietà con modelli fisici
+#### Limiti e complementarietà con modelli fisici
 
 È importante sottolineare che i modelli ML meteorologici presentano anche limiti significativi. Primo, sono essenzialmente sistemi di interpolazione statistica: apprendono pattern dai dati storici e li proiettano nel futuro. Questo significa che possono avere difficoltà con eventi senza precedenti o situazioni al di fuori della distribuzione dei dati di training. Secondo, sono "scatole nere" opache: mentre un meteorologo può interpretare cosa sta "pensando" un modello NWP guardando le equazioni e le variabili intermedie, capire *perché* un modello ML fa una certa previsione è molto più difficile. Terzo, i modelli ML dipendono criticamente dalla qualità e completezza dei dati di training.
 
 Per queste ragioni, il futuro più probabile non è la sostituzione completa dei modelli NWP con modelli ML, ma una loro integrazione complementare: modelli ML per previsioni rapide ed efficienti di routine, modelli NWP per situazioni critiche e per validare fisicamente le previsioni ML, e sistemi ibridi che combinano i punti di forza di entrambi gli approcci.
 
-## 2.3.2 Sistemi di allerta precoce per alluvioni: proteggere le popolazioni vulnerabili
+### 2.3.2 Sistemi di allerta precoce per alluvioni: proteggere le popolazioni vulnerabili
 
 Se le previsioni meteorologiche accurate sono il primo anello della catena di protezione dalle catastrofi naturali, i sistemi di allerta precoce specifici per determinati rischi costituiscono l'ultimo miglio – il passaggio dall'informazione meteorologica generale all'azione protettiva concreta per popolazioni a rischio.
 
 Le alluvioni rappresentano uno dei disastri naturali più devastanti e frequenti. Causano migliaia di vittime ogni anno, distruggono infrastrutture critiche, contaminano fonti idriche, e colpiscono in modo sproporzionato le comunità più vulnerabili. Il cambiamento climatico sta intensificando il ciclo idrologico globale: l'atmosfera più calda contiene più vapore acqueo, portando a precipitazioni più intense e concentrate. Molte regioni stanno sperimentando sia siccità più severe (quando non piove) sia alluvioni più devastanti (quando piove).
 
-### Il divario dati globale e la sfida dei bacini non monitorati
+#### Il divario dati globale e la sfida dei bacini non monitorati
 
 Tradizionalmente, le previsioni di alluvioni fluviali si basano su reti di sensori idrometrici (misuratori di livello e flusso dei fiumi) combinati con modelli idrologici che simulano come la pioggia si trasforma in deflusso superficiale e scorre attraverso i bacini idrografici. Questi sistemi funzionano bene dove esistono – tipicamente nei paesi sviluppati con risorse adeguate per installare e mantenere reti di sensori dense.
 
@@ -246,7 +246,7 @@ Il problema è che la maggior parte dei bacini fluviali del mondo non ha alcun m
 
 L'AI offre un percorso per colmare questo divario attraverso approcci che non dipendono da reti di sensori locali ma utilizzano dati globalmente disponibili come immagini satellitari, modelli di elevazione del terreno, e dati meteorologici.
 
-### Google Flood Hub: un caso di studio di democratizzazione della protezione
+#### Google Flood Hub: un caso di studio di democratizzazione della protezione
 
 Il sistema più ambizioso attualmente operativo è **Google Flood Hub**, lanciato nel 2018 e progressivamente espanso fino a coprire oltre 80 paesi e fornire previsioni per più di 460 milioni di persone. Flood Hub rappresenta un esempio paradigmatico di come l'AI possa essere usata per "colmare il divario dati tra Nord e Sud globale", come sottolineato nell'indice della presente tesi.
 
@@ -264,13 +264,13 @@ Particolarmente significativo è l'impatto in paesi come Bangladesh, India, e na
 
 **Interfaccia accessibile e localizzazione.** Flood Hub non è solo un sistema tecnico sofisticato ma anche uno strumento progettato per essere accessibile. Le previsioni sono visualizzate su mappe interattive disponibili pubblicamente online, con informazioni tradotte in lingue locali. Le allerte possono essere integrate con servizi di notifica via SMS o attraverso canali di comunicazione già usati dalle comunità locali.
 
-### Giustizia climatica e riduzione delle disuguaglianze
+#### Giustizia climatica e riduzione delle disuguaglianze
 
 Dal punto di vista della sociologia ambientale e della giustizia climatica, Flood Hub rappresenta un caso interessante di tecnologia che potenzialmente riduce anziché amplificare le disuguaglianze. Le comunità più vulnerabili alle alluvioni sono spesso quelle che hanno contribuito meno alle emissioni storiche di gas serra – un'ingiustizia fondamentale dell'antropocene. Un sistema di allerta accessibile gratuitamente, che non richiede investimenti locali in infrastrutture, rappresenta una forma di "trasferimento tecnologico" che avviene attraverso il cloud piuttosto che attraverso aiuti allo sviluppo tradizionali.
 
 Tuttavia, rimangono sfide significative. L'efficacia di qualsiasi sistema di allerta dipende non solo dall'accuratezza tecnica ma dalla capacità istituzionale e sociale di agire sulle informazioni: esistono piani di evacuazione? Le comunità si fidano delle allerte? Esistono rifugi sicuri raggiungibili? La comunicazione raggiunge le popolazioni rurali senza accesso internet affidabile? Queste "last mile problems" – il passaggio dall'informazione all'azione – richiedono investimenti complementari in capacità istituzionale, infrastrutture di comunicazione, e costruzione di fiducia sociale.
 
-### Altre applicazioni di ML per disastri naturali
+#### Altre applicazioni di ML per disastri naturali
 
 Oltre alle alluvioni, il machine learning viene applicato a una crescente varietà di rischi naturali:
 
@@ -280,19 +280,19 @@ Oltre alle alluvioni, il machine learning viene applicato a una crescente variet
 
 **Tempeste e uragani.** Come documentato nella sezione su GraphCast, l'AI sta migliorando le previsioni di traiettoria e intensità dei cicloni tropicali, estendendo l'orizzonte temporale delle allerte e riducendo le "zone di incertezza" delle evacuazioni.
 
-## 2.3.3 Monitoraggio della deforestazione e della biodiversità: "vedere" il pianeta vivente
+### 2.3.3 Monitoraggio della deforestazione e della biodiversità: "vedere" il pianeta vivente
 
 Se le sezioni precedenti hanno documentato come l'AI permetta di "vedere" l'atmosfera e i suoi pericoli con accuratezza senza precedenti, questa sezione illustra come analoghe tecnologie stiano trasformando la nostra capacità di monitorare la biosfera terrestre – le foreste, gli ecosistemi, e la biodiversità che sostengono la vita sul pianeta.
 
 La deforestazione contribuisce approssimativamente al 10% delle emissioni globali di gas serra quando la vegetazione viene bruciata o decade, rilasciando il carbonio precedentemente sequestrato. Oltre al contributo diretto al cambiamento climatico, la perdita di foreste distrugge habitat critici per la biodiversità, degrada servizi ecosistemici (regolazione idrica, prevenzione dell'erosione), e impatta i mezzi di sussistenza di comunità indigene e rurali. Circa l'80% della deforestazione globale è causata dall'espansione agricola (conversione di foreste in pascoli o coltivazioni), mentre cause secondarie includono estrazione mineraria, taglio legale e illegale del legname, e sviluppo urbano.
 
-### Remote sensing e computer vision per la deforestazione
+#### Remote sensing e computer vision per la deforestazione
 
 Le tecniche di **remote sensing** – l'acquisizione di informazioni sulla superficie terrestre tramite sensori su satelliti o aerei – hanno da tempo permesso di monitorare i cambiamenti nella copertura forestale. Satelliti come quelli della costellazione Landsat (operativa dal 1972) producono immagini multispettrali della superficie terrestre che possono essere analizzate per identificare diversi tipi di vegetazione.
 
 Ciò che l'AI aggiunge è la capacità di automatizzare completamente questa analisi su scala planetaria e in tempo quasi-reale. Algoritmi di **computer vision** basati su reti neurali convoluzionali (CNN) possono essere addestrati a identificare cambiamenti nella copertura forestale confrontando immagini successive della stessa area. Questi sistemi apprendono a distinguere tra perdita di foresta dovuta a deforestazione vera e propria, perdita temporanea dovuta ad agricoltura rotazionale, perdita naturale dovuta a incendi spontanei o tempeste, e false rilevazioni dovute a copertura nuvolosa o ombre.
 
-### Global Forest Watch: sorveglianza forestale partecipativa
+#### Global Forest Watch: sorveglianza forestale partecipativa
 
 **Global Forest Watch (GFW)** è una piattaforma online che combina dati satellitari, algoritmi di machine learning, e tecnologie cloud per fornire monitoraggio della deforestazione quasi in tempo reale a scala globale. Lanciata nel 2014 e gestita dal World Resources Institute in collaborazione con Google e altre organizzazioni, GFW analizza automaticamente immagini satellitari Landsat per rilevare perdita di copertura arborea con risoluzione di 30 metri e latenza di poche settimane.
 
@@ -307,7 +307,7 @@ Ciò che l'AI aggiunge è la capacità di automatizzare completamente questa ana
 
 **Differenziazione tra taglio selettivo e deforestazione totale.** Sviluppi più recenti degli algoritmi permettono non solo di rilevare *se* c'è stata perdita di copertura, ma anche di che *tipo*: deforestazione completa (conversione permanente a uso non-forestale) versus taglio selettivo (rimozione di alcuni alberi mantenendo la struttura forestale). Questa distinzione è cruciale per policy: il taglio selettivo sostenibile è molto diverso dalla conversione permanente a pascolo o miniera.
 
-### Monitoraggio acustico e biodiversità
+#### Monitoraggio acustico e biodiversità
 
 Mentre il remote sensing ottico (immagini) si concentra sulla copertura vegetale, un filone emergente usa **remote sensing acustico** per monitorare la fauna. Sensori audio alimentati a energia solare vengono installati nelle foreste per registrare continuamente i suoni dell'ambiente. Algoritmi di machine learning analizzano queste registrazioni per:
 
@@ -315,7 +315,7 @@ Mentre il remote sensing ottico (immagini) si concentra sulla copertura vegetale
 
 - **Identificare specie tramite vocalizzazioni.** Reti neurali addestrate su database di richiami di uccelli, mammiferi, anfibi possono identificare automaticamente quali specie sono presenti in un'area basandosi sulle registrazioni acustiche. Questo permette monitoraggio della biodiversità su vasta scala senza richiedere la presenza fisica di biologi.
 
-### Citizen science e riconoscimento automatico di specie
+#### Citizen science e riconoscimento automatico di specie
 
 Piattaforme come **iNaturalist** combinano crowdsourcing (citizen science) e machine learning per costruire database massicci di osservazioni di biodiversità. Gli utenti caricano foto di piante, animali, funghi osservati in natura; algoritmi di computer vision suggeriscono identificazioni automatiche; esperti umani validano le identificazioni; il sistema apprende continuamente migliorando le sue capacità di riconoscimento.
 
@@ -323,7 +323,7 @@ Al 2022, iNaturalist contava oltre 100 milioni di osservazioni verificate di pi�
 
 **Wildlife Insights** è una piattaforma analoga focalizzata su immagini da fototrappole – camere automatiche che si attivano quando rilevano movimento e che vengono installate nelle aree selvagge per monitorare fauna sfuggente. Tradizionalmente, analizzare migliaia di immagini da fototrappole richiedeva centinaia di ore di lavoro umano per identificare quali contenevano animali e di che specie. Algoritmi di deep learning riducono questo lavoro del 99%: identificano automaticamente se un'immagine contiene un animale, di che specie, quanti individui, che comportamento stanno mostrando.
 
-### Dalla sorveglianza alla giustizia: questioni critiche
+#### Dalla sorveglianza alla giustizia: questioni critiche
 
 Il monitoraggio ambientale basato su AI solleva anche questioni critiche che verranno approfondite nel Capitolo 3. Chi controlla questi sistemi di sorveglianza? A chi appartengono i dati? Come vengono usati?
 
@@ -333,7 +333,7 @@ Analogamente, nel monitoraggio della biodiversità emerge la questione di chi be
 
 Nonostante queste legittime preoccupazioni, è innegabile che la capacità di "vedere il pianeta vivente" con la granularità e continuità rese possibili dall'AI rappresenta uno strumento potenzialmente potente per la governance ambientale. Come sottolineato dalla teoria della modernizzazione ecologica, la trasparenza informazionale è una precondizione necessaria (benché non sufficiente) per l'accountability ecologica.
 
-## 2.3.4 Sintesi: l'AI come estensione radicale della governance informazionale
+### 2.3.4 Sintesi: l'AI come estensione radicale della governance informazionale
 
 Le applicazioni documentate in questa sezione – dalle previsioni meteorologiche ai sistemi di allerta alluvioni, dal monitoraggio forestale al riconoscimento della biodiversità – condividono una logica comune che risuona profondamente con i principi della modernizzazione ecologica informazionale discussi nel Capitolo 1.
 
@@ -355,7 +355,7 @@ Le sezioni precedenti hanno documentato le applicazioni dell'intelligenza artifi
 
 In particolare, ci concentriamo su due ambiti dove l'AI sta dimostrando un potenziale significativo: l'agricoltura di precisione, che promette di ridurre drasticamente l'impronta ambientale della produzione alimentare, e l'ottimizzazione delle supply chain e l'economia circolare, dove l'AI può contribuire a minimizzare gli sprechi lungo l'intero ciclo di vita dei prodotti. Entrambi questi settori hanno un peso rilevante nelle emissioni globali – l'uso del suolo è responsabile di circa un quarto delle emissioni totali di gas serra – e rappresentano quindi obiettivi cruciali per qualsiasi strategia di decarbonizzazione.
 
-## 2.4.1 Agricoltura di precisione: ottimizzare la produzione alimentare
+### 2.4.1 Agricoltura di precisione: ottimizzare la produzione alimentare
 
 L'agricoltura industriale moderna costituisce una fonte significativa di emissioni di gas serra, ma non per le ragioni che intuitivamente potremmo pensare. Sebbene le piante assorbano CO₂ dall'atmosfera, i processi associati alla produzione agricola intensiva generano impatti ambientali considerevoli attraverso tre meccanismi principali [Rolnick et al., 2022]: 
 
@@ -365,13 +365,13 @@ L'agricoltura industriale moderna costituisce una fonte significativa di emissio
 
 **Terzo, le emissioni da allevamento.** Il bestiame e la coltivazione del riso generano metano, un gas serra molto più potente della CO₂ stessa.
 
-### Le promesse dell'agricoltura di precisione
+#### Le promesse dell'agricoltura di precisione
 
 Secondo una stima citata da Rolnick et al., circa **un terzo delle riduzioni di emissioni di gas serra potrebbe provenire da una migliore gestione del suolo e dell'agricoltura**. L'intelligenza artificiale può svolgere un ruolo importante in questo ambito attraverso l'agricoltura di precisione – un approccio che, come osservano gli autori, "si basa fondamentalmente sul rendere le terre agricole più uniformi e prevedibili", ma che ora, grazie all'AI, può essere gestito su larga scala pur adattandosi all'eterogeneità della terra e delle colture.
 
 L'approccio tradizionale dell'agricoltura industriale tratta il terreno come uniforme, utilizzando strumenti di automazione di base come i trattori. Questo può essere sia più distruttivo che meno produttivo rispetto ad approcci che lavorano con l'eterogeneità naturale del suolo. L'agricoltura di precisione, al contrario, riconosce e sfrutta questa eterogeneità: c'è una crescente domanda di strumenti sofisticati che permettano agli agricoltori di lavorare su larga scala adattandosi alle specifiche esigenze del terreno.
 
-### Applicazioni concrete e strumenti robotici intelligenti
+#### Applicazioni concrete e strumenti robotici intelligenti
 
 **Robot intelligenti per interventi mirati.** Sono in fase di sviluppo robot dotati di capacità di diserbo meccanico, applicazione mirata di pesticidi e aspirazione di parassiti. Questi robot possono raccogliere grandi quantità di dati per un miglioramento continuo. Numerose aziende operano ormai nello spazio della robotica assistita da ML per l'agricoltura di precisione.
 
@@ -381,21 +381,21 @@ L'approccio tradizionale dell'agricoltura industriale tratta il terreno come uni
 
 **Previsione delle rese e pianificazione.** L'AI può guidare la previsione delle rese agricole e persino modelli macroeconomici che aiutano gli agricoltori a prevedere la domanda di colture e decidere cosa piantare all'inizio della stagione.
 
-### Potenziale di riduzione dell'impatto ambientale
+#### Potenziale di riduzione dell'impatto ambientale
 
 Anche se la letteratura scientifica resta prudente nel quantificare i benefici netti (data la possibilità di effetti rimbalzo), alcuni studi citano potenziali riduzioni molto significative. Come riportato nell'indice della tesi basandosi sulle fonti primarie, le stime parlano di possibili riduzioni del **28% dei costi**, del **22% nell'uso di acqua** e del **35% nel deflusso di azoto** nel suolo.
 
 È importante sottolineare che, a livello globale, l'agricoltura costituisce un'industria da 2,4 trilioni di dollari e c'è già un significativo incentivo economico per aumentare l'efficienza [Rolnick et al., 2022]. Tuttavia, i guadagni di efficienza non si traducono necessariamente in riduzione delle emissioni di gas serra – ad esempio attraverso effetti rimbalzo che aumentano il consumo di prodotti particolarmente intensivi in termini di emissioni. Inoltre, ridurre significativamente le emissioni potrebbe richiedere un cambiamento nei paradigmi agricoli, ad esempio l'adozione diffusa dell'agricoltura rigenerativa, della silvopastura e dell'intercropping arboreo.
 
-### Remote sensing per la gestione del territorio
+#### Remote sensing per la gestione del territorio
 
 Tecniche di ML possono essere utilizzate per supportare i decisori politici e gli agronomi. Ad esempio, il telerilevamento con droni e satelliti potrebbe eseguire il rilevamento del metano e la stima dello stock di carbonio, che potrebbero essere utilizzati per incentivare gli agricoltori a sequestrare più carbonio e ridurre le emissioni [Rolnick et al., 2022]. Le telecamere iperspettrali – che possono registrare diverse centinaia di diverse lunghezze d'onda invece del semplice rosso, verde e blu – forniscono informazioni sull'interazione tra luce e sostanze chimiche individuali. Molti satelliti sono dotati di tali telecamere e possono eseguire, in una certa misura, stime delle emissioni di CO₂, CH₄ (metano), H₂O e N₂O (protossido di azoto).
 
-## 2.4.2 Ottimizzazione della supply chain e economia circolare
+### 2.4.2 Ottimizzazione della supply chain e economia circolare
 
 Oltre alla produzione primaria, l'AI trova applicazioni cruciali nell'ottimizzazione dei flussi di materiali ed energia lungo l'intera catena del valore – dalla progettazione dei prodotti alla loro distribuzione, uso e fine vita. Questo dominio è particolarmente rilevante per la transizione verso un'economia circolare, dove i materiali vengono continuamente riutilizzati piuttosto che estratti, usati e scartati.
 
-### Riduzione della sovrapproduzione attraverso demand forecasting
+#### Riduzione della sovrapproduzione attraverso demand forecasting
 
 Uno dei problemi più significativi delle supply chain globali contemporanee è la **sovrapproduzione e l'eccessivo accumulo di scorte**, fonte importante di emissioni industriali di gas serra, in particolare per beni deperibili o per beni al dettaglio che rapidamente passano di moda [Rolnick et al., 2022]. 
 
@@ -405,29 +405,29 @@ Il machine learning può contribuire a mitigare questi problemi di sovrapproduzi
 
 Man mano che lo shopping online e la produzione just-in-time diventano più diffusi e i siti web offrono più tipi di prodotti rispetto ai negozi fisici, saranno necessarie migliori previsioni della domanda a livello regionale per distribuire efficientemente l'inventario senza lasciare che merci indesiderate percorrano lunghe distanze solo per languire nei magazzini. Tuttavia, gli effetti collaterali negativi possono essere significativi a seconda del tipo di prodotto e delle caratteristiche regionali: la produzione just-in-time e lo shopping online sono spesso responsabili della creazione di mode di prodotti con cicli di vita più brevi, oltre a spedizioni più piccole e veloci di merci (principalmente su strada) che mancano dell'efficienza energetica dell'aggregazione del trasporto merci e di metodi di spedizione più lenti come il trasporto ferroviario.
 
-### Ottimizzazione delle rotte di spedizione
+#### Ottimizzazione delle rotte di spedizione
 
 La logistica contemporanea presenta inefficienze sorprendenti. Come documentato da Rolnick et al., nel 2006 almeno due aziende scozzesi di frutti di mare hanno fatto volare centinaia di tonnellate di gamberi dalla Scozia alla Cina e alla Thailandia per la pelatura, per poi riportarli in Scozia per la vendita – perché potevano risparmiare sui costi di manodopera. Questo esempio illustra la complessità delle supply chain globalizzate contemporanee, ovvero i processi organizzativi e le reti di spedizione necessari per portare un prodotto dal produttore al consumatore finale. 
 
 L'AI può contribuire a ridurre le emissioni nelle supply chain prevedendo intelligentemente domanda e offerta, identificando prodotti a minor impatto di carbonio e ottimizzando le rotte di spedizione. Tuttavia, come sottolineano gli autori, **per molte di queste applicazioni affinché riducano effettivamente le emissioni, gli incentivi finanziari delle imprese devono anche allinearsi con la mitigazione dei cambiamenti climatici** attraverso meccanismi di carbon pricing o altri strumenti di policy.
 
-### Riduzione degli sprechi alimentari
+#### Riduzione degli sprechi alimentari
 
 A livello globale, la società perde o spreca **1,3 miliardi di tonnellate metriche di cibo ogni anno**, che si traduce in **un terzo di tutto il cibo prodotto per il consumo umano** [Rolnick et al., 2022]. Nei paesi in via di sviluppo, il 40% degli sprechi alimentari si verifica tra raccolta e lavorazione o vendita al dettaglio, mentre oltre il 40% degli sprechi alimentari nelle nazioni industrializzate si verifica alla fine delle catene di approvvigionamento, nei punti vendita al dettaglio, ristoranti e case dei consumatori.
 
 Questa è un'area dove il machine learning potrebbe avere un impatto particolarmente significativo. Gli stessi algoritmi di previsione della domanda discussi per la sovrapproduzione industriale possono essere applicati alla distribuzione alimentare, riducendo gli sprechi nei supermercati, nei ristoranti e nella ristorazione collettiva.
 
-### Sistemi di raccomandazione per opzioni a basso impatto climatico
+#### Sistemi di raccomandazione per opzioni a basso impatto climatico
 
 I sistemi di raccomandazione potrebbero potenzialmente indirizzare consumatori e imprese acquirenti verso opzioni più rispettose del clima, purché si possano ottenere informazioni sulle emissioni di gas serra lungo l'intero ciclo di vita di un prodotto [Rolnick et al., 2022]. La sfida qui risiede nel reperire dati utilizzabili su ogni materiale e processo produttivo rilevante, dall'estrazione di metalli fino alla produzione, alla spedizione e all'eventuale uso e smaltimento di un prodotto. Si deve anche convincere le aziende a condividere dati proprietari per aiutare altre imprese a imparare dalle migliori pratiche. Se questi dataset possono essere acquisiti, gli algoritmi ML potrebbero ipoteticamente assistere nell'identificazione delle opzioni più pulite.
 
-### Economia circolare e tracciamento dei materiali
+#### Economia circolare e tracciamento dei materiali
 
 Un'applicazione emergente particolarmente promettente riguarda il **tracciamento dei materiali per il riciclo e il riuso**. L'economia circolare – dove i materiali vengono mantenuti in uso il più a lungo possibile attraverso riuso, riparazione e riciclo – richiede sistemi di tracciamento sofisticati che permettano di identificare dove si trovano i materiali, qual è la loro qualità residua e come possono essere reintrodotti nei cicli produttivi. 
 
 L'AI può supportare questi sistemi attraverso computer vision per la classificazione automatica dei rifiuti, algoritmi di ottimizzazione per la logistica inversa (il trasporto dei materiali dai punti di raccolta agli impianti di riciclo), e sistemi di tracciamento che seguono i materiali lungo l'intera catena del valore. Come evidenziato da Vinuesa et al. [2020] nella loro analisi dell'impatto dell'AI sugli Obiettivi di Sviluppo Sostenibile, queste applicazioni potrebbero contribuire significativamente al raggiungimento dell'SDG 12 su produzione e consumo responsabili.
 
-## 2.4.3 Una prospettiva d'insieme: la trasversalità dell'AI
+### 2.4.3 Una prospettiva d'insieme: la trasversalità dell'AI
 
 Ciò che emerge da questa panoramica di applicazioni settoriali è la **natura trasversale** dell'intelligenza artificiale come strumento per la sostenibilità. Come evidenziato nel framework di Kaack et al. [2022] discusso nella sezione 2.1, le stesse tecniche di machine learning – previsione di serie temporali, ottimizzazione di sistemi complessi, computer vision per remote sensing – possono essere applicate a domini molto diversi.
 
