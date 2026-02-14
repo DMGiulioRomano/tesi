@@ -349,7 +349,7 @@ Inoltre, queste applicazioni "AI for Green" rappresentano ancora una piccola fra
 
 Infine, e questo sarà il tema centrale del Capitolo 3, dobbiamo interrogarci sul costo ambientale dell'infrastruttura computazionale stessa. I data center che addestrano modelli di ML per ottimizzare le reti elettriche consumano essi stessi enormi quantità di elettricità. I GPU necessari per il deep learning richiedono minerali rari e generano rifiuti elettronici. Esiste il rischio, come vedremo, che i benefici ambientali delle applicazioni "AI for Green" siano vanificati dall'impronta ecologica dell'AI stessa – un paradosso che la teoria della modernizzazione ecologica fatica a riconoscere.
 
-# 2.3 Monitoraggio climatico e prevenzione dei disastri
+## 2.3 Monitoraggio climatico e prevenzione dei disastri
 
 Se la transizione energetica rappresenta il dominio dove l'AI può fornire il maggiore contributo alla *mitigazione* del cambiamento climatico, il monitoraggio climatico e la prevenzione dei disastri costituiscono il terreno più promettente per l'*adattamento*. In questo ambito, l'intelligenza artificiale sta rivoluzionando sia la nostra capacità di comprendere e prevedere il sistema climatico, sia la nostra capacità di proteggere popolazioni e infrastrutture dagli eventi estremi sempre più frequenti e intensi che caratterizzano l'Antropocene.
 
@@ -357,13 +357,13 @@ Come sottolineato nel Capitolo 1, il monitoraggio ambientale automatizzato su sc
 
 Questa sezione documenta tre aree di applicazione dove l'AI sta generando impatti particolarmente significativi: le previsioni meteorologiche di medio termine, i sistemi di allerta precoce per disastri naturali (con particolare focus sulle alluvioni), e il monitoraggio della biodiversità e della deforestazione.
 
-## 2.3.1 Previsioni meteorologiche basate su AI: una rivoluzione metodologica
+### 2.3.1 Previsioni meteorologiche basate su AI: una rivoluzione metodologica
 
 Le previsioni meteorologiche hanno rappresentato per decenni uno dei trionfi della scienza computazionale applicata. I modelli numerici tradizionali – noti come Numerical Weather Prediction (NWP) systems – si basano sulla simulazione fisica dell'atmosfera: risolvono numericamente le equazioni differenziali che governano la dinamica dei fluidi atmosferici, la termodinamica, la radiazione solare e altri processi fisici. Questi modelli, come il sistema HRES (High RESolution) dell'European Centre for Medium-Range Weather Forecasts (ECMWF), rappresentano il gold standard delle previsioni meteorologiche globali.
 
 Tuttavia, i modelli NWP tradizionali presentano limitazioni significative. Primo, sono computazionalmente estremamente costosi: una singola previsione globale a 10 giorni richiede ore di calcolo su supercomputer massivi, consumando enormi quantità di energia. Secondo, la loro risoluzione spaziale è inevitabilmente limitata dalle risorse computazionali disponibili: aumentare la risoluzione richiede un incremento esponenziale della potenza di calcolo necessaria. Terzo, la loro accuratezza tende a degradare rapidamente oltre i 7-10 giorni di anticipo a causa della natura caotica dell'atmosfera.
 
-### Il paradigma dell'AI meteorologica: GraphCast e l'apprendimento dai dati storici
+#### Il paradigma dell'AI meteorologica: GraphCast e l'apprendimento dai dati storici
 
 Negli ultimi anni, un approccio radicalmente diverso ha iniziato a emergere: invece di simulare esplicitamente la fisica dell'atmosfera, i modelli basati su machine learning *apprendono* le dinamiche atmosferiche direttamente dai dati storici. Questo cambio di paradigma – da modelli basati su equazioni fisiche a modelli basati su pattern appresi dai dati – sta producendo risultati sorprendenti.
 
@@ -381,19 +381,19 @@ La validazione è stata condotta sui dati degli anni 2018-2021, mai visti durant
 
 Analogamente, per eventi di temperatura estrema (ondate di calore e freddo) e per fiumi atmosferici (stretti corridoi di intenso trasporto di vapore acqueo che causano precipitazioni estreme sulla costa occidentale degli Stati Uniti), GraphCast ha dimostrato capacità predittive superiori. Queste non sono variabili per cui il modello è stato esplicitamente ottimizzato durante il training – emerge spontaneamente dalla sua capacità di apprendere pattern atmosferici complessi dai dati storici.
 
-### Pangu-Weather e l'ecosistema emergente di modelli AI
+#### Pangu-Weather e l'ecosistema emergente di modelli AI
 
 GraphCast non è un caso isolato. Quasi contemporaneamente, ricercatori di Huawei hanno sviluppato **Pangu-Weather**, un modello basato su architettura Transformer (la stessa famiglia usata per i grandi modelli linguistici come GPT) che ha dimostrato performance competitive o superiori ai modelli NWP tradizionali. Anche altri gruppi di ricerca stanno producendo modelli ML per previsioni meteorologiche con risultati promettenti.
 
 Questa convergenza di risultati positivi da team indipendenti suggerisce che non si tratta di un artefatto metodologico ma di una genuina superiorità dell'approccio basato su ML, almeno per determinati compiti e orizzonti temporali. Si sta configurando un nuovo ecosistema di modelli meteorologici basati su AI che coesistono e in alcuni casi superano i sistemi tradizionali.
 
-### Effetto di recency e adattamento ai cambiamenti climatici
+#### Effetto di recency e adattamento ai cambiamenti climatici
 
 Un aspetto particolarmente rilevante nel contesto del cambiamento climatico è la capacità di GraphCast di adattarsi a pattern meteorologici in evoluzione. Lam e colleghi hanno addestrato quattro varianti del modello usando dati che si fermavano rispettivamente al 2017, 2018, 2019 e 2020. Hanno scoperto che le performance su dati del 2021 miglioravano progressivamente: il modello addestrato fino al 2020 era più accurato di quello addestrato fino al 2018.
 
 Questo "effetto di recency" suggerisce che GraphCast può catturare tendenze climatiche in atto – pattern meteorologici che stanno cambiando a causa del riscaldamento globale. Questa è una proprietà cruciale: mentre i modelli NWP tradizionali si basano su equazioni fisiche che assumono un sistema climatico stazionario, i modelli ML possono in linea di principio adattarsi a un clima che cambia semplicemente venendo riaddestrati periodicamente con dati recenti.
 
-### Implicazioni per la governance informazionale
+#### Implicazioni per la governance informazionale
 
 La rivoluzione delle previsioni meteorologiche basate su AI ha implicazioni profonde per la governance informazionale discussa nel framework della modernizzazione ecologica:
 
@@ -403,19 +403,19 @@ La rivoluzione delle previsioni meteorologiche basate su AI ha implicazioni prof
 
 **Efficienza energetica.** GraphCast consuma drasticamente meno energia di un modello NWP tradizionale per produrre una previsione equivalente. In un contesto dove ogni riduzione di consumo energetico contribuisce alla mitigazione climatica, questo è un beneficio aggiuntivo non trascurabile – benché, come vedremo nel Capitolo 3, debba essere bilanciato contro i costi energetici del training iniziale del modello.
 
-### Limiti e complementarietà con modelli fisici
+#### Limiti e complementarietà con modelli fisici
 
 È importante sottolineare che i modelli ML meteorologici presentano anche limiti significativi. Primo, sono essenzialmente sistemi di interpolazione statistica: apprendono pattern dai dati storici e li proiettano nel futuro. Questo significa che possono avere difficoltà con eventi senza precedenti o situazioni al di fuori della distribuzione dei dati di training. Secondo, sono "scatole nere" opache: mentre un meteorologo può interpretare cosa sta "pensando" un modello NWP guardando le equazioni e le variabili intermedie, capire *perché* un modello ML fa una certa previsione è molto più difficile. Terzo, i modelli ML dipendono criticamente dalla qualità e completezza dei dati di training.
 
 Per queste ragioni, il futuro più probabile non è la sostituzione completa dei modelli NWP con modelli ML, ma una loro integrazione complementare: modelli ML per previsioni rapide ed efficienti di routine, modelli NWP per situazioni critiche e per validare fisicamente le previsioni ML, e sistemi ibridi che combinano i punti di forza di entrambi gli approcci.
 
-## 2.3.2 Sistemi di allerta precoce per alluvioni: proteggere le popolazioni vulnerabili
+### 2.3.2 Sistemi di allerta precoce per alluvioni: proteggere le popolazioni vulnerabili
 
 Se le previsioni meteorologiche accurate sono il primo anello della catena di protezione dalle catastrofi naturali, i sistemi di allerta precoce specifici per determinati rischi costituiscono l'ultimo miglio – il passaggio dall'informazione meteorologica generale all'azione protettiva concreta per popolazioni a rischio.
 
 Le alluvioni rappresentano uno dei disastri naturali più devastanti e frequenti. Causano migliaia di vittime ogni anno, distruggono infrastrutture critiche, contaminano fonti idriche, e colpiscono in modo sproporzionato le comunità più vulnerabili. Il cambiamento climatico sta intensificando il ciclo idrologico globale: l'atmosfera più calda contiene più vapore acqueo, portando a precipitazioni più intense e concentrate. Molte regioni stanno sperimentando sia siccità più severe (quando non piove) sia alluvioni più devastanti (quando piove).
 
-### Il divario dati globale e la sfida dei bacini non monitorati
+#### Il divario dati globale e la sfida dei bacini non monitorati
 
 Tradizionalmente, le previsioni di alluvioni fluviali si basano su reti di sensori idrometrici (misuratori di livello e flusso dei fiumi) combinati con modelli idrologici che simulano come la pioggia si trasforma in deflusso superficiale e scorre attraverso i bacini idrografici. Questi sistemi funzionano bene dove esistono – tipicamente nei paesi sviluppati con risorse adeguate per installare e mantenere reti di sensori dense.
 
@@ -423,7 +423,7 @@ Il problema è che la maggior parte dei bacini fluviali del mondo non ha alcun m
 
 L'AI offre un percorso per colmare questo divario attraverso approcci che non dipendono da reti di sensori locali ma utilizzano dati globalmente disponibili come immagini satellitari, modelli di elevazione del terreno, e dati meteorologici.
 
-### Google Flood Hub: un caso di studio di democratizzazione della protezione
+#### Google Flood Hub: un caso di studio di democratizzazione della protezione
 
 Il sistema più ambizioso attualmente operativo è **Google Flood Hub**, lanciato nel 2018 e progressivamente espanso fino a coprire oltre 80 paesi e fornire previsioni per più di 460 milioni di persone. Flood Hub rappresenta un esempio paradigmatico di come l'AI possa essere usata per "colmare il divario dati tra Nord e Sud globale", come sottolineato nell'indice della presente tesi.
 
@@ -441,13 +441,13 @@ Particolarmente significativo è l'impatto in paesi come Bangladesh, India, e na
 
 **Interfaccia accessibile e localizzazione.** Flood Hub non è solo un sistema tecnico sofisticato ma anche uno strumento progettato per essere accessibile. Le previsioni sono visualizzate su mappe interattive disponibili pubblicamente online, con informazioni tradotte in lingue locali. Le allerte possono essere integrate con servizi di notifica via SMS o attraverso canali di comunicazione già usati dalle comunità locali.
 
-### Giustizia climatica e riduzione delle disuguaglianze
+#### Giustizia climatica e riduzione delle disuguaglianze
 
 Dal punto di vista della sociologia ambientale e della giustizia climatica, Flood Hub rappresenta un caso interessante di tecnologia che potenzialmente riduce anziché amplificare le disuguaglianze. Le comunità più vulnerabili alle alluvioni sono spesso quelle che hanno contribuito meno alle emissioni storiche di gas serra – un'ingiustizia fondamentale dell'antropocene. Un sistema di allerta accessibile gratuitamente, che non richiede investimenti locali in infrastrutture, rappresenta una forma di "trasferimento tecnologico" che avviene attraverso il cloud piuttosto che attraverso aiuti allo sviluppo tradizionali.
 
 Tuttavia, rimangono sfide significative. L'efficacia di qualsiasi sistema di allerta dipende non solo dall'accuratezza tecnica ma dalla capacità istituzionale e sociale di agire sulle informazioni: esistono piani di evacuazione? Le comunità si fidano delle allerte? Esistono rifugi sicuri raggiungibili? La comunicazione raggiunge le popolazioni rurali senza accesso internet affidabile? Queste "last mile problems" – il passaggio dall'informazione all'azione – richiedono investimenti complementari in capacità istituzionale, infrastrutture di comunicazione, e costruzione di fiducia sociale.
 
-### Altre applicazioni di ML per disastri naturali
+#### Altre applicazioni di ML per disastri naturali
 
 Oltre alle alluvioni, il machine learning viene applicato a una crescente varietà di rischi naturali:
 
@@ -457,19 +457,19 @@ Oltre alle alluvioni, il machine learning viene applicato a una crescente variet
 
 **Tempeste e uragani.** Come documentato nella sezione su GraphCast, l'AI sta migliorando le previsioni di traiettoria e intensità dei cicloni tropicali, estendendo l'orizzonte temporale delle allerte e riducendo le "zone di incertezza" delle evacuazioni.
 
-## 2.3.3 Monitoraggio della deforestazione e della biodiversità: "vedere" il pianeta vivente
+### 2.3.3 Monitoraggio della deforestazione e della biodiversità: "vedere" il pianeta vivente
 
 Se le sezioni precedenti hanno documentato come l'AI permetta di "vedere" l'atmosfera e i suoi pericoli con accuratezza senza precedenti, questa sezione illustra come analoghe tecnologie stiano trasformando la nostra capacità di monitorare la biosfera terrestre – le foreste, gli ecosistemi, e la biodiversità che sostengono la vita sul pianeta.
 
 La deforestazione contribuisce approssimativamente al 10% delle emissioni globali di gas serra quando la vegetazione viene bruciata o decade, rilasciando il carbonio precedentemente sequestrato. Oltre al contributo diretto al cambiamento climatico, la perdita di foreste distrugge habitat critici per la biodiversità, degrada servizi ecosistemici (regolazione idrica, prevenzione dell'erosione), e impatta i mezzi di sussistenza di comunità indigene e rurali. Circa l'80% della deforestazione globale è causata dall'espansione agricola (conversione di foreste in pascoli o coltivazioni), mentre cause secondarie includono estrazione mineraria, taglio legale e illegale del legname, e sviluppo urbano.
 
-### Remote sensing e computer vision per la deforestazione
+#### Remote sensing e computer vision per la deforestazione
 
 Le tecniche di **remote sensing** – l'acquisizione di informazioni sulla superficie terrestre tramite sensori su satelliti o aerei – hanno da tempo permesso di monitorare i cambiamenti nella copertura forestale. Satelliti come quelli della costellazione Landsat (operativa dal 1972) producono immagini multispettrali della superficie terrestre che possono essere analizzate per identificare diversi tipi di vegetazione.
 
 Ciò che l'AI aggiunge è la capacità di automatizzare completamente questa analisi su scala planetaria e in tempo quasi-reale. Algoritmi di **computer vision** basati su reti neurali convoluzionali (CNN) possono essere addestrati a identificare cambiamenti nella copertura forestale confrontando immagini successive della stessa area. Questi sistemi apprendono a distinguere tra perdita di foresta dovuta a deforestazione vera e propria, perdita temporanea dovuta ad agricoltura rotazionale, perdita naturale dovuta a incendi spontanei o tempeste, e false rilevazioni dovute a copertura nuvolosa o ombre.
 
-### Global Forest Watch: sorveglianza forestale partecipativa
+#### Global Forest Watch: sorveglianza forestale partecipativa
 
 **Global Forest Watch (GFW)** è una piattaforma online che combina dati satellitari, algoritmi di machine learning, e tecnologie cloud per fornire monitoraggio della deforestazione quasi in tempo reale a scala globale. Lanciata nel 2014 e gestita dal World Resources Institute in collaborazione con Google e altre organizzazioni, GFW analizza automaticamente immagini satellitari Landsat per rilevare perdita di copertura arborea con risoluzione di 30 metri e latenza di poche settimane.
 
@@ -484,7 +484,7 @@ Ciò che l'AI aggiunge è la capacità di automatizzare completamente questa ana
 
 **Differenziazione tra taglio selettivo e deforestazione totale.** Sviluppi più recenti degli algoritmi permettono non solo di rilevare *se* c'è stata perdita di copertura, ma anche di che *tipo*: deforestazione completa (conversione permanente a uso non-forestale) versus taglio selettivo (rimozione di alcuni alberi mantenendo la struttura forestale). Questa distinzione è cruciale per policy: il taglio selettivo sostenibile è molto diverso dalla conversione permanente a pascolo o miniera.
 
-### Monitoraggio acustico e biodiversità
+#### Monitoraggio acustico e biodiversità
 
 Mentre il remote sensing ottico (immagini) si concentra sulla copertura vegetale, un filone emergente usa **remote sensing acustico** per monitorare la fauna. Sensori audio alimentati a energia solare vengono installati nelle foreste per registrare continuamente i suoni dell'ambiente. Algoritmi di machine learning analizzano queste registrazioni per:
 
@@ -492,7 +492,7 @@ Mentre il remote sensing ottico (immagini) si concentra sulla copertura vegetale
 
 - **Identificare specie tramite vocalizzazioni.** Reti neurali addestrate su database di richiami di uccelli, mammiferi, anfibi possono identificare automaticamente quali specie sono presenti in un'area basandosi sulle registrazioni acustiche. Questo permette monitoraggio della biodiversità su vasta scala senza richiedere la presenza fisica di biologi.
 
-### Citizen science e riconoscimento automatico di specie
+#### Citizen science e riconoscimento automatico di specie
 
 Piattaforme come **iNaturalist** combinano crowdsourcing (citizen science) e machine learning per costruire database massicci di osservazioni di biodiversità. Gli utenti caricano foto di piante, animali, funghi osservati in natura; algoritmi di computer vision suggeriscono identificazioni automatiche; esperti umani validano le identificazioni; il sistema apprende continuamente migliorando le sue capacità di riconoscimento.
 
@@ -500,7 +500,7 @@ Al 2022, iNaturalist contava oltre 100 milioni di osservazioni verificate di pi�
 
 **Wildlife Insights** è una piattaforma analoga focalizzata su immagini da fototrappole – camere automatiche che si attivano quando rilevano movimento e che vengono installate nelle aree selvagge per monitorare fauna sfuggente. Tradizionalmente, analizzare migliaia di immagini da fototrappole richiedeva centinaia di ore di lavoro umano per identificare quali contenevano animali e di che specie. Algoritmi di deep learning riducono questo lavoro del 99%: identificano automaticamente se un'immagine contiene un animale, di che specie, quanti individui, che comportamento stanno mostrando.
 
-### Dalla sorveglianza alla giustizia: questioni critiche
+#### Dalla sorveglianza alla giustizia: questioni critiche
 
 Il monitoraggio ambientale basato su AI solleva anche questioni critiche che verranno approfondite nel Capitolo 3. Chi controlla questi sistemi di sorveglianza? A chi appartengono i dati? Come vengono usati?
 
@@ -510,7 +510,7 @@ Analogamente, nel monitoraggio della biodiversità emerge la questione di chi be
 
 Nonostante queste legittime preoccupazioni, è innegabile che la capacità di "vedere il pianeta vivente" con la granularità e continuità rese possibili dall'AI rappresenta uno strumento potenzialmente potente per la governance ambientale. Come sottolineato dalla teoria della modernizzazione ecologica, la trasparenza informazionale è una precondizione necessaria (benché non sufficiente) per l'accountability ecologica.
 
-## 2.3.4 Sintesi: l'AI come estensione radicale della governance informazionale
+### 2.3.4 Sintesi: l'AI come estensione radicale della governance informazionale
 
 Le applicazioni documentate in questa sezione – dalle previsioni meteorologiche ai sistemi di allerta alluvioni, dal monitoraggio forestale al riconoscimento della biodiversità – condividono una logica comune che risuona profondamente con i principi della modernizzazione ecologica informazionale discussi nel Capitolo 1.
 
@@ -532,7 +532,7 @@ Le sezioni precedenti hanno documentato le applicazioni dell'intelligenza artifi
 
 In particolare, ci concentriamo su due ambiti dove l'AI sta dimostrando un potenziale significativo: l'agricoltura di precisione, che promette di ridurre drasticamente l'impronta ambientale della produzione alimentare, e l'ottimizzazione delle supply chain e l'economia circolare, dove l'AI può contribuire a minimizzare gli sprechi lungo l'intero ciclo di vita dei prodotti. Entrambi questi settori hanno un peso rilevante nelle emissioni globali – l'uso del suolo è responsabile di circa un quarto delle emissioni totali di gas serra – e rappresentano quindi obiettivi cruciali per qualsiasi strategia di decarbonizzazione.
 
-## 2.4.1 Agricoltura di precisione: ottimizzare la produzione alimentare
+### 2.4.1 Agricoltura di precisione: ottimizzare la produzione alimentare
 
 L'agricoltura industriale moderna costituisce una fonte significativa di emissioni di gas serra, ma non per le ragioni che intuitivamente potremmo pensare. Sebbene le piante assorbano CO₂ dall'atmosfera, i processi associati alla produzione agricola intensiva generano impatti ambientali considerevoli attraverso tre meccanismi principali [Rolnick et al., 2022]: 
 
@@ -542,13 +542,13 @@ L'agricoltura industriale moderna costituisce una fonte significativa di emissio
 
 **Terzo, le emissioni da allevamento.** Il bestiame e la coltivazione del riso generano metano, un gas serra molto più potente della CO₂ stessa.
 
-### Le promesse dell'agricoltura di precisione
+#### Le promesse dell'agricoltura di precisione
 
 Secondo una stima citata da Rolnick et al., circa **un terzo delle riduzioni di emissioni di gas serra potrebbe provenire da una migliore gestione del suolo e dell'agricoltura**. L'intelligenza artificiale può svolgere un ruolo importante in questo ambito attraverso l'agricoltura di precisione – un approccio che, come osservano gli autori, "si basa fondamentalmente sul rendere le terre agricole più uniformi e prevedibili", ma che ora, grazie all'AI, può essere gestito su larga scala pur adattandosi all'eterogeneità della terra e delle colture.
 
 L'approccio tradizionale dell'agricoltura industriale tratta il terreno come uniforme, utilizzando strumenti di automazione di base come i trattori. Questo può essere sia più distruttivo che meno produttivo rispetto ad approcci che lavorano con l'eterogeneità naturale del suolo. L'agricoltura di precisione, al contrario, riconosce e sfrutta questa eterogeneità: c'è una crescente domanda di strumenti sofisticati che permettano agli agricoltori di lavorare su larga scala adattandosi alle specifiche esigenze del terreno.
 
-### Applicazioni concrete e strumenti robotici intelligenti
+#### Applicazioni concrete e strumenti robotici intelligenti
 
 **Robot intelligenti per interventi mirati.** Sono in fase di sviluppo robot dotati di capacità di diserbo meccanico, applicazione mirata di pesticidi e aspirazione di parassiti. Questi robot possono raccogliere grandi quantità di dati per un miglioramento continuo. Numerose aziende operano ormai nello spazio della robotica assistita da ML per l'agricoltura di precisione.
 
@@ -558,21 +558,21 @@ L'approccio tradizionale dell'agricoltura industriale tratta il terreno come uni
 
 **Previsione delle rese e pianificazione.** L'AI può guidare la previsione delle rese agricole e persino modelli macroeconomici che aiutano gli agricoltori a prevedere la domanda di colture e decidere cosa piantare all'inizio della stagione.
 
-### Potenziale di riduzione dell'impatto ambientale
+#### Potenziale di riduzione dell'impatto ambientale
 
 Anche se la letteratura scientifica resta prudente nel quantificare i benefici netti (data la possibilità di effetti rimbalzo), alcuni studi citano potenziali riduzioni molto significative. Come riportato nell'indice della tesi basandosi sulle fonti primarie, le stime parlano di possibili riduzioni del **28% dei costi**, del **22% nell'uso di acqua** e del **35% nel deflusso di azoto** nel suolo.
 
 È importante sottolineare che, a livello globale, l'agricoltura costituisce un'industria da 2,4 trilioni di dollari e c'è già un significativo incentivo economico per aumentare l'efficienza [Rolnick et al., 2022]. Tuttavia, i guadagni di efficienza non si traducono necessariamente in riduzione delle emissioni di gas serra – ad esempio attraverso effetti rimbalzo che aumentano il consumo di prodotti particolarmente intensivi in termini di emissioni. Inoltre, ridurre significativamente le emissioni potrebbe richiedere un cambiamento nei paradigmi agricoli, ad esempio l'adozione diffusa dell'agricoltura rigenerativa, della silvopastura e dell'intercropping arboreo.
 
-### Remote sensing per la gestione del territorio
+#### Remote sensing per la gestione del territorio
 
 Tecniche di ML possono essere utilizzate per supportare i decisori politici e gli agronomi. Ad esempio, il telerilevamento con droni e satelliti potrebbe eseguire il rilevamento del metano e la stima dello stock di carbonio, che potrebbero essere utilizzati per incentivare gli agricoltori a sequestrare più carbonio e ridurre le emissioni [Rolnick et al., 2022]. Le telecamere iperspettrali – che possono registrare diverse centinaia di diverse lunghezze d'onda invece del semplice rosso, verde e blu – forniscono informazioni sull'interazione tra luce e sostanze chimiche individuali. Molti satelliti sono dotati di tali telecamere e possono eseguire, in una certa misura, stime delle emissioni di CO₂, CH₄ (metano), H₂O e N₂O (protossido di azoto).
 
-## 2.4.2 Ottimizzazione della supply chain e economia circolare
+### 2.4.2 Ottimizzazione della supply chain e economia circolare
 
 Oltre alla produzione primaria, l'AI trova applicazioni cruciali nell'ottimizzazione dei flussi di materiali ed energia lungo l'intera catena del valore – dalla progettazione dei prodotti alla loro distribuzione, uso e fine vita. Questo dominio è particolarmente rilevante per la transizione verso un'economia circolare, dove i materiali vengono continuamente riutilizzati piuttosto che estratti, usati e scartati.
 
-### Riduzione della sovrapproduzione attraverso demand forecasting
+#### Riduzione della sovrapproduzione attraverso demand forecasting
 
 Uno dei problemi più significativi delle supply chain globali contemporanee è la **sovrapproduzione e l'eccessivo accumulo di scorte**, fonte importante di emissioni industriali di gas serra, in particolare per beni deperibili o per beni al dettaglio che rapidamente passano di moda [Rolnick et al., 2022]. 
 
@@ -582,29 +582,29 @@ Il machine learning può contribuire a mitigare questi problemi di sovrapproduzi
 
 Man mano che lo shopping online e la produzione just-in-time diventano più diffusi e i siti web offrono più tipi di prodotti rispetto ai negozi fisici, saranno necessarie migliori previsioni della domanda a livello regionale per distribuire efficientemente l'inventario senza lasciare che merci indesiderate percorrano lunghe distanze solo per languire nei magazzini. Tuttavia, gli effetti collaterali negativi possono essere significativi a seconda del tipo di prodotto e delle caratteristiche regionali: la produzione just-in-time e lo shopping online sono spesso responsabili della creazione di mode di prodotti con cicli di vita più brevi, oltre a spedizioni più piccole e veloci di merci (principalmente su strada) che mancano dell'efficienza energetica dell'aggregazione del trasporto merci e di metodi di spedizione più lenti come il trasporto ferroviario.
 
-### Ottimizzazione delle rotte di spedizione
+#### Ottimizzazione delle rotte di spedizione
 
 La logistica contemporanea presenta inefficienze sorprendenti. Come documentato da Rolnick et al., nel 2006 almeno due aziende scozzesi di frutti di mare hanno fatto volare centinaia di tonnellate di gamberi dalla Scozia alla Cina e alla Thailandia per la pelatura, per poi riportarli in Scozia per la vendita – perché potevano risparmiare sui costi di manodopera. Questo esempio illustra la complessità delle supply chain globalizzate contemporanee, ovvero i processi organizzativi e le reti di spedizione necessari per portare un prodotto dal produttore al consumatore finale. 
 
 L'AI può contribuire a ridurre le emissioni nelle supply chain prevedendo intelligentemente domanda e offerta, identificando prodotti a minor impatto di carbonio e ottimizzando le rotte di spedizione. Tuttavia, come sottolineano gli autori, **per molte di queste applicazioni affinché riducano effettivamente le emissioni, gli incentivi finanziari delle imprese devono anche allinearsi con la mitigazione dei cambiamenti climatici** attraverso meccanismi di carbon pricing o altri strumenti di policy.
 
-### Riduzione degli sprechi alimentari
+#### Riduzione degli sprechi alimentari
 
 A livello globale, la società perde o spreca **1,3 miliardi di tonnellate metriche di cibo ogni anno**, che si traduce in **un terzo di tutto il cibo prodotto per il consumo umano** [Rolnick et al., 2022]. Nei paesi in via di sviluppo, il 40% degli sprechi alimentari si verifica tra raccolta e lavorazione o vendita al dettaglio, mentre oltre il 40% degli sprechi alimentari nelle nazioni industrializzate si verifica alla fine delle catene di approvvigionamento, nei punti vendita al dettaglio, ristoranti e case dei consumatori.
 
 Questa è un'area dove il machine learning potrebbe avere un impatto particolarmente significativo. Gli stessi algoritmi di previsione della domanda discussi per la sovrapproduzione industriale possono essere applicati alla distribuzione alimentare, riducendo gli sprechi nei supermercati, nei ristoranti e nella ristorazione collettiva.
 
-### Sistemi di raccomandazione per opzioni a basso impatto climatico
+#### Sistemi di raccomandazione per opzioni a basso impatto climatico
 
 I sistemi di raccomandazione potrebbero potenzialmente indirizzare consumatori e imprese acquirenti verso opzioni più rispettose del clima, purché si possano ottenere informazioni sulle emissioni di gas serra lungo l'intero ciclo di vita di un prodotto [Rolnick et al., 2022]. La sfida qui risiede nel reperire dati utilizzabili su ogni materiale e processo produttivo rilevante, dall'estrazione di metalli fino alla produzione, alla spedizione e all'eventuale uso e smaltimento di un prodotto. Si deve anche convincere le aziende a condividere dati proprietari per aiutare altre imprese a imparare dalle migliori pratiche. Se questi dataset possono essere acquisiti, gli algoritmi ML potrebbero ipoteticamente assistere nell'identificazione delle opzioni più pulite.
 
-### Economia circolare e tracciamento dei materiali
+#### Economia circolare e tracciamento dei materiali
 
 Un'applicazione emergente particolarmente promettente riguarda il **tracciamento dei materiali per il riciclo e il riuso**. L'economia circolare – dove i materiali vengono mantenuti in uso il più a lungo possibile attraverso riuso, riparazione e riciclo – richiede sistemi di tracciamento sofisticati che permettano di identificare dove si trovano i materiali, qual è la loro qualità residua e come possono essere reintrodotti nei cicli produttivi. 
 
 L'AI può supportare questi sistemi attraverso computer vision per la classificazione automatica dei rifiuti, algoritmi di ottimizzazione per la logistica inversa (il trasporto dei materiali dai punti di raccolta agli impianti di riciclo), e sistemi di tracciamento che seguono i materiali lungo l'intera catena del valore. Come evidenziato da Vinuesa et al. [2020] nella loro analisi dell'impatto dell'AI sugli Obiettivi di Sviluppo Sostenibile, queste applicazioni potrebbero contribuire significativamente al raggiungimento dell'SDG 12 su produzione e consumo responsabili.
 
-## 2.4.3 Una prospettiva d'insieme: la trasversalità dell'AI
+### 2.4.3 Una prospettiva d'insieme: la trasversalità dell'AI
 
 Ciò che emerge da questa panoramica di applicazioni settoriali è la **natura trasversale** dell'intelligenza artificiale come strumento per la sostenibilità. Come evidenziato nel framework di Kaack et al. [2022] discusso nella sezione 2.1, le stesse tecniche di machine learning – previsione di serie temporali, ottimizzazione di sistemi complessi, computer vision per remote sensing – possono essere applicate a domini molto diversi.
 
@@ -615,10 +615,6 @@ Dal punto di vista della teoria della modernizzazione ecologica, queste applicaz
 Tuttavia, come sottolineato ripetutamente in letteratura, questi guadagni potenziali dipendono fortemente dal contesto istituzionale ed economico. Se gli incentivi di mercato non sono allineati con gli obiettivi ambientali – ad esempio, se il trasporto è così economico che conviene far volare i gamberi dall'altra parte del mondo – l'ottimizzazione guidata dall'AI può persino peggiorare il problema invece di risolverlo. E come vedremo nel Capitolo 3, c'è il rischio concreto che i guadagni di efficienza si traducano in aumenti del consumo totale attraverso il paradosso di Jevons.
 
 Inoltre, è importante riconoscere che queste applicazioni sono ancora **emergenti** piuttosto che mature. A differenza delle smart grid o dei sistemi di previsione meteorologica, dove abbiamo deployment operativi su larga scala e dati empirici sugli impatti, molte applicazioni in agricoltura di precisione ed economia circolare sono ancora in fase pilota o limitata a contesti specifici. La letteratura parla spesso di "potenziale" e "promesse" piuttosto che di risultati consolidati. Sarà necessaria ricerca ulteriore per quantificare con precisione i benefici netti, tenendo conto degli effetti sistemici e dei possibili trade-off.
-
-Perfetto! Procediamo con ordine. Prima analizzo l'indice della tesi, poi leggo i capitoli già scritti, e infine preparo i primi paragrafi del capitolo 3 basandomi esclusivamente sul materiale presente nel project knowledge.Ora accedo al repository GitHub per vedere esattamente cosa avete già scritto nei capitoli precedenti:Perfetto! Ho analizzato l'indice e letto i capitoli già scritti. Ora cerco le informazioni necessarie per scrivere il Capitolo 3 sul project knowledge.Perfetto! Ho analizzato l'indice e letto i capitoli già scritti. Ora inizio a scrivere i primi paragrafi del Capitolo 3, attingendo esclusivamente dalle fonti presenti nel project knowledge e usando la sintassi di citazione pandoc.
-
----
 
 # CAPITOLO 3 - L'IMPRONTA ECOLOGICA DELL'INTELLIGENZA ARTIFICIALE: COSTI NASCOSTI E CONTRADDIZIONI
 
@@ -763,6 +759,172 @@ Il rapporto tra materiale utile e scarto è estremo. [@Crawford2021] riporta che
 
 Inoltre, il **62% dell'estrazione di minerali critici** avviene in zone classificate come *drought-prone* (soggette a siccità) [@Luccioni2025]. Questo crea un doppio problema: l'estrazione mineraria richiede grandi quantità di acqua per il processing, competendo con le necessità delle comunità locali e dell'agricoltura; e la contaminazione delle falde acquifere riduce ulteriormente la disponibilità di acqua potabile in regioni già idricamente vulnerabili.
 
+### 3.4.2 E-waste e ciclo di vita dell'hardware
+
+Oltre agli impatti dell'estrazione mineraria, l'infrastruttura AI genera un flusso crescente di **rifiuti elettronici** (*e-waste*) dovuto ai cicli di aggiornamento sempre più rapidi dell'hardware e all'obsolescenza programmata dei componenti. Come documentano [@Crawford2021] e [@Luccioni2025], i rifiuti elettronici rappresentano la frazione di rifiuti solidi in più rapida crescita a livello globale, con implicazioni ambientali e sanitarie gravi.
+
+**La scala del problema e-waste.** Secondo i dati citati da [@Luccioni2025], nel 2022 sono stati generati circa **62 milioni di tonnellate (Mt)** di rifiuti elettronici a livello globale. Di questi, solo circa il **22% viene formalmente raccolto e riciclato** attraverso sistemi certificati. Il restante 78% finisce in discariche, viene incenerito, o – nel peggiore dei casi – viene esportato illegalmente verso paesi del Sud globale dove viene smaltito in modo informale con tecniche pericolose per la salute umana e l'ambiente [@Luccioni2025].
+
+L'industria AI contribuisce a questo flusso in modi specifici e accelerati. Le GPU e le TPU utilizzate per il machine learning hanno cicli di vita molto più brevi rispetto all'hardware consumer standard. Come osserva [@Crawford2021], mentre un computer personale può rimanere funzionale per 5-10 anni, l'hardware specializzato per l'AI viene spesso sostituito ogni **2-3 anni** o anche più frequentemente per rimanere al passo con le esigenze computazionali dei modelli sempre più grandi.
+
+**La corsa all'hardware e l'obsolescenza accelerata.** Questa dinamica è guidata da quella che [@Luccioni2025] chiamano la "corsa agli armamenti computazionali". Ogni nuova generazione di modelli AI richiede hardware più potente: più memoria, maggiore larghezza di banda, capacità di calcolo parallelo più elevate. Le aziende sono quindi costrette ad aggiornare costantemente i loro data center per rimanere competitive, generando montagne di hardware "obsoleto" che tecnicamente funziona ancora ma non è più abbastanza performante per i carichi di lavoro contemporanei.
+
+Questo crea un paradosso particolarmente evidente: mentre l'AI viene presentata come strumento per l'economia circolare e l'ottimizzazione delle risorse (come discusso nella sezione 2.4), l'infrastruttura stessa dell'AI segue una logica profondamente lineare e estrattivista – estrai, produci, usa brevemente, scarta – che è l'antitesi dei principi dell'economia circolare [@Crawford2021].
+
+**Tossicità e rischi sanitari.** I componenti elettronici contengono una miscela complessa di materiali, molti dei quali tossici. Come documenta [@Crawford2021], quando i rifiuti elettronici vengono smaltiti in modo improprio – bruciati a cielo aperto per recuperare i metalli preziosi, o scaricati in discariche dove i composti chimici filtrano nel terreno e nelle falde acquifere – rilasciano sostanze pericolose:
+
+- **Metalli pesanti**: piombo, mercurio, cadmio, cromo esavalente – neurotossici e cancerogeni
+- **Ritardanti di fiamma**: composti bromati e clorurati – interferenti endocrini e persistenti nell'ambiente
+- **Plastiche**: quando bruciate, rilasciano diossine e furani – tra le sostanze più tossiche conosciute
+- **Acidi e solventi**: usati nel processing, contaminano suolo e acqua
+
+[@Crawford2021] descrive le comunità del Sud globale – in particolare in Ghana, Nigeria, India, Pakistan, Cina – dove i rifiuti elettronici del Nord vengono "riciclati" informalmente. Bambini e adulti bruciano circuiti stampati per estrarre rame e oro, respirando fumi tossici; immergono componenti in bagni acidi per recuperare metalli preziosi, senza protezioni adeguate. Studi sanitari in queste aree hanno documentato livelli allarmanti di piombo nel sangue, danni neurologici, malattie respiratorie e tassi elevati di cancro [@Crawford2021].
+
+**Il "commercio tossico" globale.** Anche se esistono convenzioni internazionali – come la Convenzione di Basilea che dovrebbe limitare il trasferimento di rifiuti pericolosi dai paesi sviluppati a quelli in via di sviluppo – [@Crawford2021] documenta come enormi quantità di e-waste continuino a fluire dal Nord al Sud globale attraverso canali legali e illegali. 
+
+I rifiuti elettronici vengono spesso esportati con l'etichetta di "equipaggiamento usato" o "donazioni per il riuso", aggirando le restrizioni. Una volta arrivati a destinazione, gran parte di questo materiale risulta non funzionante o non riparabile e finisce smaltito in modo informale [@Crawford2021]. Questo rappresenta un trasferimento di costi ambientali e sanitari: i paesi ricchi godono dei benefici dell'innovazione tecnologica accelerata, mentre i paesi poveri subiscono i costi dello smaltimento dei rifiuti tossici.
+
+**Limiti strutturali del riciclo.** Anche quando l'e-waste viene riciclato formalmente, il processo è tutt'altro che perfetto. [@Luccioni2025] sottolineano che il tasso del 22% di riciclo formale nasconde il fatto che molti materiali non vengono effettivamente recuperati. Il riciclo di componenti elettronici è tecnicamente complesso e costoso: richiede processi di separazione sofisticati per estrarre i diversi metalli dalla matrice composita dei circuiti stampati.
+
+Alcuni materiali – come le terre rare – sono particolarmente difficili da recuperare. [@Crawford2021] osserva che il costo economico ed energetico di riciclare terre rare da vecchi dispositivi è spesso superiore al costo di estrarre minerale vergine, creando un disincentivo economico al riciclo. Il risultato è che, nonostante la retorica dell'economia circolare, la maggior parte delle terre rare utilizzate nell'elettronica vengono estratte ex novo e poi perse quando i dispositivi diventano rifiuti.
+
+**Verso una prospettiva di lifecycle completo.** Questi dati evidenziano la necessità di valutare l'impatto ambientale dell'AI attraverso un'analisi completa del ciclo di vita (*lifecycle assessment*), che includa:
+- L'estrazione e raffinazione dei minerali
+- La produzione dei componenti (chip, server, storage)
+- Il trasporto e l'assemblaggio
+- L'uso operativo (energia, acqua, raffreddamento)
+- Lo smaltimento a fine vita
+
+Come argomenteranno [@Luccioni2025] nella loro analisi del paradosso di Jevons applicato all'AI, concentrarsi solo sull'efficienza energetica operativa – pur importante – rischia di oscurare questi impatti "upstream" (estrazione, produzione) e "downstream" (smaltimento) che sono ugualmente significativi dal punto di vista ambientale e di giustizia sociale.
+
+La prossima sezione integra questi diversi impatti materiali ed energetici attraverso la lente teorica del paradosso di Jevons, mostrando come i guadagni di efficienza nell'AI possano paradossalmente portare a un aumento del consumo totale di risorse.
+
+## 3.5 Il paradosso di Jevons applicato all'AI
+
+### 3.5.1 Cos'è il paradosso di Jevons
+
+Il **paradosso di Jevons**, o effetto rimbalzo (*rebound effect*), rappresenta una delle critiche empiriche più potenti alla fiducia ingenua nell'efficienza tecnologica come soluzione ai problemi ambientali. Come discusso nel Capitolo 1 (sezione 1.2.3), questo fenomeno – identificato dall'economista britannico William Stanley Jevons nel XIX secolo nel contesto delle macchine a vapore – descrive come i guadagni di efficienza possano paradossalmente portare a un *aumento* anziché a una diminuzione del consumo totale di risorse.
+
+Il meccanismo è apparentemente controintuitivo ma empiricamente ben documentato: quando una tecnologia diventa più efficiente, i suoi costi d'uso diminuiscono, rendendone l'utilizzo più economico e accessibile. Questo stimola un maggiore utilizzo della tecnologia stessa, l'espansione delle sue applicazioni, e talvolta la crescita economica complessiva che aumenta la domanda di risorse a livello sistemico. Il risultato netto può essere un *aumento* del consumo totale, nonostante i guadagni di efficienza per unità di output [@Luccioni2025].
+
+Come ricordato nel Capitolo 1, [@Luccioni2025] identificano tre tipi di effetti rimbalzo:
+
+1. **Effetto rimbalzo diretto**: l'efficienza riduce il costo d'uso, stimolando maggiore utilizzo della stessa tecnologia (es: automobili più efficienti → si guida di più)
+
+2. **Effetto rimbalzo indiretto**: il risparmio economico viene speso per altri beni/servizi ad alta intensità di risorse (es: risparmi sul carburante → volo aereo)
+
+3. **Effetto rimbalzo sistemico**: l'efficienza stimola crescita economica complessiva, aumentando la domanda totale di risorse (es: interi settori economici si espandono grazie alle nuove tecnologie efficienti)
+
+L'applicazione di questo framework all'intelligenza artificiale, come dimostrano [@Luccioni2025] nel loro recente studio, rivela dinamiche preoccupanti che minano le narrative ottimistiche sulla sostenibilità dell'AI.
+
+### 3.5.2 L'effetto rimbalzo nell'AI
+
+L'intelligenza artificiale manifesta tutti e tre i tipi di effetto rimbalzo identificati da [@Luccioni2025], in modi che sono allo stesso tempo tecnicamente sofisticati e strutturalmente prevedibili. La loro analisi dimostra come i guadagni di efficienza computazionale – spesso celebrati come "Green AI" – possano paradossalmente accelerare la crescita complessiva dell'impronta ambientale del settore.
+
+**Effetti rimbalzo diretti: modelli più grandi, training più frequente.** Il primo e più evidente effetto rimbalzo nell'AI riguarda il rapporto tra efficienza e scala dei modelli. Come documentano [@Luccioni2025], ogni volta che viene sviluppata una tecnica che rende l'addestramento più efficiente – algoritmi migliori, hardware specializzato, ottimizzazioni software – questa efficienza non si traduce in una riduzione del consumo totale, ma piuttosto viene "reinvestita" in modelli ancora più grandi e computazionalmente intensivi.
+
+Ad esempio, quando [@Patterson2021] hanno dimostrato che modelli *sparse* (con attivazione parziale dei parametri) possono consumare meno di 1/10 dell'energia di modelli densi equivalenti mantenendo prestazioni simili, la risposta del settore non è stata "usiamo meno energia mantenendo modelli della stessa dimensione", ma piuttosto "costruiamo modelli 10 volte più grandi allo stesso costo energetico". Il risultato: il consumo energetico rimane costante o aumenta, mentre la complessità e la capacità computazionale crescono esponenzialmente [@Luccioni2025].
+
+[@Luccioni2025] documentano che il numero di parametri nei modelli all'avanguardia è cresciuto di oltre **10.000 volte** tra il 2018 e il 2023 (da BERT con 340 milioni di parametri a GPT-4 con centinaia di miliardi). Questa crescita è stata resa possibile proprio dai guadagni di efficienza hardware e algoritmica, che hanno abbassato la "barriera all'ingresso" per addestrare modelli giganteschi.
+
+Inoltre, i modelli più efficienti rendono economicamente sostenibile un addestramento più frequente. Invece di addestrare un modello una volta e usarlo per anni, le aziende ora ri-addestrano continuamente i modelli su dati aggiornati, eseguono esperimenti multipli, creano varianti specializzate per diversi task. [@Luccioni2025] citano il caso di DeepSeek-R1, un modello che richiede ri-addestramento frequente per mantenere le prestazioni, moltiplicando l'impronta energetica totale nonostante l'efficienza per singola iterazione.
+
+**Effetti rimbalzo indiretti: democratizzazione e proliferazione.** Il secondo tipo di effetto rimbalzo opera attraverso l'espansione dell'accesso. Come osservano [@Luccioni2025], quando l'AI diventa più efficiente e quindi più economica, il suo utilizzo si espande a nuove applicazioni e nuovi utenti che prima non potevano permettersela.
+
+Questo è particolarmente evidente con l'avvento di API pubbliche e modelli as-a-service. ChatGPT, Claude, Gemini e altri LLM sono ora accessibili gratuitamente o a costi molto bassi a centinaia di milioni di utenti. Ogni utente genera centinaia o migliaia di query, creando un carico computazionale aggregato enorme. [@deVries2023], come menzionato nella sezione 3.2.2, stima che se Google integrasse l'AI generativa in tutte le sue ricerche, il consumo energetico aggiuntivo sarebbe paragonabile al consumo annuale dell'Irlanda.
+
+Ma l'effetto indiretto va oltre l'uso consumer. [@Luccioni2025] documentano come l'AI più accessibile stimoli la creazione di applicazioni che prima erano impossibili: chatbot personalizzati per ogni sito web, assistenti virtuali integrati in ogni app, sistemi di raccomandazione sempre più sofisticati, filtri AI per foto e video, traduzione in tempo reale, generazione di contenuti multimediali. Ciascuna di queste applicazioni, individualmente modesta, contribuisce al carico computazionale complessivo.
+
+Un esempio citato da [@Luccioni2025] riguarda gli strumenti di "AI writing assistants" integrati in software di produttività. Tools come Grammarly, Notion AI, Microsoft Copilot eseguono continuamente inferenze AI mentre gli utenti scrivono, controllando grammatica, suggerendo riformulazioni, completando frasi. Ogni keystroke può potenzialmente triggerare una chiamata API. Moltiplicato per milioni di utenti che usano questi strumenti quotidianamente per ore, il consumo energetico aggregato diventa significativo – ma invisibile all'utente finale.
+
+**Effetti rimbalzo sistemici: l'AI al servizio di industrie estrattive.** Il terzo e più preoccupante tipo di effetto rimbalzo riguarda l'uso dell'AI per espandere e ottimizzare settori economici ad alta intensità di carbonio. [@Luccioni2025] documentano numerosi casi dove l'AI viene applicata non per ridurre le emissioni, ma per *aumentare l'efficienza di industrie fossili*, portando paradossalmente a maggiori emissioni totali.
+
+**Il caso Microsoft-ExxonMobil.** L'esempio più emblematico citato da [@Luccioni2025] riguarda la partnership tra Microsoft e ExxonMobil per l'uso dell'AI nell'esplorazione petrolifera. Microsoft ha sviluppato algoritmi di machine learning per analizzare dati geologici e identificare giacimenti petroliferi con maggiore precisione, permettendo a ExxonMobil di aumentare la produzione di **50.000 barili al giorno** nel bacino Permiano in Texas.
+
+[@Luccioni2025] hanno calcolato che le emissioni di CO₂ derivanti da questo aumento di produzione petrolifera superano di **640 volte** le emissioni che Microsoft dichiara di aver evitato attraverso i suoi progetti di carbon removal (cattura e sequestro del carbonio). In altre parole: mentre pubblicamente Microsoft si impegna per la neutralità carbonica e investe in tecnologie di rimozione della CO₂, privatamente vende servizi AI che causano emissioni centinaia di volte superiori a quelle che dichiara di rimuovere.
+
+Questo non è un caso isolato. [@Kaack2022] documentano l'uso diffuso dell'AI in:
+- **Esplorazione petrolifera e di gas**: ottimizzazione delle trivellazioni, identificazione di giacimenti, riduzione dei costi di esplorazione
+- **Agricoltura intensiva**: ottimizzazione di allevamenti industriali che generano enormi emissioni di metano
+- **Logistica di merci**: rendendo più efficiente il trasporto di beni materiali, stimola l'aumento del commercio globale e quindi delle emissioni da trasporto
+- **Fast fashion**: sistemi di raccomandazione che accelerano il ciclo di consumo di abbigliamento
+
+In ciascuno di questi casi, l'AI rende le industrie problematiche più *efficienti* – ma questa efficienza si traduce in maggiore *volume* di attività, non in riduzione dell'impatto ambientale totale. Questo è precisamente il meccanismo del paradosso di Jevons operante a livello sistemico [@Luccioni2025].
+
+**Quantificare il rimbalzo: oltre il 100%?** In alcuni casi, l'effetto rimbalzo può essere così forte da superare completamente i guadagni di efficienza – quello che gli economisti chiamano "backfire" (controeffetto). [@Luccioni2025] citano studi che suggeriscono che in certi settori tecnologici, per ogni miglioramento dell'1% nell'efficienza energetica, il consumo totale aumenta dello 0,5-1,5%, a seconda del contesto e delle dinamiche di mercato.
+
+Nel caso dell'AI, [@Luccioni2025] argomentano che siamo probabilmente già in una situazione di backfire: i miglioramenti nell'efficienza computazionale (misurata come operazioni per watt) sono stati drammatici negli ultimi 10 anni, ma il consumo energetico totale dell'industria AI è *aumentato* ancora più rapidamente. Le proiezioni dell'IEA sul raddoppio del consumo dei data center entro il 2026 (discusse nella sezione 3.2.2) confermano questa dinamica [@IEA2024].
+
+**Implicazioni per le politiche "Green AI".** Queste evidenze sollevano seri dubbi sull'efficacia delle iniziative "Green AI" che si concentrano esclusivamente sull'efficienza tecnica. Come argomentano [@Luccioni2025], migliorare l'efficienza energetica dell'addestramento e dell'inferenza è certamente importante – sarebbe peggio se i modelli fossero *anche* inefficienti. Ma in assenza di limiti assoluti sulla scala e sull'uso dell'AI, l'efficienza da sola non garantisce riduzioni nell'impronta ambientale totale, e può anzi facilitare un'espansione ancora più rapida del settore.
+
+[@Kaack2022] arrivano a conclusioni simili, sostenendo che le politiche per l'AI sostenibile devono andare oltre l'efficienza tecnica e affrontare le dinamiche economiche e istituzionali che guidano la crescita del settore: incentivi al profitto, competizione tra aziende, mancanza di regolamentazione, esternalizzazione dei costi ambientali.
+
+La sezione successiva esamina il dibattito "Green AI vs Red AI" per contestualizzare queste dinamiche nella cultura della ricerca in machine learning.
+
+### 3.5.3 Il dibattito "Green AI vs Red AI"
+
+Il fenomeno degli effetti rimbalzo nell'AI si interseca con un dibattito metodologico che ha iniziato a emergere all'interno della comunità di machine learning: la distinzione tra **"Red AI"** e **"Green AI"**. Questa distinzione, introdotta da [@Schwartz2020], rappresenta un tentativo di reindirizzare le priorità della ricerca AI verso una maggiore sostenibilità, ma rivela anche le resistenze culturali e istituzionali che rendono difficile questo cambiamento.
+
+**Red AI: la cultura del "compute maximalism".** [@Schwartz2020] usano il termine "Red AI" per descrivere l'approccio dominante nella ricerca di machine learning: massimizzare l'accuratezza dei modelli a prescindere dal costo computazionale. In questa paradigma, l'efficienza energetica è considerata secondaria o irrilevante; ciò che conta è ottenere le migliori prestazioni possibili sul benchmark, anche se questo richiede addestrare modelli sempre più grandi su hardware sempre più potente.
+
+Questa cultura è profondamente radicata negli incentivi della ricerca accademica e industriale. I paper che raggiungono lo "state-of-the-art" (le migliori prestazioni) su dataset standardizzati hanno maggiori probabilità di essere accettati alle conferenze prestigiose, di ottenere citazioni, di portare a carriere accademiche di successo. Le aziende competono per sviluppare i modelli più capaci, perché questo genera attenzione mediatica, attira investimenti, e crea vantaggio competitivo nel mercato [@Schwartz2020].
+
+**Green AI: efficienza come metrica primaria.** In contrasto, [@Schwartz2020] propongono il concetto di "Green AI": ricerca che considera l'efficienza computazionale non come vincolo secondario ma come obiettivo primario. Questo significa:
+
+1. **Riportare costi computazionali**: tutti i paper dovrebbero includere non solo l'accuratezza raggiunta, ma anche il tempo di addestramento, il numero di operazioni in virgola mobile (FLOPs), il consumo energetico stimato, le emissioni di CO₂
+
+2. **Valorizzare l'efficienza nelle valutazioni**: le conferenze e i journal dovrebbero dare credito a metodi che raggiungono prestazioni competitive con meno risorse, anche se non ottengono il punteggio assoluto più alto
+
+3. **Sviluppare benchmark di efficienza**: oltre ai tradizionali benchmark di accuratezza, creare competizioni che premiano il miglior rapporto prestazioni/energia
+
+4. **Democratizzare la ricerca**: metodi più efficienti permettono a ricercatori con meno risorse computazionali di contribuire, riducendo la concentrazione della ricerca AI nelle grandi corporation
+
+**La resistenza al cambiamento.** Nonostante queste proposte, [@Schwartz2020] documentano che il cambiamento è stato lento. Nella loro analisi degli articoli pubblicati nelle principali conferenze di machine learning, hanno trovato che circa il **90% degli articoli** continua a riportare solo metriche di accuratezza, omettendo completamente informazioni su costi computazionali ed energetici.
+
+Questo non è solo pigrizia o disattenzione. [@Luccioni2025] argomentano che esistono incentivi strutturali che rendono difficile l'adozione della Green AI:
+
+- **Competizione per il prestigio**: in un campo altamente competitivo, dedicare risorse computazionali all'ottimizzazione dell'efficienza piuttosto che al miglioramento dell'accuratezza può significare perdere la "corsa" per pubblicare il modello migliore
+
+- **Accesso asimmetrico alle risorse**: le grandi aziende tech hanno data center così vasti che il costo energetico di addestrare modelli enormi è marginale rispetto al loro budget; per loro, l'efficienza è meno critica che per laboratori universitari con budget limitati
+
+- **Mancanza di dati pubblici**: senza dati standardizzati sui consumi energetici dei diversi modelli e sistemi, è difficile fare confronti significativi e premiare l'efficienza
+
+- **Assenza di regolamentazione**: a differenza di settori come l'automotive o l'edilizia, dove esistono standard di efficienza energetica obbligatori, l'industria AI opera in un vuoto regolatorio pressoché completo
+
+**Oltre la dicotomia Red/Green.** [@Luccioni2025] suggeriscono che la distinzione Red AI/Green AI, pur utile pedagogicamente, rischia di essere eccessivamente semplicistica. Il vero problema non è scegliere tra efficienza e prestazioni, ma riconoscere che *l'efficienza da sola non basta* in presenza di effetti rimbalzo sistemici.
+
+Anche se tutta la ricerca AI diventasse "Green" nel senso di [@Schwartz2020] – modelli più efficienti, hardware ottimizzato, algoritmi parsimoniosi – fintanto che gli incentivi economici premiano la crescita e l'espansione, il consumo totale continuerebbe ad aumentare. Come dimostrato nella sezione precedente sul paradosso di Jevons, modelli più efficienti rendono l'AI più accessibile e quindi ne amplificano l'uso, potenzialmente annullando i guadagni di efficienza a livello aggregato [@Luccioni2025].
+
+Questo suggerisce che una vera AI sostenibile richiede non solo innovazione tecnica (Green AI) ma anche cambiamenti nelle strutture di governance, negli incentivi economici, e nelle priorità sociali – temi che esploreremo nella sezione 3.7 sull'interpretazione sociologica critica.
+
+## 3.6 Opacità e mancanza di trasparenza
+
+### 3.6.1 I dati mancanti
+
+Uno degli ostacoli più significativi alla comprensione e alla regolamentazione dell'impronta ambientale dell'AI è la **mancanza di trasparenza** da parte delle aziende che sviluppano e deployano questi sistemi. Come documentano [@Crawford2021] e [@Li2023], le grandi tech companies trattano i dati sui consumi energetici e idrici dei loro modelli AI come informazioni proprietarie e commercialmente sensibili, rendendo estremamente difficile una valutazione indipendente dei loro impatti.
+
+**Il problema delle "AI model cards" incomplete.** Negli ultimi anni, sotto pressione della comunità di ricerca e della società civile, alcune aziende hanno iniziato a pubblicare "model cards" – documenti che descrivono le caratteristiche dei modelli AI, incluse informazioni sul loro addestramento e performance. Tuttavia, come criticano [@Li2023], queste model cards raramente includono dati completi sull'impronta ambientale.
+
+In particolare, [@Li2023] evidenziano che le model cards tipicamente *omettono completamente* i dati su:
+
+- **Consumo d'acqua scope 1** (acqua evaporata direttamente nei data center durante l'addestramento)
+- **Consumo d'acqua scope 2** (acqua usata nelle centrali elettriche per generare l'energia consumata)
+- **Emissioni scope 3** (emissioni nella supply chain: produzione di chip, costruzione di data center, trasporti)
+- **Localizzazione geografica specifica** dell'addestramento (che determina il carbon intensity del mix energetico e la disponibilità idrica locale)
+
+Quando vengono forniti dati sul carbon footprint, questi sono spesso calcolati usando il metodo *market-based* piuttosto che *location-based*. La differenza è cruciale: il metodo market-based permette alle aziende di "compensare" le emissioni acquistando crediti di energia rinnovabile o certificati verdi, anche se l'elettricità effettivamente consumata proviene da centrali fossili. Il metodo location-based, invece, calcola le emissioni reali basandosi sul mix energetico effettivo della rete elettrica dove opera il data center [@Li2023].
+
+**Asimmetria informativa strutturale.** [@Crawford2021] argomenta che questa opacità non è accidentale ma riflette una strategia deliberata di controllo dell'informazione. Le aziende tech hanno un interesse diretto a mantenere vaghi i dettagli sull'impronta ambientale dei loro sistemi, per diverse ragioni:
+
+1. **Vantaggio competitivo**: rivelare i costi energetici dettagliati dei modelli potrebbe dare informazioni utili ai competitori sulla scala e l'efficienza delle loro infrastrutture
+
+2. **Rischio reputazionale**: dati precisi potrebbero alimentare critiche pubbliche e campagne di pressione da parte di attivisti ambientali
+
+3. **Evitare regolamentazione**: maggiore trasparenza potrebbe catalizzare richieste di regolamentazione obbligatoria sui consumi energetici e idrici
+
+4. **Proteggere le narrative di sostenibilità**: numeri concreti potrebbero contraddire le dichiarazioni pubbliche di impegno ambientale
+
+Questa asimmetria informativa rende estremamente difficile per ricercatori indipendenti, regolatori, e la società civile valutare accuratamente l'impatto dell'AI. Gli studi come quelli di [@Strubell2019], [@Patterson2021], [@Li2023] e [@Luccioni2025] devono basarsi su stime, assunzioni ragionevoli, e i pochi dati parziali disponibili – un processo che introduce inevitabilmente incertezza e margini di errore significativi.
 
 
 # CONCLUSIONE
