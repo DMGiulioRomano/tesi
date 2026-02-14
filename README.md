@@ -23,7 +23,7 @@ Come sottolinea [Ewing, 2017], la teoria della modernizzazione ecologica è esse
 
 La teoria della modernizzazione ecologica si articola attorno a quattro concetti fondamentali che costituiscono il suo nucleo analitico.
 
-**Efficienza ecologica e disaccoppiamento.** Il concetto centrale della EMT è che l'innovazione tecnologica possa produrre un *disaccoppiamento* (*decoupling*) tra crescita economica e degradazione ambientale. Attraverso processi produttivi più efficienti, energie rinnovabili, economia circolare e dematerializzazione, diventa teoricamente possibile aumentare il PIL riducendo simultaneamente le emissioni di CO₂, il consumo di risorse e la produzione di rifiuti [Mol & Spaargaren, 2000]. La metafora ricorrente nella letteratura della EMT è quella del "bruco industriale sporco" che si trasforma nella "farfalla ecologica" grazie alla super-industrializzazione tecnologica [citato in Ewing, 2017]. L'obiettivo non è produrre meno, ma produrre meglio – con maggiore efficienza ecologica.
+**Efficienza ecologica e disaccoppiamento.** Il concetto centrale della EMT è che l'innovazione tecnologica possa produrre un *disaccoppiamento* (*decoupling*) tra crescita economica e degradazione ambientale. Attraverso processi produttivi più efficienti, energie rinnovabili, economia circolare e dematerializzazione, diventa teoricamente possibile aumentare il PIL riducendo simultaneamente le emissioni di CO2, il consumo di risorse e la produzione di rifiuti [Mol & Spaargaren, 2000]. La metafora ricorrente nella letteratura della EMT è quella del "bruco industriale sporco" che si trasforma nella "farfalla ecologica" grazie alla super-industrializzazione tecnologica [citato in Ewing, 2017]. L'obiettivo non è produrre meno, ma produrre meglio – con maggiore efficienza ecologica.
 
 **Razionalità ecologica.** La EMT introduce il concetto di "razionalità ecologica" come una logica autonoma che progressivamente si integra nelle istituzioni economiche e politiche moderne [Mol, 2002]. Secondo questa prospettiva, i criteri ambientali – riduzione delle emissioni, conservazione delle risorse, minimizzazione dei rifiuti – non restano confinati al dominio dei movimenti ambientalisti o delle agenzie di regolazione, ma vengono "incorporati" (*embedded*) nelle logiche decisionali delle imprese, dei mercati finanziari, delle amministrazioni pubbliche [Spaargaren et al., 2000]. La sostenibilità diventa una razionalità economica, non solo un vincolo etico. 
 
@@ -202,7 +202,7 @@ La survey più completa e sistematica sulle applicazioni dell'intelligenza artif
 3. **Edifici e città**: gestione intelligente del riscaldamento e raffreddamento, pianificazione urbana sostenibile
 4. **Industria**: ottimizzazione delle supply chain, riduzione degli sprechi, scoperta di nuovi materiali a basso impatto
 5. **Agricoltura e foreste**: agricoltura di precisione, monitoraggio della deforestazione, gestione sostenibile delle risorse naturali
-6. **Rimozione della CO₂**: ottimizzazione dei sistemi di cattura diretta dall'atmosfera, sequestro geologico
+6. **Rimozione della CO2**: ottimizzazione dei sistemi di cattura diretta dall'atmosfera, sequestro geologico
 7. **Previsione climatica**: miglioramento dei modelli climatici, integrazione di dati eterogenei
 8. **Previsione di eventi estremi**: allerta precoce per alluvioni, uragani, incendi, ondate di calore
 9. **Impatti sociali**: monitoraggio degli ecosistemi, supporto all'adattamento delle comunità vulnerabili
@@ -339,7 +339,7 @@ Le applicazioni dell'AI alla transizione energetica documentate in questa sezion
 
 **Gestione della complessità.** In tutti i casi, l'AI affronta problemi caratterizzati da un enorme numero di variabili interdipendenti, pattern non lineari, e necessità di decisioni in tempo reale. Questi sono precisamente i tipi di problemi dove il machine learning eccelle rispetto agli approcci tradizionali.
 
-**Disaccoppiamento potenziale.** Dal punto di vista della modernizzazione ecologica, queste applicazioni promettono di realizzare il "disaccoppiamento" tra servizi energetici (elettricità affidabile, trasporti, riscaldamento) e impatto ambientale (emissioni di CO₂). Non richiedono che i consumatori riducano il loro utilizzo di energia, ma che la stessa quantità di energia sia fornita in modo più pulito ed efficiente.
+**Disaccoppiamento potenziale.** Dal punto di vista della modernizzazione ecologica, queste applicazioni promettono di realizzare il "disaccoppiamento" tra servizi energetici (elettricità affidabile, trasporti, riscaldamento) e impatto ambientale (emissioni di CO2). Non richiedono che i consumatori riducano il loro utilizzo di energia, ma che la stessa quantità di energia sia fornita in modo più pulito ed efficiente.
 
 **Scalabilità economica.** Un algoritmo ML, una volta sviluppato, può essere replicato a costo marginale quasi nullo. Una smart grid ottimizzata da AI in California può ispirare implementazioni simili in Europa o Asia. Un modello predittivo per la produzione solare può essere adattato a diversi contesti geografici. Questa scalabilità è cruciale per la rapidità della transizione globale.
 
@@ -534,13 +534,13 @@ In particolare, ci concentriamo su due ambiti dove l'AI sta dimostrando un poten
 
 ### 2.4.1 Agricoltura di precisione: ottimizzare la produzione alimentare
 
-L'agricoltura industriale moderna costituisce una fonte significativa di emissioni di gas serra, ma non per le ragioni che intuitivamente potremmo pensare. Sebbene le piante assorbano CO₂ dall'atmosfera, i processi associati alla produzione agricola intensiva generano impatti ambientali considerevoli attraverso tre meccanismi principali [Rolnick]: 
+L'agricoltura industriale moderna costituisce una fonte significativa di emissioni di gas serra, ma non per le ragioni che intuitivamente potremmo pensare. Sebbene le piante assorbano CO2 dall'atmosfera, i processi associati alla produzione agricola intensiva generano impatti ambientali considerevoli attraverso tre meccanismi principali [Rolnick]: 
 
 **Primo, la preparazione del terreno.** La terra viene generalmente spogliata della vegetazione esistente, rilasciando il carbonio sequestrato. Il processo di aratura espone il suolo superficiale all'aria, rilasciando così il carbonio che era stato trattenuto negli aggregati del suolo e distruggendo i microrganismi che contribuiscono al sequestro.
 
-**Secondo, l'uso di fertilizzanti azotati.** Poiché le pratiche agricole intensive impoveriscono il suolo di nutrienti, i fertilizzanti a base di azoto devono essere aggiunti nuovamente al sistema. La sintesi di questi fertilizzanti consuma quantità enormi di energia – circa il 2% del consumo energetico globale. Inoltre, mentre parte di questo azoto viene assorbito dalle piante o trattenuto nel suolo, una parte significativa viene convertita in protossido di azoto (N₂O), un gas serra circa 300 volte più potente della CO₂.
+**Secondo, l'uso di fertilizzanti azotati.** Poiché le pratiche agricole intensive impoveriscono il suolo di nutrienti, i fertilizzanti a base di azoto devono essere aggiunti nuovamente al sistema. La sintesi di questi fertilizzanti consuma quantità enormi di energia – circa il 2% del consumo energetico globale. Inoltre, mentre parte di questo azoto viene assorbito dalle piante o trattenuto nel suolo, una parte significativa viene convertita in protossido di azoto (N2O), un gas serra circa 300 volte più potente della CO2.
 
-**Terzo, le emissioni da allevamento.** Il bestiame e la coltivazione del riso generano metano, un gas serra molto più potente della CO₂ stessa.
+**Terzo, le emissioni da allevamento.** Il bestiame e la coltivazione del riso generano metano, un gas serra molto più potente della CO2 stessa.
 
 #### Le promesse dell'agricoltura di precisione
 
@@ -566,7 +566,7 @@ Anche se la letteratura scientifica resta prudente nel quantificare i benefici n
 
 #### Remote sensing per la gestione del territorio
 
-Tecniche di ML possono essere utilizzate per supportare i decisori politici e gli agronomi. Ad esempio, il telerilevamento con droni e satelliti potrebbe eseguire il rilevamento del metano e la stima dello stock di carbonio, che potrebbero essere utilizzati per incentivare gli agricoltori a sequestrare più carbonio e ridurre le emissioni [Rolnick]. Le telecamere iperspettrali – che possono registrare diverse centinaia di diverse lunghezze d'onda invece del semplice rosso, verde e blu – forniscono informazioni sull'interazione tra luce e sostanze chimiche individuali. Molti satelliti sono dotati di tali telecamere e possono eseguire, in una certa misura, stime delle emissioni di CO₂, CH₄ (metano), H₂O e N₂O (protossido di azoto).
+Tecniche di ML possono essere utilizzate per supportare i decisori politici e gli agronomi. Ad esempio, il telerilevamento con droni e satelliti potrebbe eseguire il rilevamento del metano e la stima dello stock di carbonio, che potrebbero essere utilizzati per incentivare gli agricoltori a sequestrare più carbonio e ridurre le emissioni [Rolnick]. Le telecamere iperspettrali – che possono registrare diverse centinaia di diverse lunghezze d'onda invece del semplice rosso, verde e blu – forniscono informazioni sull'interazione tra luce e sostanze chimiche individuali. Molti satelliti sono dotati di tali telecamere e possono eseguire, in una certa misura, stime delle emissioni di CO2, CH₄ (metano), H2O e N2O (protossido di azoto).
 
 ### 2.4.2 Ottimizzazione della supply chain e economia circolare
 
@@ -652,11 +652,11 @@ Questa materialità nascosta ha conseguenze ambientali che devono essere analizz
 
 ### 3.2.1 L'energia per l'addestramento dei modelli
 
-Il processo di addestramento di modelli di machine learning – in particolare dei grandi modelli di linguaggio (*Large Language Models*, LLM) e dei sistemi di deep learning – richiede quantità straordinarie di energia computazionale. Come ha documentato il pionieristico studio di [@Strubell2019], l'addestr amento di un singolo grande modello di elaborazione del linguaggio naturale può generare emissioni di CO₂ equivalenti a quelle prodotte da **cinque automobili durante l'intero ciclo di vita** – dalla produzione allo smaltimento.
+Il processo di addestramento di modelli di machine learning – in particolare dei grandi modelli di linguaggio (*Large Language Models*, LLM) e dei sistemi di deep learning – richiede quantità straordinarie di energia computazionale. Come ha documentato il pionieristico studio di [@Strubell2019], l'addestr amento di un singolo grande modello di elaborazione del linguaggio naturale può generare emissioni di CO2 equivalenti a quelle prodotte da **cinque automobili durante l'intero ciclo di vita** – dalla produzione allo smaltimento.
 
-I dati empirici sono impressionanti. [@Strubell2019] hanno calcolato che l'addestramento di un modello transformer con ricerca dell'architettura neurale (*neural architecture search*) emette circa **284.000 kg di CO₂e** (CO₂ equivalente). Per contestualizzare: questo corrisponde alle emissioni di 125 voli andata-ritorno tra New York e San Francisco, o al consumo energetico di una famiglia americana media per 57 anni. Anche modelli più piccoli generano impronte significative: un singolo modello BERT base emette circa 652 kg di CO₂e, equivalente a un volo transatlantico [@Strubell2019].
+I dati empirici sono impressionanti. [@Strubell2019] hanno calcolato che l'addestramento di un modello transformer con ricerca dell'architettura neurale (*neural architecture search*) emette circa **284.000 kg di CO2e** (CO2 equivalente). Per contestualizzare: questo corrisponde alle emissioni di 125 voli andata-ritorno tra New York e San Francisco, o al consumo energetico di una famiglia americana media per 57 anni. Anche modelli più piccoli generano impronte significative: un singolo modello BERT base emette circa 652 kg di CO2e, equivalente a un volo transatlantico [@Strubell2019].
 
-**GPT-3: un caso di studio emblematico.** Il modello GPT-3 di OpenAI, alla base di ChatGPT, rappresenta un esempio particolarmente illuminante dell'intensità energetica dell'AI contemporanea. Secondo le stime riportate da [@Patterson2021] e [@Li2023], l'addestramento di GPT-3 ha consumato **1.287 MWh** (megawattora) di elettricità e generato circa **552 tonnellate di CO₂e**. Per dare un ordine di grandezza: 1.287 MWh potrebbero alimentare circa 120 abitazioni americane medie per un anno intero [@Patterson2021].
+**GPT-3: un caso di studio emblematico.** Il modello GPT-3 di OpenAI, alla base di ChatGPT, rappresenta un esempio particolarmente illuminante dell'intensità energetica dell'AI contemporanea. Secondo le stime riportate da [@Patterson2021] e [@Li2023], l'addestramento di GPT-3 ha consumato **1.287 MWh** (megawattora) di elettricità e generato circa **552 tonnellate di CO2e**. Per dare un ordine di grandezza: 1.287 MWh potrebbero alimentare circa 120 abitazioni americane medie per un anno intero [@Patterson2021].
 
 È cruciale sottolineare che questi calcoli si riferiscono a un *singolo* ciclo di addestramento. Nella pratica dello sviluppo di modelli AI, i ricercatori raramente addestrano un modello una volta sola. Il processo tipico coinvolge:
 
@@ -857,7 +857,7 @@ Un esempio citato da [@Luccioni2025] riguarda gli strumenti di "AI writing assis
 
 **Il caso Microsoft-ExxonMobil.** L'esempio più emblematico citato da [@Luccioni2025] riguarda la partnership tra Microsoft e ExxonMobil per l'uso dell'AI nell'esplorazione petrolifera. Microsoft ha sviluppato algoritmi di machine learning per analizzare dati geologici e identificare giacimenti petroliferi con maggiore precisione, permettendo a ExxonMobil di aumentare la produzione di **50.000 barili al giorno** nel bacino Permiano in Texas.
 
-[@Luccioni2025] hanno calcolato che le emissioni di CO₂ derivanti da questo aumento di produzione petrolifera superano di **640 volte** le emissioni che Microsoft dichiara di aver evitato attraverso i suoi progetti di carbon removal (cattura e sequestro del carbonio). In altre parole: mentre pubblicamente Microsoft si impegna per la neutralità carbonica e investe in tecnologie di rimozione della CO₂, privatamente vende servizi AI che causano emissioni centinaia di volte superiori a quelle che dichiara di rimuovere.
+[@Luccioni2025] hanno calcolato che le emissioni di CO2 derivanti da questo aumento di produzione petrolifera superano di **640 volte** le emissioni che Microsoft dichiara di aver evitato attraverso i suoi progetti di carbon removal (cattura e sequestro del carbonio). In altre parole: mentre pubblicamente Microsoft si impegna per la neutralità carbonica e investe in tecnologie di rimozione della CO2, privatamente vende servizi AI che causano emissioni centinaia di volte superiori a quelle che dichiara di rimuovere.
 
 Questo non è un caso isolato. [@Kaack2022] documentano l'uso diffuso dell'AI in:
 - **Esplorazione petrolifera e di gas**: ottimizzazione delle trivellazioni, identificazione di giacimenti, riduzione dei costi di esplorazione
@@ -887,7 +887,7 @@ Questa cultura è profondamente radicata negli incentivi della ricerca accademic
 
 **Green AI: efficienza come metrica primaria.** In contrasto, [@Schwartz2020] propongono il concetto di "Green AI": ricerca che considera l'efficienza computazionale non come vincolo secondario ma come obiettivo primario. Questo significa:
 
-1. **Riportare costi computazionali**: tutti i paper dovrebbero includere non solo l'accuratezza raggiunta, ma anche il tempo di addestramento, il numero di operazioni in virgola mobile (FLOPs), il consumo energetico stimato, le emissioni di CO₂
+1. **Riportare costi computazionali**: tutti i paper dovrebbero includere non solo l'accuratezza raggiunta, ma anche il tempo di addestramento, il numero di operazioni in virgola mobile (FLOPs), il consumo energetico stimato, le emissioni di CO2
 
 2. **Valorizzare l'efficienza nelle valutazioni**: le conferenze e i journal dovrebbero dare credito a metodi che raggiungono prestazioni competitive con meno risorse, anche se non ottengono il punteggio assoluto più alto
 
@@ -946,19 +946,19 @@ Questa asimmetria informativa rende estremamente difficile per ricercatori indip
 
 La mancanza di trasparenza discussa nella sezione precedente si intreccia con pratiche sistematiche di **greenwashing** – la presentazione pubblica di un'immagine di sostenibilità ambientale che maschera o contraddice le pratiche effettive dell'azienda. Come documentano [@Crawford2021] e [@Luccioni2025], le grandi tech companies hanno sviluppato narrative sofisticate che enfatizzano selettivamente gli aspetti "green" dell'AI mentre minimizzano o occultano gli impatti negativi.
 
-**Le dichiarazioni di "carbon neutrality" e i loro limiti.** Molte aziende tech – incluse Google, Microsoft, Amazon – hanno annunciato impegni ambiziosi verso la "carbon neutrality" o addirittura la "carbon negativity" (rimuovere più CO₂ di quanto emesso). Tuttavia, come osservano [@Crawford2021] e [@Luccioni2025], questi impegni si basano prevalentemente su meccanismi di *compensazione* (carbon offsets) piuttosto che su riduzioni effettive delle emissioni.
+**Le dichiarazioni di "carbon neutrality" e i loro limiti.** Molte aziende tech – incluse Google, Microsoft, Amazon – hanno annunciato impegni ambiziosi verso la "carbon neutrality" o addirittura la "carbon negativity" (rimuovere più CO2 di quanto emesso). Tuttavia, come osservano [@Crawford2021] e [@Luccioni2025], questi impegni si basano prevalentemente su meccanismi di *compensazione* (carbon offsets) piuttosto che su riduzioni effettive delle emissioni.
 
 I carbon offsets funzionano così: un'azienda che genera emissioni può "compensarle" finanziando progetti che dovrebbero rimuovere o evitare emissioni equivalenti altrove – piantare alberi, investire in energie rinnovabili, proteggere foreste. Sulla carta, il bilancio netto risulta zero o negativo. Ma questo approccio presenta problemi strutturali ben documentati dalla letteratura scientifica [@Luccioni2025]:
 
 1. **Addizionalità incerta**: molti progetti di offset sarebbero avvenuti comunque senza il finanziamento, quindi non rappresentano riduzioni *aggiuntive* di emissioni
 
-2. **Permanenza dubbia**: gli alberi piantati potrebbero morire, bruciare in incendi, o essere tagliati nei decenni successivi, rilasciando nuovamente la CO₂
+2. **Permanenza dubbia**: gli alberi piantati potrebbero morire, bruciare in incendi, o essere tagliati nei decenni successivi, rilasciando nuovamente la CO2
 
-3. **Problemi di quantificazione**: calcolare esattamente quanta CO₂ un progetto rimuove o evita è estremamente complesso e soggetto a incertezze
+3. **Problemi di quantificazione**: calcolare esattamente quanta CO2 un progetto rimuove o evita è estremamente complesso e soggetto a incertezze
 
 4. **Giustizia ambientale**: molti progetti di offset avvengono nel Sud globale e possono avere impatti negativi su comunità locali (es: espropriazione di terre per piantagioni)
 
-Soprattutto, come criticano [@Luccioni2025], gli offset permettono alle aziende di continuare ad *aumentare* le loro emissioni assolute mentre dichiarano di essere "carbon neutral" – un paradosso contabile che non risolve il problema fisico dell'accumulo di CO₂ in atmosfera.
+Soprattutto, come criticano [@Luccioni2025], gli offset permettono alle aziende di continuare ad *aumentare* le loro emissioni assolute mentre dichiarano di essere "carbon neutral" – un paradosso contabile che non risolve il problema fisico dell'accumulo di CO2 in atmosfera.
 
 **Il caso Microsoft: contraddizioni tra dichiarazioni e pratiche.** Un esempio particolarmente emblematico analizzato da [@Luccioni2025] riguarda Microsoft. Pubblicamente, l'azienda si è impegnata a diventare "carbon negative" entro il 2030, rimuovendo più carbonio di quanto ne emette. Ha investito miliardi in progetti di carbon removal e pubblica report di sostenibilità dettagliati che enfatizzano questi impegni.
 
@@ -1035,7 +1035,7 @@ Queste applicazioni incarnano la promessa della modernizzazione ecologica inform
 
 **L'AI come problema ambientale.** Tuttavia, il Capitolo 3 ha documentato sistematicamente come l'infrastruttura stessa dell'AI generi impatti ambientali significativi e in rapida crescita:
 
-- **Consumo energetico**: l'addestramento di un singolo grande modello può emettere 284.000 kg di CO₂e, equivalente a 5 automobili durante l'intero ciclo di vita [@Strubell2019]; GPT-3 ha consumato 1.287 MWh [@Patterson2021]; le proiezioni indicano che il consumo dei data center raddoppierà entro il 2026, raggiungendo 945 TWh [@IEA2024]
+- **Consumo energetico**: l'addestramento di un singolo grande modello può emettere 284.000 kg di CO2e, equivalente a 5 automobili durante l'intero ciclo di vita [@Strubell2019]; GPT-3 ha consumato 1.287 MWh [@Patterson2021]; le proiezioni indicano che il consumo dei data center raddoppierà entro il 2026, raggiungendo 945 TWh [@IEA2024]
 
 - **Consumo idrico**: l'addestramento di GPT-3 ha evaporato circa 700.000 litri di acqua dolce [@Li2023]; Google ha prelevato 25 miliardi di litri nel 2022; i data center vengono costruiti in regioni già water-scarce, creando conflitti con comunità locali
 
