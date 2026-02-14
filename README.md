@@ -179,9 +179,9 @@ Questo approccio dialettico – tesi (Cap. 2) e antitesi (Cap. 3) – ci permett
 
 ## 2.1 Introduzione: AI for Green
 
-Nel dibattito contemporaneo sul rapporto tra tecnologia digitale e ambiente, l'intelligenza artificiale occupa una posizione peculiare e per certi versi paradossale. Da un lato, come vedremo nel Capitolo 3, l'AI rappresenta una delle tecnologie più materialmente intensive dell'economia digitale, con un'impronta energetica, idrica e di risorse naturali che solleva crescenti preoccupazioni. Dall'altro, l'AI viene presentata e utilizzata come uno strumento potenzialmente trasformativo per affrontare la crisi climatica – capace di ottimizzare sistemi energetici, monitorare ecosistemi, prevedere disastri naturali e accelerare la ricerca scientifica in direzione della sostenibilità.
+L'intelligenza artificiale viene presentata come strumento potenzialmente trasformativo per affrontare la crisi climatica: ottimizzazione di sistemi energetici, monitoraggio di ecosistemi, previsione di disastri naturali, accelerazione della ricerca scientifica verso la sostenibilità.
 
-Questo capitolo si concentra su quest'ultima dimensione: l'AI come *alleata* della transizione ecologica. Adottiamo qui la prospettiva che [@vanWynsberghe2021SustainableAI] definisce "AI for sustainability" – l'insieme delle applicazioni dell'intelligenza artificiale specificatamente orientate a ridurre le emissioni di gas serra, proteggere gli ecosistemi e facilitare l'adattamento ai cambiamenti climatici già in corso. In termini del framework teorico elaborato nel Capitolo 1, questo significa esaminare l'AI attraverso la lente più ottimista della modernizzazione ecologica informazionale: l'AI come incarnazione della razionalità ecologica mediata dall'informazione, come strumento di governance ambientale trasparente e efficiente, come tecnologia che promette di disaccoppiare crescita economica e degradazione ambientale.
+Questo capitolo esamina l'AI come *alleata* della transizione ecologica, documentando le applicazioni che [@vanWynsberghe2021SustainableAI] definisce "AI for sustainability" – sistemi specificatamente orientati a ridurre emissioni, proteggere ecosistemi e facilitare l'adattamento climatico.
 
 ### 2.1.1 Mitigazione e adattamento: le due strategie
 
@@ -526,7 +526,7 @@ Tuttavia, è cruciale mantenere una prospettiva equilibrata. Come sottolineato n
 
 E soprattutto, come documenteremo nel Capitolo 3, l'infrastruttura computazionale che rende possibili queste applicazioni benefiche ha essa stessa un'impronta ecologica considerevole. La promessa dell'AI come strumento di razionalità ecologica deve essere valutata insieme alla realtà dell'AI come sistema ad alta intensità energetica, idrica e materiale. Solo tenendo insieme entrambe le prospettive – l'AI for Green e l'AI come problema ambientale – possiamo sviluppare una comprensione sociologicamente informata del ruolo dell'intelligenza artificiale nell'Antropocene.
 
-# 2.4 Applicazioni emergenti e settoriali
+## 2.4 Applicazioni emergenti e settoriali
 
 Le sezioni precedenti hanno documentato le applicazioni dell'intelligenza artificiale nei due domini dove gli impatti sono potenzialmente più significativi per la mitigazione climatica: il sistema energetico, responsabile del 73% delle emissioni globali di gas serra, e i sistemi di monitoraggio e previsione per l'adattamento ai cambiamenti climatici. Ma l'AI si sta diffondendo come strumento di sostenibilità ambientale in una molteplicità di altri settori. Questa sezione presenta brevemente alcune applicazioni emergenti che, pur non raggiungendo ancora la maturità e l'impatto documentato delle precedenti, illustrano la **trasversalità** dell'AI come tecnologia abilitante per la transizione ecologica.
 
@@ -616,13 +616,29 @@ Tuttavia, come sottolineato ripetutamente in letteratura, questi guadagni potenz
 
 Inoltre, è importante riconoscere che queste applicazioni sono ancora **emergenti** piuttosto che mature. A differenza delle smart grid o dei sistemi di previsione meteorologica, dove abbiamo deployment operativi su larga scala e dati empirici sugli impatti, molte applicazioni in agricoltura di precisione ed economia circolare sono ancora in fase pilota o limitata a contesti specifici. La letteratura parla spesso di "potenziale" e "promesse" piuttosto che di risultati consolidati. Sarà necessaria ricerca ulteriore per quantificare con precisione i benefici netti, tenendo conto degli effetti sistemici e dei possibili trade-off.
 
+## 2.5 La prospettiva della modernizzazione ecologica: interpretazione
+
+Le applicazioni documentate nelle sezioni precedenti incarnano diversi concetti chiave della teoria della modernizzazione ecologica informazionale [@Mol2008].
+
+**Razionalità ecologica attraverso informazione.** L'AI permette di rendere "visibile l'invisibile": emissioni che prima sfuggivano al monitoraggio diventano tracciabili in tempo reale (smart grid), foreste remote vengono monitorate satellitarmente, alluvioni in bacini non strumentati diventano prevedibili. Questa capacità di generare, elaborare e utilizzare informazione ambientale su scala senza precedenti rappresenta l'essenza della governance informazionale teorizzata da Mol: la razionalità ecologica mediata dai dati.
+
+**Efficienza e ottimizzazione.** Le applicazioni in smart grid, previsioni meteorologiche e agricoltura di precisione promettono guadagni di efficienza sostanziali: meno energia sprecata nella trasmissione, meno acqua e fertilizzanti utilizzati, maggiore accuratezza nelle previsioni che riduce danni da disastri. Questo allineamento tra efficienza economica ed ecologica è precisamente ciò che la EMT identifica come motore del cambiamento: la sostenibilità diventa razionalità economica.
+
+**Governance multi-attore.** Lo sviluppo e il deployment di queste tecnologie coinvolgono aziende tech (Google, DeepMind, Huawei), istituzioni pubbliche (agenzie meteorologiche, ministeri dell'ambiente), ONG (Global Forest Watch), e partnership pubblico-private. Questo ecosistema multi-attore riflette il modello di governance della EMT, dove il cambiamento non è imposto top-down dallo Stato ma emerge da coordinamento tra attori diversi.
+
+**Limiti e condizioni di efficacia.** Tuttavia, le evidenze empiriche rivelano anche limiti significativi. Come riconoscono [@Kaack2022], le applicazioni climate-positive rappresentano una **frazione minuscola** dell'uso totale dell'AI - la maggior parte del computing è dedicata a pubblicità, raccomandazioni, social media. Inoltre, l'efficacia di queste applicazioni dipende fortemente dal contesto istituzionale: smart grid funzionano solo se i sistemi di incentivazione allineano interessi economici e ambientali; il monitoraggio della deforestazione è inutile senza enforcement legale; l'agricoltura di precisione può ridurre input ma anche intensificare la monocoltura se non regolata.
+
+La domanda critica che emerge non è quindi "l'AI può aiutare la transizione ecologica?" (la risposta è chiaramente sì, in linea di principio) ma piuttosto: **sotto quali condizioni istituzionali, economiche e politiche queste potenzialità si realizzano effettivamente?** E, crucialmente, **a quale costo ambientale complessivo?** Quest'ultima domanda ci porta al Capitolo 3.
+
+## 2.6 Sintesi del capitolo
+
+Le applicazioni documentate incarnano la promessa della modernizzazione ecologica informazionale: razionalità ecologica attraverso dati, efficienza e governance multi-attore. Tuttavia, queste applicazioni climate-positive rappresentano una frazione minuscola dell'uso totale dell'AI [@Kaack2022], e la loro efficacia dipende da condizioni istituzionali ed economiche specifiche. La domanda che emerge è: a quale costo ambientale complessivo?
+
 # CAPITOLO 3 - L'IMPRONTA ECOLOGICA DELL'INTELLIGENZA ARTIFICIALE: COSTI NASCOSTI E CONTRADDIZIONI
 
 ## 3.1 Introduzione: il lato oscuro dell'AI
 
-Nel Capitolo 2 abbiamo esplorato la narrativa più ottimista sul rapporto tra intelligenza artificiale e ambiente, documentando come l'AI venga presentata e utilizzata come strumento di transizione ecologica. Abbiamo visto applicazioni promettenti nelle smart grid, nella previsione meteorologica, nel monitoraggio degli ecosistemi – tutte incarnazioni della promessa della modernizzazione ecologica informazionale: risolvere i problemi ambientali attraverso maggiore efficienza, ottimizzazione e governance basata sui dati.
-
-Questo capitolo rovescia la prospettiva. Esaminiamo ora l'intelligenza artificiale non come *soluzione* alla crisi climatica, ma come *parte del problema* – un'infrastruttura tecnologica con un'impronta ecologica significativa e in rapida crescita. Come osservano [@Luccioni2025], il dibattito sull'AI e l'ambiente è diventato profondamente polarizzato: da un lato, i sostenitori ne enfatizzano il potenziale per accelerare la transizione energetica e la scoperta di materiali sostenibili; dall'altro, i critici sottolineano il crescente consumo di carbonio, acqua e risorse materiali. Questa polarizzazione, tuttavia, ha concentrato l'attenzione principalmente sugli *impatti diretti* – energia e acqua nei data center, rifiuti elettronici – senza affrontare adeguatamente gli effetti indiretti e sistemici.
+Questo capitolo esamina l'intelligenza artificiale non come *soluzione* alla crisi climatica, ma come *parte del problema* – un'infrastruttura tecnologica con un'impronta ecologica significativa e in rapida crescita.
 
 ### 3.1.1 La materialità nascosta dell'"immateriale"
 
@@ -974,94 +990,17 @@ Senza questo tipo di trasparenza obbligatoria, concludono [@Luccioni2025], il gr
 
 ## 3.7 Interpretazione critica dalla prospettiva sociologica
 
-### 3.7.1 I limiti della modernizzazione ecologica "debole"
+Come discusso nella sezione 1.2, i teorici critici della modernizzazione ecologica hanno evidenziato i limiti strutturali della versione "debole": la subordinazione della razionalità ecologica a quella economica, la sottovalutazione delle dinamiche capitaliste di crescita e profitto, il paradosso di Jevons che vanifica i guadagni di efficienza [@Foster2012; @Ewing2017].
 
-Arrivati a questo punto del capitolo, dopo aver documentato l'impronta energetica, idrica e materiale dell'AI, gli effetti rimbalzo sistemici, e le dinamiche di opacità e greenwashing, possiamo ora tornare al framework teorico elaborato nel Capitolo 1 per un'interpretazione sociologica critica. Il caso dell'intelligenza artificiale conferma molte delle critiche che i teorici critici hanno rivolto alla teoria della modernizzazione ecologica (EMT) nella sua versione "debole".
+**Il caso empirico dell'AI conferma queste critiche teoriche.** L'evidenza documentata in questo capitolo mostra che:
 
-**La subordinazione della razionalità ecologica a quella economica.** Come discusso nella sezione 1.2.2, [@Foster2012] e [@Ewing2017] hanno argomentato che la EMT sottostima sistematicamente il modo in cui le logiche del profitto e della crescita capitalistica subordinano le considerazioni ecologiche. Il caso dell'AI offre una conferma empirica potente di questa critica.
+- I guadagni di efficienza computazionale si traducono in modelli più grandi e deployment più diffuso, non in riduzioni assolute (paradosso di Jevons empiricamente verificato)
+- Le logiche di profitto prevalgono sistematicamente: l'AI viene venduta a industrie fossili mentre si proclama "green", i data center vengono costruiti dove l'energia è economica (non dove è pulita)
+- I costi ambientali vengono esternalizzati su comunità vulnerabili (Sud globale, territori indigeni) mentre i benefici si concentrano nel Nord globale
+- L'opacità delle aziende tech impedisce accountability democratica
 
-Abbiamo visto nella sezione 3.5.2 come Microsoft venda servizi AI a ExxonMobil per aumentare l'estrazione petrolifera, generando emissioni 640 volte superiori a quelle che dichiara di rimuovere [@Luccioni2025]. Abbiamo visto come l'imperativo di competizione tra aziende tech spinga verso modelli sempre più grandi e computazionalmente intensivi, nonostante i costi ambientali [@Schwartz2020]. Abbiamo documentato come il 90% della ricerca AI ignori completamente l'efficienza energetica, privilegiando l'accuratezza perché questa porta a paper pubblicati, finanziamenti, e vantaggio competitivo [@Schwartz2020].
+Verso una modernizzazione ecologica "riflessiva" che incorpori governance democratica, trasparenza obbligatoria, giustizia distributiva e internalizzazione dei costi nascosti nel calcolo economico [@Beck1992].
 
-In ciascuno di questi casi, la "razionalità ecologica" che la EMT assume possa guidare le decisioni tecnologiche e istituzionali viene sistematicamente schiacciata dalla razionalità economica del profitto massimo e della crescita continua. Come osservano [@Ewing2017], le imprese capitalistiche – costrette dalla competizione di mercato – non possono volontariamente sacrificare profittabilità per obiettivi ecologici, anche quando riconoscono l'insostenibilità di lungo periodo delle loro pratiche.
-
-**L'ignoranza delle dinamiche di crescita: il "treadmill of production".** Una seconda critica alla EMT discussa nel Capitolo 1 riguarda la sua sottovalutazione delle dinamiche sistemiche di crescita economica che caratterizzano il capitalismo. Il sociologo Allan Schnaiberg ha sviluppato il concetto di "treadmill of production" (tapis roulant della produzione) per descrivere come le economie capitalistiche siano strutturalmente vincolate a una crescita continua: le imprese devono espandersi per sopravvivere alla competizione; i lavoratori dipendono dalla crescita per l'occupazione; gli stati dipendono dalla crescita per le entrate fiscali [@Foster2012].
-
-Il settore AI manifesta questa dinamica in modo particolarmente evidente. Come documentato nella sezione 3.2, il consumo computazionale è cresciuto di un fattore 10 ogni anno dal 2012 [@Patterson2021]. Questa crescita non è un incidente, ma il risultato di incentivi sistemici: le aziende investono miliardi in capacità computazionale per mantenere il vantaggio competitivo; i ricercatori devono produrre modelli sempre più grandi per pubblicare; gli investitori premiano le aziende che promettono scalabilità esponenziale.
-
-[@Luccioni2025] descrivono questa dinamica come una "corsa agli armamenti computazionali" – una competizione dove nessun attore può unilateralmente rallentare senza perdere posizione di mercato. Anche se un'azienda decidesse volontariamente di limitare la crescita per ragioni ecologiche, i competitori la supererebbero rapidamente. Questo è precisamente il meccanismo del "treadmill of production": la logica sistemica impone la crescita indipendentemente dalle conseguenze ambientali.
-
-**La fiducia ingenua nell'efficienza tecnologica.** Una terza critica riguarda l'assunzione della EMT che l'innovazione tecnologica possa sistematicamente disaccoppiare crescita economica e degradazione ambientale. Come discusso nella sezione 1.2.3 attraverso il paradosso di Jevons, questa assunzione ignora gli effetti rimbalzo che possono vanificare i guadagni di efficienza.
-
-L'intero Capitolo 3 può essere letto come una documentazione empirica di come questa critica si applichi all'AI. Abbiamo visto nella sezione 3.5 come ogni miglioramento nell'efficienza computazionale – GPU più potenti, algoritmi più efficienti, architetture sparse – non si traduca in riduzioni del consumo totale, ma piuttosto venga "reinvestito" in modelli ancora più grandi, applicazioni più numerose, deployment più esteso [@Luccioni2025].
-
-Questo conferma l'osservazione di [@Ewing2017] che l'efficienza tecnologica, in assenza di limiti assoluti sulla crescita e il consumo, tende a stimolare espansione piuttosto che conservazione. La EMT "debole" assume che il mercato e le dinamiche tecnologiche spontaneamente convergeranno verso la sostenibilità; l'evidenza empirica dall'AI suggerisce il contrario – senza interventi istituzionali deliberati, la traiettoria è di crescita esponenziale dei consumi.
-
-**L'illusione della dematerializzazione digitale.** Un quarto aspetto critico riguarda la narrativa della "economia della conoscenza" o "economia immateriale" spesso associata alla modernizzazione ecologica informazionale. L'idea è che la transizione da manifattura industriale a servizi digitali riduca intrinsecamente l'impronta materiale dell'economia.
-
-Come abbiamo documentato nelle sezioni 3.3 e 3.4, l'AI è tutt'altro che immateriale. [@Crawford2021] ha mostrato come ogni interazione digitale si basi su catene materiali estese: miniere di litio e terre rare, data center che consumano miliardi di litri d'acqua, montagne di e-waste. La "leggerezza" dell'interfaccia utente – fare una domanda a ChatGPT sembra non costare nulla – nasconde la pesantezza dell'infrastruttura sottostante.
-
-Questa è precisamente l'illusione che [@Ewing2017] critica nella EMT: confondere la *virtualizzazione dell'esperienza dell'utente* con una genuina *dematerializzazione dei processi economici*. In realtà, come osserva [@Crawford2021], l'economia digitale ha semplicemente esternalizzato e reso invisibile la materialità – spostandola in data center remoti, miniere nel Sud globale, discariche in paesi poveri.
-
-**Il caso AI come manifestazione del capitalismo "verde" contraddittorio.** Sintetizzando queste osservazioni, possiamo interpretare il caso dell'intelligenza artificiale come manifestazione emblematica di ciò che [@Foster2012] chiama il "capitalismo verde" – il tentativo di risolvere le contraddizioni ecologiche del capitalismo attraverso innovazione tecnologica e meccanismi di mercato, senza mettere in discussione le logiche fondamentali di accumulazione e crescita illimitata.
-
-L'AI viene presentata nel discorso della modernizzazione ecologica "debole" come lo strumento che permetterà di superare le crisi ambientali attraverso maggiore efficienza, ottimizzazione, e governance informazionale (Capitolo 2). Ma quando esaminiamo criticamente i suoi impatti reali – energetici, idrici, materiali, sistemici – emerge un quadro molto più complesso e contraddittorio (Capitolo 3). L'AI è simultaneamente *strumento potenziale* di transizione ecologica *e* *vettore di intensificazione* del metabolismo industriale.
-
-Questa contraddizione non può essere risolta attraverso semplici aggiustamenti tecnici (modelli più efficienti, energie rinnovabili per i data center, riciclo dell'hardware). Richiede invece un ripensamento delle strutture istituzionali, degli incentivi economici, e delle priorità sociali che governano lo sviluppo tecnologico – temi che esploriamo nella sezione successiva.
-
-### 3.7.2 Verso una modernizzazione ecologica "riflessiva"
-
-Se la versione "debole" della modernizzazione ecologica – con la sua fiducia nel mercato e nell'innovazione tecnologica spontanea – si rivela inadeguata per il caso dell'AI, quali alternative teoriche e pratiche emergono? Questa sezione argomenta per una versione "forte" e *riflessiva* della EMT, che incorpori le critiche discusse sopra e proponga meccanismi di governance più robusti.
-
-**Governance democratica e trasparenza obbligatoria.** Come discusso nella sezione 1.1.3, la versione "forte" della EMT enfatizza il ruolo cruciale della governance democratica e della partecipazione pubblica nelle decisioni tecnologiche, in contrasto con la versione "debole" che delega queste decisioni al mercato. Nel caso dell'AI, questo significa istituire meccanismi di trasparenza e accountability che vadano oltre il greenwashing volontario.
-
-[@Li2023] e [@Luccioni2025] propongono un framework di reporting obbligatorio che includa:
-
-1. **Environmental model cards standardizzate**: ogni modello AI deployato commercialmente deve pubblicare dati verificabili su consumi energetici (training e inference), consumo idrico (scope 1 e 2), emissioni (scope 1, 2 e 3), e materiali utilizzati nell'hardware
-
-2. **Audit indipendenti**: le dichiarazioni ambientali delle aziende devono essere verificate da enti terzi, non solo auto-certificate
-
-3. **Partecipazione delle comunità locali**: le decisioni sulla localizzazione di data center devono coinvolgere le comunità che subiranno gli impatti ambientali, non essere prese solo tra aziende e governi nazionali
-
-4. **Valutazioni d'impatto obbligatorie**: prima di deployare sistemi AI su larga scala, condurre Environmental Impact Assessments che considerino l'intero ciclo di vita e gli effetti sistemici
-
-Questo tipo di governance democratica è essenziale per evitare che i costi ambientali dell'AI vengano sistematicamente esternalizzati su comunità vulnerabili e paesi del Sud globale, come documentato nelle sezioni 3.3.2 e 3.4.1.
-
-**Incorporare i costi nascosti nel calcolo economico.** Una seconda direzione riguarda l'*internalizzazione delle esternalità ambientali*. Attualmente, i costi ambientali dell'AI – emissioni, consumo d'acqua, estrazione mineraria, e-waste – sono in larga parte esternalizzati: le aziende non li pagano direttamente, quindi non hanno incentivi economici a ridurli [@Ewing2017].
-
-[@Kaack2022] propongono diversi meccanismi per internalizzare questi costi:
-
-1. **Carbon pricing per i data center**: tassare le emissioni di CO₂ dei data center in proporzione al loro consumo energetico location-based (non market-based), creando incentivi economici reali alla riduzione
-
-2. **Water pricing che rifletta scarsità**: dove l'acqua è scarsa, il suo costo dovrebbe riflettere questo, scoraggiando la costruzione di data center water-intensive in regioni aride
-
-3. **Extended Producer Responsibility** per l'hardware AI: le aziende che producono GPU, TPU e server dovrebbero essere responsabili del riciclo e smaltimento a fine vita, incentivandole a progettare hardware più duraturo e riciclabile
-
-4. **Sussidi differenziati**: invece di sussidiare indiscriminatamente l'AI (come fanno molti governi), premiare specificamente applicazioni climate-positive e penalizzare usi che aumentano emissioni
-
-Questi meccanismi non eliminerebbero gli impatti ambientali dell'AI, ma creerebbero pressioni economiche verso configurazioni meno intensive. Crucialmente, come osserva [@Ewing2017], devono essere *obbligatori e regolati*, non volontari, per evitare il problema del free-rider dove le aziende che scelgono di non partecipare ottengono vantaggio competitivo.
-
-**Giustizia ambientale e distribuzione degli impatti.** Una terza dimensione di una EMT "forte" riguarda l'attenzione esplicita alla giustizia ambientale – chi beneficia dell'AI e chi ne paga i costi ecologici. Come documentato in questo capitolo, esiste una profonda asimmetria: i benefici (servizi digitali, profitti aziendali, progressi scientifici) si concentrano nel Nord globale e nelle classi affluenti; i costi (miniere tossiche, stress idrico, discariche di e-waste) ricadono sproporzionatamente sul Sud globale e su comunità marginalizzate [@Crawford2021; @Luccioni2025].
-
-Una modernizzazione ecologica "riflessiva" deve incorporare criteri di giustizia distributiva nelle valutazioni tecnologiche. Come suggeriscono [@Luccioni2025], questo significa:
-
-1. **Valutare non solo l'efficienza aggregata** ma anche *dove* e *su chi* ricadono gli impatti ambientali
-2. **Priorit izzare applicazioni AI che servono comunità vulnerabili** (es: sistemi di allerta alluvioni per il Sud globale, discussi nella sezione 2.3.2) rispetto ad applicazioni commerciali luxury
-3. **Richiedere "environmental justice impact statements"** che documentino come un progetto AI distribuirà benefici e costi tra diverse popolazioni
-4. **Riconoscere il debito ecologico** del Nord globale verso il Sud e compensare appropriatamente le comunità che forniscono risorse e subiscono impatti
-
-**Limiti assoluti e decrescita selettiva.** Infine, la versione più radicale di una EMT "riflessiva" riconosce che l'efficienza e l'innovazione tecnologica, da sole, non bastano – servono anche *limiti assoluti* alla crescita di settori particolarmente impattanti. [@Luccioni2025] suggeriscono che potrebbe essere necessario:
-
-1. **Moratorie su applicazioni AI futili**: limitare o vietare usi dell'AI che generano alto consumo energetico senza benefici sociali sostanziali (es: generazione di immagini per pubblicità, ottimizzazione di algoritmi di sorveglianza di massa)
-
-2. **Cap sulla capacità computazionale totale**: invece di permettere crescita esponenziale illimitata, stabilire tetti al consumo energetico aggregato del settore AI, costringendo a scelte tra applicazioni diverse
-
-3. **"Decrescita selettiva"** di usi dell'AI che abilitano espansione di settori fossili (come i servizi a ExxonMobil discussi), redistribuendo risorse computazionali verso applicazioni climate-positive
-
-Queste proposte sono controverse e vanno oltre ciò che la EMT tradizionale considera, avvicinandosi a posizioni di ecologia politica e decrescita. Ma [@Luccioni2025] argomentano che di fronte alla gravità della crisi climatica e all'evidenza degli effetti rimbalzo, affidarsi solo all'efficienza e al mercato è una forma di "wishful thinking" che ignora le dinamiche sistemiche documentate in questo capitolo.
-
-**Il ruolo della sociologia.** Una EMT "riflessiva" riconosce anche il ruolo cruciale della ricerca sociologica critica nell'evidenziare le contraddizioni, gli effetti imprevisti, e le distribuzioni asimmetriche di costi/benefici delle transizioni tecnologiche. Come osserva [@Beck1992] nella sua teoria della "società del rischio", le società contemporanee devono sviluppare capacità di auto-riflessione critica sui propri processi di modernizzazione, riconoscendo che il progresso tecnologico genera rischi e problemi nuovi oltre a soluzioni.
-
-Il contributo della sociologia ambientale – applicando framework come la EMT critica, il political ecology, l'analisi delle esternalità – è precisamente quello di rendere visibili le dimensioni sociali, politiche e distributive nascoste dietro le narrative tecniche dell'efficienza e dell'innovazione [@Foster2012; @Ewing2017]. Questa tesi si inserisce in questo sforzo, usando il caso dell'AI per evidenziare i limiti della modernizzazione ecologica "debole" e la necessità di forme di governance più democratiche, trasparenti e attente alla giustizia.
 
 ## 3.8 Sintesi del capitolo
 
@@ -1146,34 +1085,6 @@ Queste condizioni, come emerso dall'analisi, includono:
 - Prioritizzazione di usi climate-positive rispetto a usi commerciali estrattivi
 
 Senza queste condizioni, l'AI continuerà probabilmente a manifestare la sua natura contraddittoria: uno strumento potente che genera sia opportunità ecologiche sia intensificazione degli impatti ambientali, con un bilancio netto incerto e probabilmente negativo data la traiettoria attuale di crescita esponenziale.
-
-### Ricapitolazione dei capitoli
-
-**Capitolo 1: Quadro teorico.** Il primo capitolo ha costruito il framework analitico basato sulla teoria della modernizzazione ecologica. Abbiamo esplorato i fondamenti della EMT – l'idea che le società industriali possano superare le crisi ecologiche attraverso innovazione tecnologica, efficienza, e nuove forme di governance [@MolSpaargaren2000]. Abbiamo poi esaminato le critiche alla EMT, distinguendo tra versioni "deboli" (orientate al mercato) e "forti" (orientate alla governance democratica), e documentando le obiezioni dei teorici critici riguardo alla sottovalutazione delle dinamiche capitalistiche [@Foster2012; @Ewing2017].
-
-La sezione sulla modernizzazione "informazionale" ha proposto che l'AI rappresenti un caso limite per testare la teoria: se la EMT può applicarsi alle tecnologie digitali, l'AI – con la sua intensità computazionale e la sua pervasività crescente – dovrebbe essere un candidato ideale. Tuttavia, abbiamo anche notato la relativa assenza dell'AI dal dibattito sociologico sulla modernizzazione ecologica, identificando un gap teorico che questa tesi mira a colmare.
-
-Il framework analitico adottato è stato esplicitamente dialettico: esaminare l'AI prima attraverso la lente ottimista della EMT (Capitolo 2), poi attraverso la lente critica che evidenzia contraddizioni e limiti (Capitolo 3), per arrivare infine a una sintesi informata (Conclusioni).
-
-**Capitolo 2: L'AI come alleata.** Il secondo capitolo ha documentato sistematicamente le applicazioni "AI for Green" – l'intelligenza artificiale al servizio della sostenibilità. Seguendo il framework di [@Kaack2022], abbiamo distinto tra mitigazione (ridurre emissioni future) e adattamento (prepararsi agli impatti già inevitabili).
-
-Nelle applicazioni per la transizione energetica, abbiamo visto come l'AI possa ottimizzare smart grid per integrare rinnovabili intermittenti, prevedere la produzione solare ed eolica, ridurre sprechi nella trasmissione. Il caso DeepMind-Google ha dimostrato riduzioni del 40% nel consumo energetico dei sistemi di raffreddamento [@IEA2024].
-
-Nel monitoraggio climatico, l'AI sta rivoluzionando le previsioni meteorologiche con accuratezza superiore ai modelli tradizionali, estendendo sistemi di allerta alluvioni a 80+ paesi e 460+ milioni di persone [@Nearing2024], e permettendo monitoraggio satellitare in tempo reale della deforestazione.
-
-Queste applicazioni incarnano bene i concetti chiave della EMT: razionalità ecologica attraverso informazione, efficienza e ottimizzazione, governance multi-attore, accelerazione dell'innovazione. L'interpretazione sociologica ha evidenziato come l'AI renda "visibile l'invisibile" (emissioni, deforestazione, sprechi) e permetta forme di coordinamento complesse precedentemente impossibili.
-
-Tuttavia, abbiamo concluso il capitolo riconoscendo che queste applicazioni climate-positive rappresentano una frazione minuscola dell'uso totale dell'AI [@Kaack2022], ponendo la domanda: "ma a quale costo ambientale?"
-
-**Capitolo 3: L'AI come problema.** Il terzo capitolo ha rovesciato la prospettiva, documentando l'impronta ecologica dell'AI stessa. Abbiamo esaminato quattro dimensioni:1. **Energia**: addestramento energivoro, inferenza predominante (80-90% del totale), crescita esponenziale del compute che annulla i guadagni di efficienza [@Strubell2019; @Patterson2021; @deVries2023]
-
-2. **Acqua**: centinaia di migliaia di litri evaporati per addestrare singoli modelli, conflitti idrici con comunità locali in regioni già water-scarce [@Li2023]
-
-3. **Materiali**: estrazione tossica di terre rare (75.000 litri di acque acide per tonnellata), montagne di e-waste (62 Mt/anno, solo 22% riciclato), catene di fornitura che attraversano territori indigeni e zone vulnerabili [@Crawford2021; @Luccioni2025]
-
-4. **Effetti sistemici**: il paradosso di Jevons in azione – efficienza che stimola espansione, AI venduta a industrie fossili, greenwashing che nasconde contraddizioni tra dichiarazioni e pratiche [@Luccioni2025]
-
-L'interpretazione sociologica (sezione 3.7) ha mostrato come questi impatti rivelino i limiti della modernizzazione ecologica "debole": la subordinazione sistematica della razionalità ecologica a quella economica, il "treadmill of production" che impone crescita continua, l'illusione della dematerializzazione digitale. Le critiche di [@Foster2012] e [@Ewing2017] alla EMT trovano conferma empirica nel caso dell'AI.
 
 ## Riflessioni teoriche
 
