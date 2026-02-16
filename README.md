@@ -1,13 +1,16 @@
 ---
 abstract: |
-  Questa tesi esamina il rapporto paradossale tra intelligenza artificiale e ambiente attraverso la lente sociologica della teoria della modernizzazione ecologica. L'AI viene contemporaneamente presentata come strumento essenziale per la transizione ecologica e identificata come fonte crescente di pressione ambientale, incarnando una contraddizione fondamentale della modernità contemporanea.
-  
-  La domanda di ricerca centrale è: in che modo l'intelligenza artificiale può essere analizzata sociologicamente come strumento di transizione ecologica nella prospettiva della modernizzazione ecologica? Attraverso un'analisi critica della letteratura scientifica, la tesi adotta un approccio dialettico che confronta due narrative opposte.
-  
-  Il Capitolo 1 delinea il quadro teorico della modernizzazione ecologica, distinguendo tra versioni "deboli" orientate al mercato e versioni "forti" basate su governance democratica e giustizia ambientale. Il Capitolo 2 documenta le applicazioni dell'AI per la sostenibilità: ottimizzazione delle reti energetiche, monitoraggio climatico, agricoltura di precisione. Il Capitolo 3 rovescia la prospettiva, analizzando l'impronta ecologica dell'infrastruttura computazionale: consumi energetici crescenti, dipendenza da combustibili fossili, paradosso di Jevons.
-  
-  La tesi conclude che l'AI può contribuire alla transizione ecologica solo attraverso una modernizzazione "forte e riflessiva" che superi la fiducia ingenua nell'efficienza tecnologica, riconosca le contraddizioni del capitalismo digitale e promuova governance democratica, trasparenza ambientale e giustizia distributiva. Il contributo originale risiede nell'applicazione sistematica della teoria della modernizzazione ecologica all'analisi sociologica dell'intelligenza artificiale.
+  File RIASSUNTO.md non trovato.
 ---
+
+
+Questa tesi esamina il rapporto paradossale tra intelligenza artificiale e ambiente attraverso la lente sociologica della teoria della modernizzazione ecologica. L'AI viene contemporaneamente presentata come strumento essenziale per la transizione ecologica e identificata come fonte crescente di pressione ambientale, incarnando una contraddizione fondamentale della modernità contemporanea.
+
+La domanda di ricerca centrale è: in che modo l'intelligenza artificiale può essere analizzata sociologicamente come strumento di transizione ecologica nella prospettiva della modernizzazione ecologica? Attraverso un'analisi critica della letteratura scientifica, la tesi adotta un approccio dialettico che confronta due narrative opposte.
+
+Il Capitolo 1 delinea il quadro teorico della modernizzazione ecologica, distinguendo tra versioni "deboli" orientate al mercato e versioni "forti" basate su governance democratica e giustizia ambientale. Il Capitolo 2 documenta le applicazioni dell'AI per la sostenibilità: ottimizzazione delle reti energetiche, monitoraggio climatico, agricoltura di precisione. Il Capitolo 3 rovescia la prospettiva, analizzando l'impronta ecologica dell'infrastruttura computazionale: consumi energetici crescenti, dipendenza da combustibili fossili, paradosso di Jevons.
+
+La tesi conclude che l'AI può contribuire alla transizione ecologica solo attraverso una modernizzazione "forte e riflessiva" che superi la fiducia ingenua nell'efficienza tecnologica, riconosca le contraddizioni del capitalismo digitale e promuova governance democratica, trasparenza ambientale e giustizia distributiva. Il contributo originale risiede nell'applicazione sistematica della teoria della modernizzazione ecologica all'analisi sociologica dell'intelligenza artificiale.
 
 # CAPITOLO 1 - QUADRO TEORICO: LA MODERNIZZAZIONE ECOLOGICA NELL'ERA DIGITALE
 
