@@ -359,9 +359,8 @@ $if(title)$
 
     % Logo (se specificato)
     $if(logo)$
-    \vspace*{0.5cm}
     \includegraphics[width=$if(logo-width)$$logo-width$$else$5cm$endif$]{$logo$}
-    \vspace{1cm}
+    \vspace{.5cm}
     $else$
     \vspace*{2cm}
     $endif$

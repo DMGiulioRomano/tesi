@@ -1,3 +1,4 @@
+# INTRODUZINOE ALLA TESI
 
 Questa tesi esamina il rapporto paradossale tra intelligenza artificiale e ambiente attraverso la lente sociologica della teoria della modernizzazione ecologica. L'AI viene contemporaneamente presentata come strumento essenziale per la transizione ecologica e identificata come fonte crescente di pressione ambientale, incarnando una contraddizione fondamentale della modernità contemporanea.
 
