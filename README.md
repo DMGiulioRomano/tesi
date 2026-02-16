@@ -191,7 +191,7 @@ Questo approccio dialettico – tesi (Cap. 2) e antitesi (Cap. 3) – ci permett
 
 L'intelligenza artificiale viene presentata come strumento potenzialmente trasformativo per affrontare la crisi climatica: ottimizzazione di sistemi energetici, monitoraggio di ecosistemi, previsione di disastri naturali, accelerazione della ricerca scientifica verso la sostenibilità.
 
-Questo capitolo esamina l'AI come *alleata* della transizione ecologica, documentando le applicazioni che [@vanWynsberghe2021SustainableAI] definisce "AI for sustainability" – sistemi specificatamente orientati a ridurre emissioni, proteggere ecosistemi e facilitare l'adattamento climatico.
+Questo capitolo esamina l'AI come *alleata* della transizione ecologica, documentando le applicazioni che [@vanWynsberghe2021] definisce "AI for sustainability" – sistemi specificatamente orientati a ridurre emissioni, proteggere ecosistemi e facilitare l'adattamento climatico.
 
 ### 2.1.1 Mitigazione e adattamento: le due strategie
 
@@ -628,7 +628,7 @@ Inoltre, è importante riconoscere che queste applicazioni sono ancora **emergen
 
 ## 2.5 La prospettiva della modernizzazione ecologica: interpretazione
 
-Le applicazioni documentate nelle sezioni precedenti incarnano diversi concetti chiave della teoria della modernizzazione ecologica informazionale [@Mol2008].
+Le applicazioni documentate nelle sezioni precedenti incarnano diversi concetti chiave della teoria della modernizzazione ecologica informazionale [@MolSpaargaren2000].
 
 **Razionalità ecologica attraverso informazione.** L'AI permette di rendere "visibile l'invisibile": emissioni che prima sfuggivano al monitoraggio diventano tracciabili in tempo reale (smart grid), foreste remote vengono monitorate satellitarmente, alluvioni in bacini non strumentati diventano prevedibili. Questa capacità di generare, elaborare e utilizzare informazione ambientale su scala senza precedenti rappresenta l'essenza della governance informazionale teorizzata da Mol: la razionalità ecologica mediata dai dati.
 
