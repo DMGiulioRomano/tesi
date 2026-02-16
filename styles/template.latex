@@ -470,7 +470,7 @@ $if(abstract)$
 
 {\bfseries INTRODUZIONE ALLA TESI}
 
-$abstract
+$abstract$
 
 $endif$
 
