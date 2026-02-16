@@ -27,13 +27,13 @@ Queste applicazioni incarnano la promessa della modernizzazione ecologica inform
 
 **L'AI come problema ambientale.** Tuttavia, il Capitolo 3 ha documentato sistematicamente come l'infrastruttura stessa dell'AI generi impatti ambientali significativi e in rapida crescita:
 
-- **Consumo energetico**: l'addestramento di un singolo grande modello può emettere 284.000 kg di CO2e, equivalente a 5 automobili durante l'intero ciclo di vita [@Strubell2019]; GPT-3 ha consumato 1.287 MWh [@Patterson2021]; le proiezioni indicano che il consumo dei data center raddoppierà entro il 2026, raggiungendo 945 TWh [@IEA2024]
+- **Consumo energetico**: l'addestramento di un singolo grande modello può emettere 284.000 kg di CO2e, equivalente a 5 automobili durante l'intero ciclo di vita [@Strubell2019]; GPT-3 ha consumato 1.287 MWh [@Patterson2021]; le proiezioni indicano che il consumo dei data center raddoppierà entro il 2026, raggiungendo 945 TWh [@IEA2024].
 
-- **Consumo idrico**: l'addestramento di GPT-3 ha evaporato circa 700.000 litri di acqua dolce [@Li2023]; Google ha prelevato 25 miliardi di litri nel 2022; i data center vengono costruiti in regioni già water-scarce, creando conflitti con comunità locali
+- **Consumo idrico**: l'addestramento di GPT-3 ha evaporato circa 700.000 litri di acqua dolce [@Li2023]; Google ha prelevato 25 miliardi di litri nel 2022; i data center vengono costruiti in regioni già water-scarce, creando conflitti con comunità locali.
 
-- **Materiali e rifiuti**: l'estrazione di terre rare genera 75.000 litri di acque acide per tonnellata raffinata [@Crawford2021]; 62 milioni di tonnellate di e-waste nel 2022, solo 22% riciclato formalmente [@Luccioni2025]
+- **Materiali e rifiuti**: l'estrazione di terre rare genera 75.000 litri di acque acide per tonnellata raffinata [@Crawford2021]; 62 milioni di tonnellate di e-waste nel 2022, solo 22% riciclato formalmente [@Luccioni2025].
 
-- **Effetti rimbalzo sistemici**: i guadagni di efficienza computazionale non riducono il consumo totale ma vengono "reinvestiti" in modelli più grandi, applicazioni più numerose, deployment più esteso; l'AI viene usata per ottimizzare industrie fossili (es: Microsoft-ExxonMobil genera emissioni 640 volte superiori ai target di carbon removal di Microsoft) [@Luccioni2025]
+- **Effetti rimbalzo sistemici**: i guadagni di efficienza computazionale non riducono il consumo totale ma vengono "reinvestiti" in modelli più grandi, applicazioni più numerose, deployment più esteso; l'AI viene usata per ottimizzare industrie fossili (es: Microsoft-ExxonMobil genera emissioni 640 volte superiori ai target di carbon removal di Microsoft) [@Luccioni2025].
 
 **Il paradosso rivelato dalla teoria sociologica.** La teoria della modernizzazione ecologica, applicata criticamente al caso dell'AI, aiuta a interpretare questo paradosso apparente. La versione "debole" della EMT – che confida nel mercato e nell'innovazione tecnologica spontanea per risolvere le crisi ambientali – si rivela inadeguata. Come hanno argomentato i critici [@Foster2012; @Ewing2017], questa versione sottostima sistematicamente:
 
@@ -43,7 +43,7 @@ Queste applicazioni incarnano la promessa della modernizzazione ecologica inform
 
 3. Il **paradosso di Jevons**: i guadagni di efficienza stimolano maggiore utilizzo anziché ridurre il consumo totale (es: modelli più efficienti → modelli più grandi e deployment più diffuso)
 
-4. L'**illusione della dematerializzazione**: la "leggerezza" digitale nasconde pesanti catene materiali di estrazione, produzione e smaltimento [@Crawford2021]
+4. L'**illusione della dematerializzazione**: la "leggerezza" digitale nasconde pesanti catene materiali di estrazione, produzione e smaltimento [@Crawford2021].
 
 **Verso una sintesi: condizioni per una AI ecologicamente sostenibile.** La risposta alla domanda di ricerca non può quindi essere un semplice "sì" o "no" alla possibilità che l'AI contribuisca alla transizione ecologica. Deve invece specificare le *condizioni istituzionali, economiche e politiche* sotto cui questo contributo potrebbe realizzarsi, evitando di riprodurre le contraddizioni del capitalismo verde.
 
