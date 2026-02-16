@@ -377,6 +377,7 @@ $if(title)$
     $if(subtitle)$
     \vspace{0.3cm}
     {
+        \color{mioColoreTitolo}
         \large\mdseries
         $subtitle$ \par
     }
