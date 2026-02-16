@@ -466,10 +466,10 @@ $endif$
 % CORPO DOCUMENTO
 % ============================================================================
 
-%if(abstract)$
-%{\bfseries INTRODUZIONE ALLA TESI}
-%$abstract$
-%$endif$
+% if(abstract)$
+% {\bfseries INTRODUZIONE ALLA TESI}
+% $abstract$
+% $endif$
 
 $body$
 
