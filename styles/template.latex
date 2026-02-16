@@ -127,6 +127,7 @@ $endfor$
 % COLORI E HIGHLIGHTING
 % ============================================================================
 \usepackage{xcolor}
+\definecolor{mioColoreTitolo}{RGB}{91,40,37}
 
 $if(highlighting-macros)$
 $highlighting-macros$
@@ -368,7 +369,8 @@ $if(title)$
     \vfill
 
     % Titolo
-    {
+    {   
+        \color{mioColoreTitolo}
         \LARGE\bfseries
         \MakeUppercase{$title$} \par
     }
