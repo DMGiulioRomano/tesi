@@ -199,6 +199,9 @@ $if(subfigure)$
 \usepackage{subcaption}
 $endif$
 
+$if(logo)$
+\RequirePackage{graphicx}
+$endif$
 % ============================================================================
 % CITAZIONI E BLOCKQUOTE
 % ============================================================================
