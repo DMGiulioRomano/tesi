@@ -383,12 +383,10 @@ $if(title)$
     }
     $endif$
 
-    \vspace{0.3cm}
 
     % Linea orizzontale
     \rule{0.6\textwidth}{0.4pt}
 
-    \vspace{0.3cm}
 
     % Corso di laurea
     $if(corso)$
