@@ -450,8 +450,10 @@ $if(toc)$
 $if(toc-title)$
 \renewcommand*\contentsname{$toc-title$}
 $endif$
+\newpage
+\tableofcontents
+\newpage
 $endif$
-
 $if(lof)$
 \listoffigures
 $endif$
@@ -463,6 +465,15 @@ $endif$
 % ============================================================================
 % CORPO DOCUMENTO
 % ============================================================================
+
+$if(abstract)$
+
+{\bfseries INTRODUZIONE ALLA TESI}
+
+$abstract
+
+$endif$
+
 $body$
 
 \end{document}
