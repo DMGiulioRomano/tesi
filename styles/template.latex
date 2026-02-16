@@ -347,48 +347,88 @@ $endif$
 \begin{document}
 
 % ============================================================================
-% FRONTESPIZIO CON RIASSUNTO
+% FRONTESPIZIO - Stile tesi universitaria
 % ============================================================================
 $if(title)$
 \begin{titlepage}
     \centering
     \sffamily
-    
-    % Intestazione
-    {
-        \normalsize
-        Corsi Accademici di $corso$ \\
-        $conservatorio$ \par
-    }
+
+    % Logo (se specificato)
+    $if(logo)$
+    \vspace*{0.5cm}
+    \includegraphics[width=$if(logo-width)$$logo-width$$else$5cm$endif$]{$logo$}
     \vspace{1cm}
-    
+    $else$
+    \vspace*{2cm}
+    $endif$
+
+    \vfill
+
     % Titolo
     {
-        \large\bfseries
+        \LARGE\bfseries
         \MakeUppercase{$title$} \par
-        $if(subtitle)$
-          {\normalsize\itshape $subtitle$ \par}
-        $endif$
     }
-    \vspace{.5cm}
-    
-    % Autore
+    $if(subtitle)$
+    \vspace{0.3cm}
+    {
+        \large\mdseries
+        $subtitle$ \par
+    }
+    $endif$
+
+    \vspace{0.8cm}
+
+    % Linea orizzontale
+    \rule{0.6\textwidth}{0.4pt}
+
+    \vspace{0.8cm}
+
+    % Corso di laurea
+    $if(corso)$
+    {
+        \large\bfseries
+        \MakeUppercase{$corso$} \par
+    }
+    $endif$
+
+    \vfill
+
+    % Relatore (sinistra) e Candidato (destra)
+    \begin{minipage}[t]{0.45\textwidth}
+        \raggedright
+        $if(relatore)$
+        Relatore: prof. \textbf{\MakeUppercase{$relatore$}} \par
+        $endif$
+        $if(correlatore)$
+        \vspace{0.5cm}
+        Correlatore: prof. \textbf{\MakeUppercase{$correlatore$}} \par
+        $endif$
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.45\textwidth}
+        \raggedleft
+        Tesi di Laurea di: \par
+        \vspace{0.3cm}
+        \textbf{\MakeUppercase{$author$}} \par
+        $if(matricola)$
+        \vspace{0.2cm}
+        Matricola n. $matricola$ \par
+        $endif$
+    \end{minipage}
+
+    \vfill
+
+    % Anno accademico
+    $if(anno-accademico)$
     {
         \normalsize
-        di $author$ \par
+        Anno accademico $anno-accademico$ \par
     }
-    \vspace{.5cm}
-        
-    % Riassunto
-    $if(abstract)$
-    \begin{minipage}{0.9\textwidth}
-        \centering\large\bfseries Abstract \par
-        \vspace{0.5cm}
-        \normalsize\raggedright\mdseries
-        $abstract$
-    \end{minipage}
     $endif$
-    \vspace*{1cm}
+
+    \vspace{1cm}
 \end{titlepage}
 $endif$
 
